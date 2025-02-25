@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/nlp/du-an/","title":"Project CNTT","tags":["nlp"]}
+{"dg-publish":true,"permalink":"/knowledge/nlp/du-an/","title":"Project CNTT","tags":["nlp","AI"]}
 ---
 
 # Guiding assistant for Vietnamese university admissions powered by Advanced RAG
