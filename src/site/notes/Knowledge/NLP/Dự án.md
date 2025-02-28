@@ -27,12 +27,13 @@ Significant enhancements were made, including:
 
 - **Semantic Chunking**: Improved data segmentation for better understanding.
 - **Hybrid Search**: Combines multiple search strategies for enhanced accuracy.
-
+	- Watch more [Rerank_EmbeddingModel](Rerank_EmbeddingModel.md)
+	- 
 **Updated Tools:**
 
 - **Time**: Retained from Version 1.
 - **Corrective_RAG**: A new tool that routes queries through three channels:
-    - **Retrieval**: Fetches relevant information.
+    - **Retrieval**: Fetches relevant information. 
     - **SQL**: Queries structured data.
     - **Websearch**: Performs web searches for external data.
 
@@ -176,6 +177,7 @@ This will start the University Admission Assistant system, which will be accessi
 # Evaluate
 
 In this experiment, we compare the performance of two information retrieval methods, Navie RAG and Hybrid Search, when using the chunking methodology with recursive splitting. The two models are evaluated on prominent assessment measures such as Precision@k (P@k), Recall@k, Mean Reciprocal Rank (MRR@k), Discounted Cumulative Gain (DCG@k), and Normalized DCG (NDCG@k), with k = 3 and k = 5, respectively.
+Watch : [Data evaluation](Data%20evaluation.md)
 ## Recursive chunking
 ![](/img/user/assets/images/RecursiveC.png)
 ## Semantic chunking
