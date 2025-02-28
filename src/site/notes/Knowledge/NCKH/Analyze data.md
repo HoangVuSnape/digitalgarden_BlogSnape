@@ -18,21 +18,22 @@ Dưới đây là phân tích data raw
 
 ## oa_doubtful
 
-![](/img/user/assets/images/Pasted image 20250228165655.png)
-![](/img/user/assets/images/Pasted image 20250228165700.png)
+![](/img/user/assets/images/doutful1.png)
+![](/img/user/assets/images/doutful2.png)
 ## oa_mild
-![](/img/user/assets/images/Pasted image 20250228165721.png)
-![](/img/user/assets/images/Pasted image 20250228165726.png)
+![](/img/user/assets/images/mild1.png)
+![](/img/user/assets/images/mild2.png)
 
 ## oa_moderate
-![](/img/user/assets/images/Pasted image 20250228165742.png)
+![](/img/user/assets/images/moderate1.png)
+![](/img/user/assets/images/moderate2.png)
 ## oa_severe
-![](/img/user/assets/images/Pasted image 20250228165800.png)
-![](/img/user/assets/images/Pasted image 20250228165806.png)
+![](/img/user/assets/images/sever1.png)
+![](/img/user/assets/images/sever2.png)
 ## osteopenia
-![](/img/user/assets/images/Pasted image 20250228165836.png)
-![](/img/user/assets/images/Pasted image 20250228165840.png)
+![](/img/user/assets/images/osteopenia.png)
+![](/img/user/assets/images/osteopenia2.png)
 ## osteoporosis
 
-![](/img/user/assets/images/Pasted image 20250228165856.png)
-![](/img/user/assets/images/Pasted image 20250228165921.png)
+![](/img/user/assets/images/osteoporosis1.png)
+![](/img/user/assets/images/osteoporosis2.png)
