@@ -11,9 +11,9 @@ Mình sẽ trình bày là mục đích mình viết ra blog này. Ở đây m�
 
 | Note Name                                                         | Last Updated                 | Links |
 | ----------------------------------------------------------------- | ---------------------------- | ----- |
+| [[Knowledge/NCKH/NCKH\|NCKH]]                                  | 5:07 PM - February 28, 2025  | 0     |
+| [[Knowledge/NCKH/Analyze data\|Analyze data]]                  | 5:06 PM - February 28, 2025  | 0     |
 | [[Knowledge/NCKH/Preprocessing data\|Preprocessing data]]      | 4:59 PM - February 28, 2025  | 0     |
-| [[Knowledge/NCKH/NCKH\|NCKH]]                                  | 4:59 PM - February 28, 2025  | 0     |
-| [[Knowledge/NCKH/Analyze data\|Analyze data]]                  | 4:59 PM - February 28, 2025  | 0     |
 | [[Knowledge/NLP/Dự án\|Dự án]]                                 | 2:26 PM - February 28, 2025  | 2     |
 | [[Knowledge/NLP/Data evaluation\|Data evaluation]]             | 12:35 AM - February 28, 2025 | 1     |
 | [[Home\|Home]]                                                 | 4:59 PM - February 25, 2025  | 0     |
