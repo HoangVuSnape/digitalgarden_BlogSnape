@@ -79,4 +79,4 @@ Tham khảo bảng từ paper [# A ResNet-based approach for accurate radiograph
 ---
 THis paper: https://onlinelibrary.wiley.com/doi/10.1155/2021/4931437
 
-![](/img/user/assets/images/Pasted image 20250226214019.png)
+![](/img/user/assets/images/zoomYolo.png)
