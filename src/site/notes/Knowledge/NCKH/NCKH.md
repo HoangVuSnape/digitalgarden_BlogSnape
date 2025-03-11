@@ -63,6 +63,7 @@ THeo như gợi ý thì nên hương tới:
 | OA Moderate | 1783             | 17.00%      | 849           |
 | OA Severe   | 839              | 8.00%       | 501           |
 | **Total**   | **10488**        | **100.00%** |               |
+|             |                  |             |               |
 
 | Grade       | Images to add |
 | ----------- | ------------- |
