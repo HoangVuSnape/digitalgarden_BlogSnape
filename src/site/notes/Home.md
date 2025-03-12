@@ -11,6 +11,7 @@ Mình sẽ trình bày là mục đích mình viết ra blog này. Ở đây m�
 
 | Note Name                                                         | Last Updated                | Links |
 | ----------------------------------------------------------------- | --------------------------- | ----- |
+| [[Knowledge/OAI/Tập huấn OAI\|Tập huấn OAI]]                   | 7:51 PM - March 12, 2025    | 0     |
 | [[Knowledge/Books/Tư duy ngược\|Tư duy ngược]]                 | 5:12 PM - March 11, 2025    | 0     |
 | [[Knowledge/NLP/Data evaluation\|Data evaluation]]             | 6:22 PM - March 06, 2025    | 1     |
 | [[Knowledge/NCKH/NCKH\|NCKH]]                                  | 5:39 PM - February 28, 2025 | 0     |
