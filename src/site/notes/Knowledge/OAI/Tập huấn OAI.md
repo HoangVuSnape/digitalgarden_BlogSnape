@@ -85,3 +85,12 @@ Kiểm tra xem có phải là
 
 ---
 pretrain có chính xác model thì lâu -> time quá lớn. THì khi khi mình pretrain có thể dẫn đến quá lâu vì tiêu chí 
+
+### Cấu hình 
+![](/img/user/assets/images/Pasted image 20250312195517.png)
+
+Python version 3.11.
+
+---
+top 20 sẽ vô 
+-> 7 đội sẽ hội đồng chuẩn bị slide ->Hiện tại sẽ có 7 giải. 
