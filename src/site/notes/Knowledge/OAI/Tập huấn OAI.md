@@ -13,16 +13,16 @@
 Nghiên cứu format - có thể hướng đến yêu cầu 
 # Slide
 
-![](/img/user/assets/images/Pasted image 20250312185858.png)
-![](/img/user/assets/images/Pasted image 20250312185929.png)
+![](/img/user/assets/images/Top_OAI.png)
+![](/img/user/assets/images/DE_OAI.png)
 
 --- 
-![](/img/user/assets/images/Pasted image 20250312190014.png)
-![](/img/user/assets/images/Pasted image 20250312190255.png)
-![](/img/user/assets/images/Pasted image 20250312190704.png)
-![](/img/user/assets/images/Pasted image 20250312190800.png)
-![](/img/user/assets/images/Pasted image 20250312191138.png)
-![](/img/user/assets/images/Pasted image 20250312191310.png)
+![](/img/user/assets/images/DataOAI.png)
+![](/img/user/assets/images/Lich.png)
+![](/img/user/assets/images/MetricOAI.png)
+![](/img/user/assets/images/FinalOAI.png)
+![](/img/user/assets/images/LinkKAGGLE.png)
+![](/img/user/assets/images/Competitions.png)
 
 ---
 # Note
@@ -54,7 +54,7 @@ Cần lên đó add team vô kaggle
 --- 
 # Giải đáp câu hỏi
 
-![](/img/user/assets/images/Pasted image 20250312194306.png)
+![](/img/user/assets/images/Answer1.png)
 
 - Không giới hạn framework hay mô hình. 
 - dạ em chưa rõ lắm về việc có được tăng cường data không ạ, các thầy giải thích lại được không ạ?
@@ -78,7 +78,7 @@ Nộp lại model
 - ban tổ chức train -> test với csv để nộp
 
 
-![](/img/user/assets/images/Pasted image 20250312194708.png)
+![](/img/user/assets/images/ANs2.png)
 
 Không giới hạn sử dụng AI.
 Kiểm tra xem có phải là 
@@ -87,7 +87,7 @@ Kiểm tra xem có phải là
 pretrain có chính xác model thì lâu -> time quá lớn. THì khi khi mình pretrain có thể dẫn đến quá lâu vì tiêu chí 
 
 ### Cấu hình 
-![](/img/user/assets/images/Pasted image 20250312195517.png)
+![](/img/user/assets/images/COnfigPC.png)
 
 Python version 3.11.
 
