@@ -149,13 +149,13 @@ $$
 
 # Evaluation
 
-![](/img/user/assets/images/Pasted image 20250322195657.png)
+![](/img/user/assets/images/MOE_1.png)
 
-![](/img/user/assets/images/Pasted image 20250322195702.png)
+![](/img/user/assets/images/MOE_2.png)
 
 
-![](/img/user/assets/images/Pasted image 20250322195708.png)
+![](/img/user/assets/images/MOE_3.png)
 
-![](/img/user/assets/images/Pasted image 20250322195713.png)
+![](/img/user/assets/images/MOE_4.png)
 
-![](/img/user/assets/images/Pasted image 20250322195726.png)
+![](/img/user/assets/images/MOE_5.png)

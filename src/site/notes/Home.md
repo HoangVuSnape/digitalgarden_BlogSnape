@@ -11,7 +11,7 @@ Mình sẽ trình bày là mục đích mình viết ra blog này. Ở đây m�
 
 | Note Name                                                                        | Last Updated                | Links |
 | -------------------------------------------------------------------------------- | --------------------------- | ----- |
-| [[Knowledge/AI/Mixture Of Experts\|Mixture Of Experts]]                       | 11:19 PM - March 22, 2025   | 0     |
+| [[Knowledge/AI/Mixture Of Experts\|Mixture Of Experts]]                       | 11:22 PM - March 22, 2025   | 0     |
 | [[Knowledge/ComputerVision/GAN\|GAN]]                                         | 11:16 PM - March 22, 2025   | 0     |
 | [[Knowledge/AI/Chuỗi thời gian - Time series\|Chuỗi thời gian - Time series]] | 10:45 PM - March 22, 2025   | 0     |
 | [[Home\|Home]]                                                                | 10:04 PM - March 22, 2025   | 0     |
