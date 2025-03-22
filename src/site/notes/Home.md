@@ -11,6 +11,7 @@ Mình sẽ trình bày là mục đích mình viết ra blog này. Ở đây m�
 
 | Note Name                                                                        | Last Updated                | Links |
 | -------------------------------------------------------------------------------- | --------------------------- | ----- |
+| [[Knowledge/AI/Mixture Of Experts\|Mixture Of Experts]]                       | 11:19 PM - March 22, 2025   | 0     |
 | [[Knowledge/ComputerVision/GAN\|GAN]]                                         | 11:16 PM - March 22, 2025   | 0     |
 | [[Knowledge/AI/Chuỗi thời gian - Time series\|Chuỗi thời gian - Time series]] | 10:45 PM - March 22, 2025   | 0     |
 | [[Home\|Home]]                                                                | 10:04 PM - March 22, 2025   | 0     |
@@ -20,7 +21,6 @@ Mình sẽ trình bày là mục đích mình viết ra blog này. Ở đây m�
 | [[Knowledge/NCKH/NCKH\|NCKH]]                                                 | 5:39 PM - February 28, 2025 | 0     |
 | [[Knowledge/NCKH/Analyze data\|Analyze data]]                                 | 5:06 PM - February 28, 2025 | 0     |
 | [[Knowledge/NCKH/Preprocessing data\|Preprocessing data]]                     | 4:59 PM - February 28, 2025 | 0     |
-| [[Knowledge/NLP/Dự án\|Dự án]]                                                | 2:26 PM - February 28, 2025 | 2     |
 
 { .block-language-dataview}
 
