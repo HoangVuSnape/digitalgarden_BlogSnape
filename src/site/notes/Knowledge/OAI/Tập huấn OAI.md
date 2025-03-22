@@ -90,6 +90,7 @@ pretrain có chính xác model thì lâu -> time quá lớn. THì khi khi mình 
 ![](/img/user/assets/images/COnfigPC.png)
 
 Python version 3.11.
+- Cái này sẽ update lại các lib trong pc. 
 
 ---
 top 20 sẽ vô 
