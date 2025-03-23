@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/nlp/data-evaluation/","title":"Data evaluation","pinned":"false","tags":["#nlp","AI"]}
+{"dg-publish":true,"permalink":"/knowledge/nlp/data-evaluation/","title":"Data evaluation","pinned":"false","tags":["#nlp"]}
 ---
 
 
@@ -14,7 +14,6 @@
 - [Code enhance retrieval](https://github.com/thangnch/MiAI_HieuNgo_EmbedingFineTune/blob/main/TextEmbeddingMiAI_DEMO.ipynb)
 
 ## Review 
-	- ![](/img/user/assets/images/codeCorpus_question.png)
 - ![](/img/user/assets/images/corpus.png)
 - ![](/img/user/assets/images/query.png)
 - ![](/img/user/assets/images/tableEvaluation.png)

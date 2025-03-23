@@ -6,13 +6,16 @@
 - [BLog FB - MOE vs Transformer](https://www.facebook.com/groups/trituenhantao.io/permalink/2405703216462276/?rdid=bXiRYLqYr2qj7kpx#)
 - [Blog hugging face Moe](https://huggingface.co/blog/moe?fbclid=IwZXh0bgNhZW0CMTAAAR2mQh_NiS4261QvWYKPlFKtvZodpjRcPeiYi_MIqomXcJtO78_43MoNf9s_aem_KDSf0SfA76nwo-TKrCsK6g)
 - [IBM Moe](https://www.ibm.com/think/topics/mixture-of-experts?fbclid=IwZXh0bgNhZW0CMTAAAR0upo4EVgJoX9CD7f4xSZnhaBuOaVoLWGy4K3FoXr1gBt6VXs5GRUyqrDw_aem_85fNyvU5c3RPURDAbN4lng)
-- 
+- [RAG technique](https://github.com/HoangVuSnape/RAG_Techniques)
+
 
 # Key words
 - Dense models - Sparsity , Moe Models
 - Gshard 
 - Router 
-- 
+
+
+---
 
 ![](/img/user/assets/images/TransformerVsMoE.png)
 # MoE: Tương Lai Của Mô Hình AI Lớn?
