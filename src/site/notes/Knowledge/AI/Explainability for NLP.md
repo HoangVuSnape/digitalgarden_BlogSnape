@@ -44,16 +44,33 @@
 | **3. Giải thích phải dựa trên từng đối tượng người dùng (stakeholders)**    | Mỗi nhóm người (AI engineer, người chuyên về luật pháp...) có **kỳ vọng** và **khả năng hiểu** khác nhau. Ví dụ: kỹ sư AI có thể hiểu quy tắc kỹ thuật, nhưng chuyên gia pháp lý cần giải thích dễ hiểu hơn. Vì vậy, **biết trước đối tượng** rồi thiết kế cách giải thích phù hợp là rất quan trọng.                                                                                                                                                                          |
 | **4. Thiếu phương pháp và tiêu chí đánh giá chuẩn cho Explainability**      | Hiện tại rất nhiều nghiên cứu thiếu **bộ đánh giá chuẩn** cho khả năng giải thích. Một số gợi ý:  <br>- Cần đánh giá cả **trực giác** và **chất lượng** giải thích.  <br>- Đánh giá thêm về **coverage** (giải thích bao quát được bao nhiêu dự đoán) và **fidelity** (mức độ đúng với suy nghĩ mô hình gốc).  <br>- Phương pháp đánh giá cũng cần để ý **người dùng cuối là ai**.                                                                                             |
 | **5. XAI trong NLP cần sự hợp tác liên ngành**                              | Nghiên cứu giải thích cho NLP phải kết hợp các lĩnh vực:  <br>- **Khoa học máy tính**  <br>- **Ngôn ngữ học tính toán (Computational Linguistics)**  <br>- **Tương tác người-máy (HCI)**.  <br>  <br>Sự phối hợp giữa NLP và HCI được cộng đồng rất hoan nghênh, và đây là hướng tiềm năng trong tương lai.                                                                                                                                                                    |
+
+---
 ![](/img/user/assets/images/XAINLP_19.png)
 # Evaluation
 - ![](/img/user/assets/images/XAINLP_20.png)
 	- ![](/img/user/assets/images/XAINLP_21.png)
 - ![](/img/user/assets/images/XAINLP_22.png)
+---
+
+| **Human-Centered**          | **Mô tả**                                                                                                           |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Comprehensibility**       | - Giải thích rõ ràng, liên quan đến ngữ cảnh  <br>- Người dùng dễ hiểu và diễn giải  <br>- Hỗ trợ hình ảnh minh hoạ |
+| **Trust**                   | - Minh bạch, nhất quán, đáng tin cậy  <br>- Cân bằng chi tiết và đơn giản  <br>- Đánh giá tâm lý người dùng         |
+| **Subjective Satisfaction** | - Thu thập feedback người dùng  <br>- Đánh giá mức độ hữu ích, dễ sử dụng  <br>- Phản ứng cảm xúc của người dùng    |
+| **Decision-Making Support** | - Cung cấp insight có thể hành động  <br>- Kiểm thử thực nghiệm  <br>- Giảm lỗi và giảm tải nhận thức               |
+
+| **Computer-Centered** | **Mô tả**                                                                                                 |
+| --------------------- | --------------------------------------------------------------------------------------------------------- |
+| **Fidelity**          | - Giải thích phản ánh đúng model  <br>- Kiểm chứng được  <br>- Xử lý tốt các bài toán phức tạp            |
+| **Consistency**       | - Ổn định, đồng đều  <br>- Dễ dự đoán với dữ liệu tương tự                                                |
+| **Robustness**        | - Chống chịu thay đổi nhỏ ở đầu vào  <br>- Thích ứng với thay đổi của model  <br>- Khả năng tổng quát tốt |
+| **Efficiency**        | - Tốc độ nhanh  <br>- Tối ưu tài nguyên  <br>- Dễ dàng mở rộng hệ thống                                   |
+| **Sufficiency**       | - Đủ ý trong giải thích  <br>- Đo lường được độ tự tin của model                                          |
+
+
 # More
 - ![](/img/user/assets/images/XAINLP_23.png)
-
-# Note Report
-- 
 
 ---
 # References

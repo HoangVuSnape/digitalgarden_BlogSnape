@@ -3,7 +3,7 @@
 ---
 
 #  Introduction 
-- Đây là chỗ mình note lại để nói đến các bài paper của mình 
+- Đây là chỗ mình note lại để nói đến các bài paper của mình\ 
 # A Survey of the State of Explainable AI for Natural Language Processing
 
 **Báo cáo Tóm tắt về Khảo sát các Bài báo Hội nghị về AI Giải thích được cho Xử lý Ngôn ngữ Tự nhiên (2013-2019)**
@@ -100,12 +100,12 @@ Link: [Explainable Artificial Intelligence: A Survey of Needs, Techniques, Appli
 ## Evaluation 
 - ![](/img/user/assets/images/paper_15.png)
 
-|**Human-Centered**|**Mô tả**|
-|---|---|
-|**Comprehensibility**|- Giải thích rõ ràng, liên quan đến ngữ cảnh  <br>- Người dùng dễ hiểu và diễn giải  <br>- Hỗ trợ hình ảnh minh hoạ|
-|**Trust**|- Minh bạch, nhất quán, đáng tin cậy  <br>- Cân bằng chi tiết và đơn giản  <br>- Đánh giá tâm lý người dùng|
-|**Subjective Satisfaction**|- Thu thập feedback người dùng  <br>- Đánh giá mức độ hữu ích, dễ sử dụng  <br>- Phản ứng cảm xúc của người dùng|
-|**Decision-Making Support**|- Cung cấp insight có thể hành động  <br>- Kiểm thử thực nghiệm  <br>- Giảm lỗi và giảm tải nhận thức|
+| **Human-Centered**          | **Mô tả**                                                                                                           |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Comprehensibility**       | - Giải thích rõ ràng, liên quan đến ngữ cảnh  <br>- Người dùng dễ hiểu và diễn giải  <br>- Hỗ trợ hình ảnh minh hoạ |
+| **Trust**                   | - Minh bạch, nhất quán, đáng tin cậy  <br>- Cân bằng chi tiết và đơn giản  <br>- Đánh giá tâm lý người dùng         |
+| **Subjective Satisfaction** | - Thu thập feedback người dùng  <br>- Đánh giá mức độ hữu ích, dễ sử dụng  <br>- Phản ứng cảm xúc của người dùng    |
+| **Decision-Making Support** | - Cung cấp insight có thể hành động  <br>- Kiểm thử thực nghiệm  <br>- Giảm lỗi và giảm tải nhận thức               |
 
 | **Computer-Centered** | **Mô tả**                                                                                                 |
 | --------------------- | --------------------------------------------------------------------------------------------------------- |
