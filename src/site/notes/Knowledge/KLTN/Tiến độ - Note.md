@@ -78,29 +78,29 @@ Tuần tới
 
 ## Questions
 - Thắc mắc về cách setup database.
-	- ![](/img/user/assets/images/Pasted image 20250518002849.png)
+	- ![](/img/user/assets/images/TD1.png)
 	- nó là những câu nhỏ
 	- Nhưng về data của mình thì có ổn không? thầy có kinh nghiệm không ạ
-		- ![](/img/user/assets/images/Pasted image 20250518002929.png)
-		- ![](/img/user/assets/images/Pasted image 20250518002948.png)
+		- ![](/img/user/assets/images/TD2.png)
+		- ![](/img/user/assets/images/TD3.png)
 
 Trong quá trình em tìm hiểu và tham khảo
 - **Các dạng chunking nó ngắn hơn và gọn hơn nhiều so với dạng data cũ của em.**
-- ![](/img/user/assets/images/Pasted image 20250518005207.png)
+- ![](/img/user/assets/images/TD4.png)
 
 ---
 Thầy cho em xin kinh nghiệm là em nên đánh topics và tags 
 - THì số lượng lấy tầm bao nhiêu nhiêu 
-- ![](/img/user/assets/images/Pasted image 20250518005645.png)
+- ![](/img/user/assets/images/TD5.png)
 
 ----
 # Sai xót
 - Trong 1 chunk thì nó sẽ phải có 1 -3  topics thôi là tầm 3 chữ cái. Và mối quan hệ không quá dài. Để thể hiện được hình ảnh:
 	- Mình đã tận dụng các semantic chunk của dự án trước để làm nên khi làm ra mới ngộ nhận ra vấn đề gặp phải. 
-	- ![](/img/user/assets/images/Pasted image 20250518041812.png)
+	- ![](/img/user/assets/images/TD6.png)
 
 	- Đây là cách giải quyết:
-	  ![](/img/user/assets/images/Pasted image 20250518041926.png)
-	- ![](/img/user/assets/images/Pasted image 20250518042538.png)
-	- ![](/img/user/assets/images/Pasted image 20250518044411.png)
+	  ![](/img/user/assets/images/TD7.png)
+	- ![](/img/user/assets/images/TD8.png)
+	- ![](/img/user/assets/images/TD9.png)
 - 

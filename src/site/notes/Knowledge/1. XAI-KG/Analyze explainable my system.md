@@ -29,7 +29,7 @@ Hiện tại sẽ phải là các bước để explain hệ thống, liệt kê
 - Đâu tiên mình thấy là diễn tả retrieval: Tìm kiếm và giải thích sự liên quan. Link:[explainable_retrieval.ipynb](https://github.com/HoangVuSnape/RAG_Techniques/blob/main/all_rag_techniques/explainable_retrieval.ipynb)
 	- Gồm 2 class Và nó sẽ thể hiện khả năng retrieval và explain. 
 
-- Knowledge graph: Diễn tả đường đi của việc truy xuất thông tin qua mối qua hệ đường đi.
+- **Knowledge graph**: Diễn tả đường đi của việc truy xuất thông tin qua mối qua hệ đường đi.
 	- Nó không có save lại data đàng hoàng nên khó hên lại nó có save lại cái graph **networkx** 
 	- ![](/img/user/assets/images/XAI1.png)
 	- 
