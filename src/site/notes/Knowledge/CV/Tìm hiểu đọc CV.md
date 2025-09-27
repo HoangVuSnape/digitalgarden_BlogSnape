@@ -35,7 +35,6 @@
 
 - Trang bị kiến thức thật là tốt vào
 - Objective: Viết chill chill. 
-- 
 - Nếu làm text to speech có thể dùng Eleven lab. 
 - Có thể là xin việc ở việt Nam nhưng vẫn nên viết bằng tiếng anh. 
 - Code TS 
@@ -44,18 +43,18 @@
 - MLoop: Mình dùng để biết về CÁch nó monitor. 
 # Đáng học 
 - 31:24
-![](/img/user/assets/images/Pasted image 20250225180738.png)![](/img/user/assets/images/Pasted image 20250225182854.png)
+![](/img/user/assets/images/cv1.png)![](/img/user/assets/images/cv2.png)
 
-![](/img/user/assets/images/Pasted image 20250225184553.png)![]
+![](/img/user/assets/images/cv3.png)![]
 
-![](/img/user/assets/images/Pasted image 20250225184823.png)
+![](/img/user/assets/images/cv4.png)
 
 # Format 
 -  Học cách trình bày format
-![](/img/user/assets/images/Pasted image 20250225185233.png)
-![](/img/user/assets/images/Pasted image 20250225185148.png)
+![](/img/user/assets/images/cv5.png)
+![](/img/user/assets/images/cv6.png)
 
 
 ---
-![](/img/user/assets/images/Pasted image 20250225185316.png)
+![](/img/user/assets/images/cv7.png)
 Tool AI
