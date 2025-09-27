@@ -12,6 +12,7 @@ Link: [Web](https://app.netlify.com/sites/snape-blog/deploys)
 
 | Note Name                                                                               | Last Updated                  | Links |
 | --------------------------------------------------------------------------------------- | ----------------------------- | ----- |
+| [[Knowledge/CV/Tìm hiểu đọc CV\|Tìm hiểu đọc CV]]                                    | 12:15 AM - September 28, 2025 | 0     |
 | [[Knowledge/NLP/Data evaluation\|Data evaluation]]                                   | 12:25 AM - September 08, 2025 | 1     |
 | [[Knowledge/Agent/MCP\|MCP]]                                                         | 12:04 AM - August 28, 2025    | 0     |
 | [[Knowledge/KLTN/Tiến độ - Note\|Tiến độ - Note]]                                    | 9:47 AM - August 23, 2025     | 1     |
@@ -21,7 +22,6 @@ Link: [Web](https://app.netlify.com/sites/snape-blog/deploys)
 | [[Home\|Home]]                                                                       | 8:33 AM - May 13, 2025        | 0     |
 | [[Knowledge/NLP/Project Information Technology\|Project Information Technology]]     | 10:22 PM - May 09, 2025       | 3     |
 | [[Knowledge/1. XAI-KG/Sumary paper\|Sumary paper]]                                   | 11:45 PM - May 05, 2025       | 2     |
-| [[Knowledge/1. XAI-KG/Explainable AI\|Explainable AI]]                               | 8:11 PM - April 26, 2025      | 1     |
 
 { .block-language-dataview}
 
