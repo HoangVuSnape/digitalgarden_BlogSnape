@@ -12,7 +12,7 @@ Link: [Web](https://app.netlify.com/sites/snape-blog/deploys)
 
 | Note Name                                                                               | Last Updated                  | Links |
 | --------------------------------------------------------------------------------------- | ----------------------------- | ----- |
-| [[Home\|Home]]                                                                       | 12:52 AM - September 28, 2025 | 0     |
+| [[Home\|Home]]                                                                       | 12:54 AM - September 28, 2025 | 0     |
 | [[Knowledge/1. XAI-KG/Collections\|Collections]]                                     | 12:44 AM - September 28, 2025 | 0     |
 | [[Knowledge/KLTN/Tiến độ - Note\|Tiến độ - Note]]                                    | 12:43 AM - September 28, 2025 | 1     |
 | [[Knowledge/CV/Tìm hiểu đọc CV\|Tìm hiểu đọc CV]]                                    | 12:18 AM - September 28, 2025 | 0     |
@@ -27,5 +27,5 @@ Link: [Web](https://app.netlify.com/sites/snape-blog/deploys)
 
 # Icon
 ![](/img/user/assets/icon/profile.png)
-![](/img/user/assets/icon/My face.png)
+![](/img/user/assets/icon/myface-1.png)
 
