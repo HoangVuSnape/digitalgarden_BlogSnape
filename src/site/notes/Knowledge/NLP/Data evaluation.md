@@ -89,6 +89,7 @@ MRR = \frac{1}{N} \sum_{i=1}^{N} \frac{1}{rank_i}
 $$
 
 Với \(rank_i\) là vị trí của kết quả liên quan đầu tiên cho truy vấn thứ \(i\).
+N là tổng số truy vấn
 
 ### Ví dụ:
 
@@ -167,56 +168,253 @@ Tính NDCG@5:
 $$
 NDCG@5 = \frac{6.149}{6.323} = 0.973
 $$
+## 6. Mean Average Precision (MAP)
+
+**MAP** là một chỉ số quan trọng, cung cấp một giá trị duy nhất tóm tắt chất lượng của danh sách xếp hạng.  
+Nó phản ánh toàn bộ **precision-recall curve** và nhạy với vị trí của **tất cả các tài liệu liên quan** trong danh sách kết quả.
+
+---
+
+### Công thức
+
+MAP được tính theo 2 bước:
+1. Tính **Average Precision (AP)** cho từng truy vấn.  
+2. Lấy trung bình các giá trị AP đó trên toàn bộ tập truy vấn.
+
+**Average Precision (AP)** cho một truy vấn:
+
+$$
+AP = \frac{1}{R} \sum_{i=1}^{N} Precision@i \cdot rel(i)
+$$
+
+Trong đó:
+- \(N\): tổng số kết quả được trả về  
+- \(R\): tổng số tài liệu liên quan  
+- \(rel(i)\): hàm chỉ báo, bằng 1 nếu tài liệu ở vị trí \(i\) là liên quan, ngược lại bằng 0  
+
+**Mean Average Precision (MAP):**
+
+$$
+MAP = \frac{1}{Q} \sum_{q=1}^{Q} AP_q
+$$
+
+Trong đó:
+- \(Q\): tổng số truy vấn  
+- \(AP_q\): Average Precision cho truy vấn \(q\)  
+
+---
+### Ví dụ minh họa
+Giả sử có **1 truy vấn**, hệ thống trả về 5 tài liệu đầu tiên với độ liên quan:
+
+| Rank | Document | Relevant (rel) | Precision@i |
+|------|----------|----------------|-------------|
+| 1    | D1       | 1              | 1/1 = 1.0   |
+| 2    | D2       | 0              | —           |
+| 3    | D3       | 1              | 2/3 ≈ 0.667 |
+| 4    | D4       | 0              | —           |
+| 5    | D5       | 1              | 3/5 = 0.6   |
+
+- Có tổng cộng **R = 3** tài liệu liên quan (D1, D3, D5).  
+- Tính **AP**:
+
+$$
+AP = \frac{1}{3} \left(1.0 + 0.667 + 0.6 \right) = 0.756
+$$
+
+Nếu ta có nhiều truy vấn, MAP sẽ là trung bình của tất cả các AP đó.
+
+---
+
+### Ý nghĩa
+- MAP phản ánh **độ chính xác trung bình** trên toàn bộ danh sách xếp hạng.  
+- Nếu kết quả đúng xuất hiện sớm và đều trong danh sách, MAP sẽ cao.  
+- MAP được xem là thước đo chuẩn để so sánh các hệ thống tìm kiếm/thông tin.
+
+Chuẩn rồi 👍 mình thêm luôn **MAP (Mean Average Precision)** vào danh sách để đủ bộ:
+
+---
+
+## ✅ Các chỉ số trong Information Retrieval (IR) → **Càng cao càng tốt**
+
+1. **Precision@K**
+    
+    - Ý nghĩa: trong K kết quả trả về, bao nhiêu % là đúng.
+        
+    - Cao hơn = ít “rác” hơn trong top-K.
+        
+2. **Recall@K**
+    
+    - Ý nghĩa: trong toàn bộ tài liệu đúng, hệ thống tìm được bao nhiêu trong K kết quả.
+        
+    - Cao hơn = bao phủ nhiều kết quả đúng hơn.
+        
+3. **MRR@K (Mean Reciprocal Rank)**
+    
+    - Ý nghĩa: tài liệu đúng đầu tiên xuất hiện sớm đến mức nào.
+        
+    - Cao hơn = người dùng thấy câu trả lời đúng nhanh hơn.
+        
+4. **DCG@K (Discounted Cumulative Gain)**
+    
+    - Ý nghĩa: tài liệu đúng càng ở gần đầu danh sách càng được thưởng điểm.
+        
+    - Cao hơn = kết quả đúng được xếp ở vị trí ưu tiên.
+        
+5. **NDCG@K (Normalized DCG)**
+    
+    - Ý nghĩa: DCG được chuẩn hóa so với cách sắp xếp “lý tưởng”.
+        
+    - Cao hơn = thứ tự trả về gần giống với tối ưu.
+        
+6. **MAP (Mean Average Precision)**
+    
+    - Ý nghĩa: trung bình **Precision** tại tất cả các vị trí có kết quả đúng, sau đó lấy trung bình trên nhiều truy vấn.
+        
+    - Cao hơn = hệ thống **ổn định chính xác** trên toàn bộ danh sách kết quả, không chỉ vài vị trí đầu.
+        
+
+---
+
+## 🔄 Mối quan hệ
+
+- **Precision ↔ Recall**: thường ngược nhau (chọn ít kết quả để chính xác hơn → Precision cao nhưng Recall giảm).
+    
+- **MRR**: quan trọng khi người dùng chỉ xem kết quả đầu tiên (QA/Chatbot).
+    
+- **DCG/NDCG**: quan trọng cho hệ thống tìm kiếm dài, vì đánh giá chất lượng toàn bộ xếp hạng.
+    
+- **MAP**: tổng hợp cả Precision và Recall theo toàn bộ danh sách, được coi là **thước đo chuẩn nhất** để so sánh các hệ thống IR.
+    
+
+---
+
+👉 Bạn có muốn mình làm **một bảng tóm tắt gọn (Tên – Ý nghĩa – Khi cao nghĩa là gì – Ưu tiên cho use-case nào)** để bạn chèn thẳng vào slide không?
 # Đánh giá RAG với Evaluate Ragas
 
 ## 1. Giới thiệu về Evaluate Ragas
 Evaluate Ragas là một thư viện hỗ trợ đánh giá các hệ thống Retrieval-Augmented Generation (RAG). Nó cung cấp các tiêu chí đánh giá chất lượng của truy xuất thông tin và sinh văn bản, giúp tối ưu hóa mô hình RAG.
+
 ## 2. Các tiêu chí đánh giá
 Ragas đánh giá hệ thống RAG dựa trên các tiêu chí chính:
-- **Context Precision**: Đánh giá mức độ liên quan của ngữ cảnh được truy xuất.
-- **Faithfulness**: Đánh giá mức độ chính xác của câu trả lời dựa trên ngữ cảnh.
-- **Answer Relevance**: Đánh giá mức độ liên quan của câu trả lời với câu hỏi.
-- **Context Recall**: Đánh giá mức độ đầy đủ của ngữ cảnh được truy xuất.
+- **Context Precision**: Đánh giá mức độ liên quan của ngữ cảnh được truy xuất.  
+- **Faithfulness**: Đánh giá mức độ chính xác của câu trả lời dựa trên ngữ cảnh.  
+- **Answer Relevance**: Đánh giá mức độ liên quan của câu trả lời với câu hỏi.  
+- **Context Recall**: Đánh giá mức độ đầy đủ của ngữ cảnh được truy xuất.  
+- **Semantic Similarity**: Đánh giá mức độ tương đồng ngữ nghĩa giữa câu trả lời và ground truth.  
+- **Answer Correctness**: Đánh giá tính đúng đắn tổng thể của câu trả lời so với ground truth.  
+
 ## 3. Công thức tính điểm
+
 ### 3.1. Context Precision
 $$
 \text{Precision} = \frac{|\text{Context relevant} \cap \text{Retrieved context}|}{|\text{Retrieved context}|}
 $$
-Giải thích: Tính tỷ lệ tài liệu truy xuất thực sự liên quan so với tổng số tài liệu truy xuất.
+👉 Tính tỷ lệ tài liệu truy xuất thực sự liên quan so với tổng số tài liệu truy xuất.
+
 ### 3.2. Faithfulness
 $$
 \text{Faithfulness} = \frac{\text{Factually correct statements}}{\text{Total statements in answer}}
 $$
-Giải thích: Kiểm tra câu trả lời có dựa trên bằng chứng trong ngữ cảnh không.
+👉 Kiểm tra câu trả lời có dựa trên bằng chứng trong ngữ cảnh không.
+
 ### 3.3. Answer Relevance
 $$
 \text{Relevance} = \text{Similarity}(\text{Answer}, \text{Question})
 $$
-Giải thích: Tính toán mức độ liên quan giữa câu trả lời và câu hỏi bằng cosine similarity.
+👉 Tính toán mức độ liên quan giữa câu trả lời và câu hỏi bằng cosine similarity.
+
 ### 3.4. Context Recall
 $$
 \text{Recall} = \frac{|\text{Context relevant} \cap \text{Retrieved context}|}{|\text{Relevant context}|}
 $$
-Giải thích: Đo lường mức độ đầy đủ của ngữ cảnh truy xuất.
+👉 Đo lường mức độ đầy đủ của ngữ cảnh truy xuất.
+
+### 3.5. Semantic Similarity
+$$
+\text{Semantic Similarity} = \cos(\vec{Answer}, \vec{GroundTruth})
+$$
+👉 Đánh giá mức độ gần nhau về mặt ngữ nghĩa giữa câu trả lời và ground truth, thường dùng embedding + cosine similarity.
+
+### 3.6. Answer Correctness
+$$
+\text{Correctness} = \mathbb{1}_{[\text{Answer} \equiv \text{GroundTruth}]}
+$$
+👉 Kiểm tra câu trả lời có trùng khớp hoặc đúng về mặt nội dung với ground truth hay không (có thể dùng exact match hoặc fuzzy matching).
 
 ## 4. Dataset đầu vào
 Dataset thường có 4 cột chính:
 
 | question      | answer  | contexts  | ground_truth  |
-|--------------|---------|-----------|---------------|
+|---------------|---------|-----------|---------------|
 | Câu hỏi của người dùng | Câu trả lời từ mô hình RAG | Ngữ cảnh được truy xuất | Câu trả lời đúng theo dữ liệu gốc |
 
-### Ý nghĩa:
-- `question`: Câu hỏi đầu vào cần trả lời.
-- `answer`: Câu trả lời do mô hình sinh ra.
-- `contexts`: Các đoạn văn bản được truy xuất để hỗ trợ trả lời.
-- `ground_truth`: Câu trả lời đúng dựa trên dữ liệu có sẵn.
+- `question`: Câu hỏi đầu vào cần trả lời.  
+- `answer`: Câu trả lời do mô hình sinh ra.  
+- `contexts`: Các đoạn văn bản được truy xuất để hỗ trợ trả lời.  
+- `ground_truth`: Câu trả lời đúng dựa trên dữ liệu có sẵn.  
 
 ## 5. Cách tạo dataset
-Có thể tạo dataset bằng cách:
-1. **Thu thập câu hỏi và câu trả lời gốc**: Sử dụng dữ liệu từ nguồn đáng tin cậy.
-2. **Thêm ngữ cảnh truy xuất**: Tạo hoặc sử dụng mô hình RAG để lấy các đoạn văn bản phù hợp.
-3. **Tạo ground truth**: Gán câu trả lời đúng để so sánh.
-4. **Lưu dưới dạng bảng dữ liệu**: Sử dụng pandas để lưu dữ liệu dưới dạng CSV hoặc JSON.
+1. **Thu thập câu hỏi và câu trả lời gốc**: Sử dụng dữ liệu từ nguồn đáng tin cậy.  
+2. **Thêm ngữ cảnh truy xuất**: Tạo hoặc sử dụng mô hình RAG để lấy các đoạn văn bản phù hợp.  
+3. **Tạo ground truth**: Gán câu trả lời đúng để so sánh.  
+4. **Lưu dưới dạng bảng dữ liệu**: Sử dụng pandas để lưu dữ liệu dưới dạng CSV hoặc JSON.  
 
 
+
+Hay đấy 👍 — với **RAGAS** (Retrieval-Augmented Generation Assessment Suite), các chỉ số hơi khác so với IR truyền thống. Mình tóm gọn lại để bạn dễ đưa vào slide:
+
+---
+
+## ✅ Các chỉ số trong **RAGAS** (Càng cao càng tốt)
+
+1. **Context Precision**
+    
+    - Ý nghĩa: trong những đoạn ngữ cảnh được hệ thống lấy về, có bao nhiêu % thực sự liên quan đến câu hỏi.
+        
+    - Cao hơn = ít “ngữ cảnh rác” → hệ thống trả lời tập trung hơn.
+        
+2. **Context Recall**
+    
+    - Ý nghĩa: trong tất cả ngữ cảnh liên quan, hệ thống đã lấy về được bao nhiêu.
+        
+    - Cao hơn = hệ thống thu hồi đầy đủ hơn, ít bỏ sót thông tin.
+        
+3. **Faithfulness**
+    
+    - Ý nghĩa: câu trả lời có bám sát, không bịa thêm ngoài ngữ cảnh hay không.
+        
+    - Cao hơn = câu trả lời trung thực hơn, giảm “hallucination”.
+        
+4. **Answer Relevance**
+    
+    - Ý nghĩa: câu trả lời có thực sự trả lời đúng trọng tâm câu hỏi không.
+        
+    - Cao hơn = câu trả lời sát nghĩa với intent của người dùng.
+        
+5. **Semantic Similarity**
+    
+    - Ý nghĩa: mức độ tương đồng ngữ nghĩa giữa câu trả lời của mô hình và ground truth (câu trả lời chuẩn).
+        
+    - Cao hơn = câu trả lời gần giống với câu chuẩn hơn, ngay cả khi diễn đạt khác.
+        
+6. **Answer Correctness**
+    
+    - Ý nghĩa: đánh giá tổng thể tính đúng đắn của câu trả lời (so sánh trực tiếp với ground truth).
+        
+    - Cao hơn = câu trả lời chính xác hơn về nội dung.
+        
+
+---
+
+## 🔄 Mối quan hệ phản ánh
+
+- **Context Precision vs Context Recall**: giống IR → trade-off giữa “ít rác” và “đầy đủ”.
+    
+- **Faithfulness**: rất quan trọng để tránh hallucination trong RAG.
+    
+- **Answer Relevance + Semantic Similarity + Answer Correctness**: phản ánh chất lượng đầu ra, từ “liên quan” → “giống nghĩa” → “đúng thực sự”.
+    
+
+---
+
+👉 Bạn có muốn mình làm một **bảng so sánh gọn (Tên – Ý nghĩa – Khi cao nghĩa là gì – Ví dụ)** giống như lúc mình làm cho IR, để đưa thẳng vào slide?

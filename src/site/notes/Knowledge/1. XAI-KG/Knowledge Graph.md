@@ -2,9 +2,11 @@
 {"dg-publish":true,"permalink":"/knowledge/1-xai-kg/knowledge-graph/","title":"Knowledge Graph","pinned":"false"}
 ---
 
-# References
+2# References
 - [# GraphRAG - Một sự nâng cấp mới của RAG truyền thống chăng?](https://viblo.asia/p/graphrag-mot-su-nang-cap-moi-cua-rag-truyen-thong-chang-EoW4oXRBJml)
 - [Graph RAG 1 -Youtube](https://www.youtube.com/watch?v=NJJWAgEUtL8&t=3230s) : Có phần 2 nữa. 
+- [Blog graph rag](https://gaodalie.substack.com/p/local-graphrag-langchain-gpt4o-easy)
+- [Qdrant - Neoj4](https://qdrant.tech/documentation/examples/graphrag-qdrant-neo4j/)
 # Questions
 - Mình  chưa biết cách nó tổ chức và xây dựng như thế nào
 	- Cần survey thêm nha

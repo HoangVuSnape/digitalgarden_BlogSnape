@@ -10,18 +10,18 @@ Mình sẽ trình bày là mục đích mình viết ra blog này. Ở đây m�
 [Project Information Technology](Knowledge/NLP/Project%20Information%20Technology.md)
 Link: [Web](https://app.netlify.com/sites/snape-blog/deploys)
 
-| Note Name                                                                               | Last Updated              | Links |
-| --------------------------------------------------------------------------------------- | ------------------------- | ----- |
-| [[Knowledge/KLTN/Tiến độ - Note\|Tiến độ - Note]]                                    | 3:30 PM - May 18, 2025    | 1     |
-| [[Knowledge/1. XAI-KG/Knowledge Graph\|Knowledge Graph]]                             | 3:05 PM - May 18, 2025    | 3     |
-| [[Knowledge/1. XAI-KG/Analyze explainable my system\|Analyze explainable my system]] | 2:55 PM - May 18, 2025    | 0     |
-| [[Home\|Home]]                                                                       | 10:33 PM - May 13, 2025   | 0     |
-| [[Knowledge/NLP/Project Information Technology\|Project Information Technology]]     | 12:22 PM - May 10, 2025   | 3     |
-| [[Knowledge/1. XAI-KG/Sumary paper\|Sumary paper]]                                   | 1:45 PM - May 06, 2025    | 2     |
-| [[Knowledge/1. XAI-KG/Explainable AI\|Explainable AI]]                               | 10:11 AM - April 27, 2025 | 1     |
-| [[Knowledge/1. XAI-KG/Explainability for NLP\|Explainability for NLP]]               | 10:02 AM - April 27, 2025 | 1     |
-| [[Knowledge/Books/Khéo ăn nói sẽ có đc thiên hạ\|Khéo ăn nói sẽ có đc thiên hạ]]     | 7:10 PM - April 13, 2025  | 0     |
-| [[Knowledge/ComputerVision/GAN\|GAN]]                                                | 7:03 PM - April 13, 2025  | 0     |
+| Note Name                                                                               | Last Updated                  | Links |
+| --------------------------------------------------------------------------------------- | ----------------------------- | ----- |
+| [[Knowledge/NLP/Data evaluation\|Data evaluation]]                                   | 12:25 AM - September 08, 2025 | 1     |
+| [[Knowledge/Agent/MCP\|MCP]]                                                         | 12:04 AM - August 28, 2025    | 0     |
+| [[Knowledge/KLTN/Tiến độ - Note\|Tiến độ - Note]]                                    | 9:47 AM - August 23, 2025     | 1     |
+| [[Knowledge/1. XAI-KG/Knowledge Graph\|Knowledge Graph]]                             | 6:10 AM - June 12, 2025       | 3     |
+| [[Knowledge/Books/Phương pháp học Simon\|Phương pháp học Simon]]                     | 2:04 AM - June 08, 2025       | 0     |
+| [[Knowledge/1. XAI-KG/Analyze explainable my system\|Analyze explainable my system]] | 12:55 AM - May 18, 2025       | 0     |
+| [[Home\|Home]]                                                                       | 8:33 AM - May 13, 2025        | 0     |
+| [[Knowledge/NLP/Project Information Technology\|Project Information Technology]]     | 10:22 PM - May 09, 2025       | 3     |
+| [[Knowledge/1. XAI-KG/Sumary paper\|Sumary paper]]                                   | 11:45 PM - May 05, 2025       | 2     |
+| [[Knowledge/1. XAI-KG/Explainable AI\|Explainable AI]]                               | 8:11 PM - April 26, 2025      | 1     |
 
 { .block-language-dataview}
 
