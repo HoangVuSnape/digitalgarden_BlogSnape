@@ -11,7 +11,7 @@
  - [x] Cleaning data từ excel - dùng gemni để liệt kê nhưng từ khóa để nó tạo graph và gắn trọng số. Bên cạnh đó là tạo ra quan hệ và chiều nó có đi 2 chiều hay 1 chiều. 
  - [x] Cleaning lại hệ thống. Tối ưu theo kiểu package. Tách ra 
  - [x] Định nghĩ ra các topic trước để viết prompt.
- - [ ] Xây bộ data test các khía cạnh của các trường ragas. 
+ - [x] Xây bộ data test các khía cạnh của các trường ragas. 
 
 
 # Link:

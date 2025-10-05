@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/knowledge/books/tu-duy-nguoc/","title":"Tư duy ngược","pinned":"false","tags":["books"]}
 ---
 
-
+ 
 # Chapter 1 Bạn đã sống cuộc đời thế nào
 ## Part 1 May mắn bổng dưng mà có ?
 

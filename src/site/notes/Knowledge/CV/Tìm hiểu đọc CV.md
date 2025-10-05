@@ -58,3 +58,5 @@
 ---
 ![](/img/user/assets/images/cv7.png)
 Tool AI
+----
+![](/img/user/assets/images/Knowledge/CV/Tìm hiểu đọc CV/IMG-20250929154623375.png)
