@@ -16,7 +16,6 @@
 - Thay vì overthinking - Hãy làm làm làm làm làm làm, làm, làm
 - Thay vì mong cầu những gì chưa có - Hãy trân trọng những gì đang có
 - Thay vì cố làm người thành công = Hãy cô làm người có giá trị.
-- 
 
 ![](/img/user/assets/images/Knowledge/Books/ShortLesson/IMG-20251005225234978.png)
 
@@ -26,7 +25,7 @@
 - Khi mọi người đang tranh luận và lời nói bắt đầu lấn át nhau - Hãy im lặng nếu bạn không thể có sự bình tĩnh hay giải quyết vấn đề.  
 - Khi ai đó đã cản bạn lên tiếng - Tức là có gì đó trong lời nói của bạn không phù hợp - Hãy im lặng suy ngẫm trước khi nói tiếp
 - Khi bạn đang tìm kiếm câu trả lời từ chính mình - Hãy im lặng và suy nghĩ để thấu hiểu bản thân hơn. 
-- Khi bạn đang trải nghiệm 1 khoảng khắc đẹp hoặc giây phú hạnh phúc - hãy im lặng và tận hưởng nó. 
+- Khi bạn đang trải nghiệm 1 khoảng khắc đẹp hoặc giây phút hạnh phúc - hãy im lặng và tận hưởng nó. 
 
 # Messi
 
