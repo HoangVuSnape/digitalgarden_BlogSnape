@@ -18,7 +18,7 @@
 - Thay vì cố làm người thành công = Hãy cô làm người có giá trị.
 - 
 
-![](/img/user/assets/images/Knowledge/Books/ShortLesson/Những câu nói hay 2025/IMG-20251005222049299.png)
+![](/img/user/assets/images/Knowledge/Books/ShortLesson/IMG-20251005225234978.png)
 
 ----
 5 thời điểm bạn nên im lặng
@@ -29,4 +29,7 @@
 - Khi bạn đang trải nghiệm 1 khoảng khắc đẹp hoặc giây phú hạnh phúc - hãy im lặng và tận hưởng nó. 
 
 # Messi
-![](/img/user/assets/images/Knowledge/Books/ShortLesson/Những câu nói hay 2025/IMG-20251005221949330.png)
+
+![](/img/user/assets/images/Knowledge/Books/ShortLesson/IMG-20251005225153832.png)
+
+

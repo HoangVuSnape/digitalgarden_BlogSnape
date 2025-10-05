@@ -12,7 +12,7 @@ Link: [Web](https://app.netlify.com/sites/snape-blog/deploys)
 
 | Note Name                                                                         | Last Updated                  | Links |
 | --------------------------------------------------------------------------------- | ----------------------------- | ----- |
-| [[Knowledge/Books/ShortLesson/Những câu nói hay 2025\|Những câu nói hay 2025]] | 10:20 PM - October 05, 2025   | 0     |
+| [[Knowledge/Books/ShortLesson/Những câu nói hay 2025\|Những câu nói hay 2025]] | 10:52 PM - October 05, 2025   | 0     |
 | [[Knowledge/Books/Tư duy ngược\|Tư duy ngược]]                                 | 9:58 PM - October 05, 2025    | 0     |
 | [[Knowledge/CV/Tìm hiểu đọc CV\|Tìm hiểu đọc CV]]                              | 3:46 PM - September 29, 2025  | 0     |
 | [[Home\|Home]]                                                                 | 12:54 AM - September 28, 2025 | 0     |
