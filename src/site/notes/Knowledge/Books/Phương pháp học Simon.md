@@ -184,9 +184,6 @@ Nếu trong thế giới thực, nếu bạn có thể có được một ngư�
 ---
 1) Những khả năng này có nhất thiết phải được sử dụng trong công việc hay cuộc sống không? (2) Những khả năng này có thể bị từ bỏ hoàn toàn không? (3) Liệu những khả năng này có thể được bù đắp bằng việc tìm kiếm đối tác để hợp tác không?
 
-
-
-
 ----
 Thang quyết định Giá trị Nghề nghiệp để khám phá và xác minh những lựa chọn nghề nghiệp cụ thể như sau. (1) Liệt kê 8 giá trị nghề nghiệp mà bạn cho là quan trọng và điền vào mẫu. Lưu ý: Bạn có thể tham khảo nhưng không giới hạn 15 giá trị nghề nghiệp của Schuber. (2) Đánh giá tầm quan trọng của các giá trị chuyên môn từ 1 đến 10. (3) Liệt kê các lựa chọn nghề nghiệp, thường chọn 2 đến 3 nghề nghiệp bạn muốn phát triển nhất và điền vào mẫu. (4) Cho điểm mức độ hài lòng với các lựa chọn nghề nghiệp khác nhau theo thang điểm từ 1 đến 5. (5) Tính tổng điểm có trọng số của từng lựa chọn nghề nghiệp. (6) Thảo luận với chính mình hoặc người khác và điều chỉnh điểm số phù hợp để rút ra kết luận. Hãy xem xét một ví dụ ứng dụng cụ thể.
 
