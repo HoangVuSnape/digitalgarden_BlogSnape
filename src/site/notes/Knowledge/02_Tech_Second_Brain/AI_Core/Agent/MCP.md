@@ -295,7 +295,6 @@ python orchestrator.py
 { .block-language-dataview}
 # Notes last Touches Today
 
-- [[DailyNote/2025-11-22 Week 47 Day 6\|2025-11-22 Week 47 Day 6]]
 - [[Knowledge/01_Projects/KLTN/Large reason model\|Large reason model]]
 - [[Knowledge/01_Projects/KLTN/Review project IT\|Review project IT]]
 - [[Knowledge/01_Projects/KLTN/Report/6.6\|6.6]]
@@ -368,8 +367,9 @@ python orchestrator.py
 - [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/Hiểu về lộ trình tìm hiểu về chứng chỉ cloud\|Hiểu về lộ trình tìm hiểu về chứng chỉ cloud]]
 - [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/AWS\|AWS]]
 - [[Knowledge/04_Life_Management/Journey/Đà Lạt 2025\|Đà Lạt 2025]]
-- [[Home\|Home]]
 - [[Knowledge/04_Life_Management/Books/7.5 Writing guaranteed\|7.5 Writing guaranteed]]
+- [[DailyNote/2025-11-22 Week 47 Day 6\|2025-11-22 Week 47 Day 6]]
+- [[Home\|Home]]
 
 { .block-language-dataview}
 
