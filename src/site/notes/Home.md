@@ -12,7 +12,7 @@ Link: [Web](https://app.netlify.com/sites/snape-blog/deploys)
 
 | Note Name                                                                                  | Last Updated                | Links |
 | ------------------------------------------------------------------------------------------ | --------------------------- | ----- |
-| [[Knowledge/01_Projects/KLTN/Tiến độ - Note\|Tiến độ - Note]]                           | 8:59 PM - November 22, 2025 | 1     |
+| [[Knowledge/01_Projects/KLTN/Tiến độ - Note\|Tiến độ - Note]]                           | 9:02 PM - November 22, 2025 | 1     |
 | [[Knowledge/1. XAI-KG/Knowledge Graph\|Knowledge Graph]]                                | 8:59 PM - November 22, 2025 | 3     |
 | [[Knowledge/1. XAI-KG/Analyze explainable my system\|Analyze explainable my system]]    | 8:59 PM - November 22, 2025 | 0     |
 | [[Knowledge/More/Marketing - generate image, video\|Marketing - generate image, video]] | 8:47 PM - November 12, 2025 | 0     |
