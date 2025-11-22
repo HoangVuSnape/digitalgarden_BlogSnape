@@ -45,18 +45,18 @@ _Các kiến thức về phát triển cá nhân, định hướng tinh thần, 
 
 ## 📝 Các Bài Viết Mới Nhất
 
-| Note Name                                                                                                                                               | Last Updated                 | Links |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ----- |
-| [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Docker_Gitlab/Docker_257_Inno\|Docker_257_Inno]]                                                       | 12:24 AM - November 23, 2025 | 0     |
-| [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Jmeter_Testing/Jmeter\|Jmeter]]                                                                        | 12:23 AM - November 23, 2025 | 0     |
-| [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/Hiểu về lộ trình tìm hiểu về chứng chỉ cloud\|Hiểu về lộ trình tìm hiểu về chứng chỉ cloud]] | 12:22 AM - November 23, 2025 | 0     |
-| [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/Gate way, proxy, GRPC\|Gate way, proxy, GRPC]]                                               | 12:22 AM - November 23, 2025 | 0     |
-| [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/AWS - Mì AI\|AWS - Mì AI]]                                                                   | 12:22 AM - November 23, 2025 | 0     |
-| [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/AWS\|AWS]]                                                                                   | 12:22 AM - November 23, 2025 | 0     |
-| [[Home\|Home]]                                                                                                                                       | 12:20 AM - November 23, 2025 | 0     |
-| [[Knowledge/04_Life_Management/Books/7.5 Writing guaranteed\|7.5 Writing guaranteed]]                                                                | 11:48 PM - November 22, 2025 | 1     |
-| [[Knowledge/04_Life_Management/ShortLesson/Những câu nói hay 2025\|Những câu nói hay 2025]]                                                          | 10:20 PM - November 22, 2025 | 1     |
-| [[Knowledge/04_Life_Management/ShortLesson/6. Ma trận eisenhower\|6. Ma trận eisenhower]]                                                            | 10:20 PM - November 22, 2025 | 0     |
+| Note Name                                                                                                                                    | Last Updated                 | Links |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ----- |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/PreprocessingData_img\|PreprocessingData_img]]                                      | 12:30 AM - November 23, 2025 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/RAG Advance\|RAG Advance]]                                                          | 12:29 AM - November 23, 2025 | 1     |
+| [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Docker_Gitlab/Docker\|Docker]]                                                              | 12:29 AM - November 23, 2025 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Docker_Gitlab/Gitlab - docker\|Gitlab - docker]]                                            | 12:29 AM - November 23, 2025 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Reinforcement Learning Human Feedback - RLHF\|Reinforcement Learning Human Feedback - RLHF]] | 12:28 AM - November 23, 2025 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Rerank_EmbeddingModel\|Rerank_EmbeddingModel]]                                               | 12:28 AM - November 23, 2025 | 1     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Data enhance, scale in RAG\|Data enhance, scale in RAG]]                                     | 12:28 AM - November 23, 2025 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Fine tune\|Fine tune]]                                                                       | 12:28 AM - November 23, 2025 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Kiến trúc và huấn luyện BERT\|Kiến trúc và huấn luyện BERT]]                                 | 12:28 AM - November 23, 2025 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Data evaluation\|Data evaluation]]                                                           | 12:28 AM - November 23, 2025 | 1     |
 
 { .block-language-dataview}
 

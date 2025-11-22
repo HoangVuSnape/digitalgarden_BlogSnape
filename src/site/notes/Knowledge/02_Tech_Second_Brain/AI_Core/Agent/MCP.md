@@ -1,15 +1,7 @@
 ---
-created: 2025-08-27T15:53:30
-Updated: 2025-02-21T20:15
-dg-publish: true
-dg-home:
-tags:
-dg-pinned: "false"
-aliases:
-cssclasses:
-updated:
-  - 2025-08-28T14:04:52+07:00
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/agent/mcp/","pinned":"false"}
 ---
+
 In version v2.11
 # Link 
 - https://www.jlowin.dev/blog/stop-converting-rest-apis-to-mcp
@@ -259,7 +251,7 @@ python orchestrator.py
 - [[Knowledge/01_Projects/NCKH/OAI/Tập huấn OAI\|Tập huấn OAI]]
 - [[Knowledge/01_Projects/KLTN/Data\|Data]]
 - [[Knowledge/01_Projects/KLTN/Report/18.5\|18.5]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/Docker\|Docker]]
+- [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Docker_Gitlab/Docker\|Docker]]
 - [[Knowledge/01_Projects/ProjectCNTT/Project Information Technology\|Project Information Technology]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/MCP & A2A\|MCP & A2A]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/MCP\|MCP]]
@@ -272,7 +264,6 @@ python orchestrator.py
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/Mixture Of Experts\|Mixture Of Experts]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/PreprocessingData_img\|PreprocessingData_img]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/RAG Advance\|RAG Advance]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/Random Forest vs XGboost\|Random Forest vs XGboost]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Data enhance, scale in RAG\|Data enhance, scale in RAG]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Data evaluation\|Data evaluation]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Fine tune\|Fine tune]]
@@ -314,26 +305,9 @@ python orchestrator.py
 - [[Knowledge/01_Projects/KLTN/Data\|Data]]
 - [[Knowledge/01_Projects/KLTN/Report/18.5\|18.5]]
 - [[Knowledge/01_Projects/ProjectCNTT/Project Information Technology\|Project Information Technology]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/Docker\|Docker]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/MCP & A2A\|MCP & A2A]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/MCP\|MCP]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/MLoops\|MLoops]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/ModelRetrieval & VLM Localization\|ModelRetrieval & VLM Localization]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Computer_Vision/GAN\|GAN]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/Automatic AI/N8n\|N8n]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/Chuỗi thời gian - Time series\|Chuỗi thời gian - Time series]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/Code with AI\|Code with AI]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/Mixture Of Experts\|Mixture Of Experts]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/PreprocessingData_img\|PreprocessingData_img]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/RAG Advance\|RAG Advance]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/Random Forest vs XGboost\|Random Forest vs XGboost]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Data enhance, scale in RAG\|Data enhance, scale in RAG]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Data evaluation\|Data evaluation]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Fine tune\|Fine tune]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Kiến trúc và huấn luyện BERT\|Kiến trúc và huấn luyện BERT]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Reinforcement Learning Human Feedback - RLHF\|Reinforcement Learning Human Feedback - RLHF]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Report CNTT\|Report CNTT]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Rerank_EmbeddingModel\|Rerank_EmbeddingModel]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Analyze explainable my system\|Analyze explainable my system]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Explainability for NLP\|Explainability for NLP]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Explainable AI\|Explainable AI]]

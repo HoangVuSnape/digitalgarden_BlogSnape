@@ -1,24 +1,7 @@
 ---
-created: 2025-02-25T16:40:55
-updated:
-  - 2025-10-18T18:00:59+07:00
-  - 2025-02-28T16:59:58+07:00
-  - 2025-02-26T19:58:41+07:00
-  - 2025-02-26T19:06:30+07:00
-  - 2025-02-26T19:04:26+07:00
-  - 2025-02-26T18:02:02+07:00
-  - 2025-02-26T18:01:31+07:00
-  - 2025-02-25T19:04:14+07:00
-  - 2025-02-25T16:41:18+07:00
-  - 2025-11-22 21:37:27
-title: Preprocessing data
-tags:
-append_modified_update:
-dg-publish: true
-dg-home:
-dg-pinned: "false"
-aliases:
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/fundamentals/preprocessing-data-img/","title":"Preprocessing data","pinned":"false"}
 ---
+
 - Ở đây là những ý tưởng để mình xử lý preprocessing data
 
 # Histogram
