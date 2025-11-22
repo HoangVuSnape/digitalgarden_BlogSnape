@@ -10,7 +10,7 @@ Link các tệp liên quan đến việc phân tích cần đọc
 	- [Sumary paper](Sumary%20paper.md)
 
 - Data
-	- [Data](../KLTN/Data.md)
+	- [Data](../📂%2001_Projects/KLTN/Data.md)
 	- [Project Information Technology](../NLP/Project%20Information%20Technology.md)
 
 - Link
