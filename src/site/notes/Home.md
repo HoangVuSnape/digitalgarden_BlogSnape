@@ -7,15 +7,17 @@
 
 ## Tóm tắt & Liên hệ
 
-| Thông tin      | Chi tiết                                                        |
-| -------------- | --------------------------------------------------------------- |
-| **Tên**        | **Hoàng Đình Quý Vũ**                                           |
-| **Vai trò**    | Aspiring AI Engineer                                            |
-| **Điện thoại** | **0868 245 465**                                                |
-| **Email**      | hoangdinhquyvu.snape.22@gmail.com                               |
-| **LinkedIn**   | [hoangvusnape](https://www.linkedin.com/in/hoangvusnape "null") |
-| **Github**     | [HoangVuSnape](https://github.com/HoangVuSnape "null")          |
-| **Blog Link**  | [snape-blog](https://snape-blog.netlify.app/)                   |
+| Thông tin      | Chi tiết                                                                                         |
+| -------------- | ------------------------------------------------------------------------------------------------ |
+| **Tên**        | **Hoàng Đình Quý Vũ**                                                                            |
+| **Vai trò**    | Aspiring AI Engineer                                                                             |
+| **Điện thoại** | **0868 245 465**                                                                                 |
+| **Email**      | hoangdinhquyvu.snape.22@gmail.com                                                                |
+| **LinkedIn**   | [hoangvusnape](https://www.linkedin.com/in/hoangvusnape "null")                                  |
+| **Github**     | [HoangVuSnape](https://github.com/HoangVuSnape "null")                                           |
+| **Blog Link**  | [snape-blog](https://snape-blog.netlify.app/)                                                    |
+| **My resume**  | [HoangVu_CV](https://drive.google.com/file/d/1OnynPYK4GoYViHCOm1O2jRLfvXeSGQmH/view?usp=sharing) |
+
 ## Mục đích của Blog (Digital Garden)
 Đây là nơi lưu trữ và chia sẻ các **kiến thức, kinh nghiệm, và chiêm nghiệm** của tôi trong quá trình làm việc và phát triển bản thân. Blog này tập trung vào các lĩnh vực: **AI, NLP, Computer Vision, DevOps, và các kỹ năng nghề nghiệp** (DIG - Digital).
 
@@ -45,7 +47,7 @@ _Các kiến thức về phát triển cá nhân, định hướng tinh thần, 
 
 | Note Name                                                                                                          | Last Updated                 | Links |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------- | ----- |
-| [[Home\|Home]]                                                                                                  | 12:14 AM - November 23, 2025 | 0     |
+| [[Home\|Home]]                                                                                                  | 12:20 AM - November 23, 2025 | 0     |
 | [[Knowledge/04_Life_Management/Books/7.5 Writing guaranteed\|7.5 Writing guaranteed]]                           | 11:48 PM - November 22, 2025 | 1     |
 | [[Knowledge/04_Life_Management/ShortLesson/Những câu nói hay 2025\|Những câu nói hay 2025]]                     | 10:20 PM - November 22, 2025 | 1     |
 | [[Knowledge/04_Life_Management/ShortLesson/6. Ma trận eisenhower\|6. Ma trận eisenhower]]                       | 10:20 PM - November 22, 2025 | 0     |
