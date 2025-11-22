@@ -369,6 +369,7 @@ python orchestrator.py
 - [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/Gate way, proxy, GRPC\|Gate way, proxy, GRPC]]
 - [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/Hiểu về lộ trình tìm hiểu về chứng chỉ cloud\|Hiểu về lộ trình tìm hiểu về chứng chỉ cloud]]
 - [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/AWS\|AWS]]
+- [[Knowledge/04_Life_Management/Journey/Đà Lạt 2025\|Đà Lạt 2025]]
 
 { .block-language-dataview}
 
