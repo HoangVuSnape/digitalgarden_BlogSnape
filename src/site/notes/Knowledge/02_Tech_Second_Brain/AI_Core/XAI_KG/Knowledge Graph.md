@@ -1,7 +1,34 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/xai-kg/knowledge-graph/","title":"Knowledge Graph","pinned":"false"}
+updated:
+  - 2025-11-22T21:39:44+07:00
+  - 2025-06-12T20:10:28+07:00
+  - 2025-06-02T17:27:03+07:00
+  - 2025-06-01T00:58:05+07:00
+  - 2025-05-18T15:05:11+07:00
+  - 2025-05-18T14:24:40+07:00
+  - 2025-05-18T14:23:23+07:00
+  - 2025-05-18T14:20:12+07:00
+  - 2025-05-18T14:19:36+07:00
+  - 2025-05-18T00:24:33+07:00
+  - 2025-05-17T19:25:51+07:00
+  - 2025-05-17T19:24:46+07:00
+  - 2025-05-06T14:21:10+07:00
+  - 2025-04-27T09:55:22+07:00
+  - 2025-04-26T23:21:21+07:00
+  - 2025-04-26T23:17:44+07:00
+  - 2025-04-26T23:15:58+07:00
+  - 2025-04-26T23:13:55+07:00
+  - 2025-04-26T22:53:12+07:00
+  - 2025-11-22 21:37:27
+created: 2025-04-26T22:53:01
+title: Knowledge Graph
+tags:
+append_modified_update:
+dg-publish: true
+dg-home:
+dg-pinned: "false"
+aliases:
 ---
-
 2# References
 - [# GraphRAG - Một sự nâng cấp mới của RAG truyền thống chăng?](https://viblo.asia/p/graphrag-mot-su-nang-cap-moi-cua-rag-truyen-thong-chang-EoW4oXRBJml)
 - [Graph RAG 1 -Youtube](https://www.youtube.com/watch?v=NJJWAgEUtL8&t=3230s) : Có phần 2 nữa. 

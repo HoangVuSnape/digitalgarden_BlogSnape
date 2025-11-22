@@ -1,7 +1,50 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/xai-kg/analyze-explainable-my-system/","title":"Explainable my system","pinned":"true"}
+created: 2025-05-06T13:53:35
+updated:
+  - 2025-11-22T21:38:52+07:00
+  - 2025-05-18T14:55:01+07:00
+  - 2025-05-18T14:18:22+07:00
+  - 2025-05-18T14:17:03+07:00
+  - 2025-05-18T14:13:14+07:00
+  - 2025-05-18T00:41:03+07:00
+  - 2025-05-18T00:40:31+07:00
+  - 2025-05-18T00:39:42+07:00
+  - 2025-05-18T00:38:27+07:00
+  - 2025-05-18T00:33:30+07:00
+  - 2025-05-18T00:23:26+07:00
+  - 2025-05-18T00:22:29+07:00
+  - 2025-05-18T00:21:46+07:00
+  - 2025-05-18T00:20:57+07:00
+  - 2025-05-16T19:29:45+07:00
+  - 2025-05-16T19:28:58+07:00
+  - 2025-05-06T17:10:54+07:00
+  - 2025-05-06T17:03:29+07:00
+  - 2025-05-06T15:29:37+07:00
+  - 2025-05-06T15:21:45+07:00
+  - 2025-05-06T15:15:50+07:00
+  - 2025-05-06T15:11:18+07:00
+  - 2025-05-06T15:01:15+07:00
+  - 2025-05-06T15:00:25+07:00
+  - 2025-05-06T14:53:09+07:00
+  - 2025-05-06T14:51:30+07:00
+  - 2025-05-06T14:50:02+07:00
+  - 2025-05-06T14:42:09+07:00
+  - 2025-05-06T14:38:55+07:00
+  - 2025-05-06T14:01:37+07:00
+  - 2025-05-06T13:59:22+07:00
+  - 2025-05-06T13:57:58+07:00
+  - 2025-05-06T13:56:53+07:00
+  - 2025-05-06T13:55:59+07:00
+  - 2025-05-06T13:54:12+07:00
+  - 2025-11-22 21:37:26
+title: Explainable my system
+tags:
+append_modified_update:
+dg-publish: true
+dg-home:
+dg-pinned: "true"
+aliases:
 ---
-
 Link các tệp liên quan đến việc phân tích cần đọc
 - XAI
 	- [Explainability for NLP](Explainability%20for%20NLP.md)
@@ -11,7 +54,7 @@ Link các tệp liên quan đến việc phân tích cần đọc
 
 - Data
 	- [Data](../../../01_Projects/KLTN/Data.md)
-	- [Project Information Technology](../../../NLP/Project%20Information%20Technology.md)
+	- [Project Information Technology](../../../01_Projects/ProjectCNTT/Project%20Information%20Technology.md)
 
 - Link
 	- [Slide Graph Rag pront X](https://drive.google.com/file/d/1yliCGONb2yJv0IoFQ-GWpgrv_bz70Wqf/view)
