@@ -310,7 +310,6 @@ python orchestrator.py
 - [[Knowledge/01_Projects/Innotech0vn/Innotech-chatbot/Innotech - chatbot\|Innotech - chatbot]]
 - [[Knowledge/01_Projects/Innotech0vn/Report/Note\|Note]]
 - [[Knowledge/05_Collections/Collections\|Collections]]
-- [[Home\|Home]]
 - [[Knowledge/01_Projects/NCKH/OAI/Improve Model\|Improve Model]]
 - [[Knowledge/01_Projects/NCKH/NCKH\|NCKH]]
 - [[Knowledge/01_Projects/NCKH/OAI/Analyze data\|Analyze data]]
@@ -364,12 +363,13 @@ python orchestrator.py
 - [[Knowledge/04_Life_Management/ShortLesson/Những câu nói hay 2025\|Những câu nói hay 2025]]
 - [[Knowledge/04_Life_Management/ShortLesson/6 điều học sau 7h tối chill\|6 điều học sau 7h tối chill]]
 - [[Knowledge/04_Life_Management/Learning_English/Điểm để ý của mình về IELTS\|Điểm để ý của mình về IELTS]]
-- [[Knowledge/04_Life_Management/Books/7.5 Writing guaranteed\|7.5 Writing guaranteed]]
 - [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/AWS - Mì AI\|AWS - Mì AI]]
 - [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/Gate way, proxy, GRPC\|Gate way, proxy, GRPC]]
 - [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/Hiểu về lộ trình tìm hiểu về chứng chỉ cloud\|Hiểu về lộ trình tìm hiểu về chứng chỉ cloud]]
 - [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/AWS\|AWS]]
 - [[Knowledge/04_Life_Management/Journey/Đà Lạt 2025\|Đà Lạt 2025]]
+- [[Home\|Home]]
+- [[Knowledge/04_Life_Management/Books/7.5 Writing guaranteed\|7.5 Writing guaranteed]]
 
 { .block-language-dataview}
 
