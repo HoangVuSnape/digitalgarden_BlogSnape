@@ -1,7 +1,29 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/nlp/project-information-technology/","title":"Project CNTT","pinned":"true","tags":["nlp"]}
+date: 
+created: 2025-02-21T15:14
+updated:
+  - 2025-05-10T12:22:47+07:00
+  - 2025-03-23T18:10:18+07:00
+  - 2025-03-23T15:53:31+07:00
+  - 2025-03-23T15:52:36+07:00
+  - 2025-03-23T15:51:16+07:00
+  - 2025-02-28T14:26:21+07:00
+  - 2025-02-28T14:17:11+07:00
+  - 2025-02-25T17:09:10+07:00
+  - 2025-02-25T17:06:26+07:00
+  - 2025-02-25T17:05:47+07:00
+  - 2025-02-25T14:38:25+07:00
+  - 2025-02-23T23:07:44+07:00
+dg-publish: true
+dg-home: 
+tags:
+  - nlp
+title: Project CNTT
+append_modified_update: 
+aliases:
+  - RAG Advance
+dg-pinned: "true"
 ---
-
 # Guiding assistant for Vietnamese university admissions powered by Advanced RAG
 The University Admission Assistant is an AI-powered system designed to support admission inquiries for 15 universities in Ho Chi Minh City. The system leverages Retrieval-Augmented Generation (RAG) techniques to enhance query responses by integrating structured data retrieval with generative AI models. This ensures accurate and context-aware answers to users' admission-related questions.
 
@@ -9,7 +31,7 @@ The University Admission Assistant is an AI-powered system designed to support a
 - Github: https://github.com/HoangVuSnape/UNI_HCM_AI
 - Web deploy: https://huggingface.co/spaces/HoangVuSnape/TuyenSinh_v2
 - Link dataset: https://drive.google.com/drive/folders/1iPG2Sw53wbe7uVmyQZwGQtZeMc4Q4YmF
-- [[Knowledge/NLP/RAG Advance\|RAG Advance]]
+- [[Knowledge/AI/RAG Advance\|../AI/RAG Advance]]
 # Architecture System
 This project presents two versions of an agent system, comparing their architecture, tools, and functionalities. The improvements in Version 2 result from extensive testing and experimentation.
 #### **Version 1**

@@ -1,7 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":"true","tags":["gardenEntry"]}
+dg-publish: true
+dg-home: true
+dg-pinned: "true"
+updated:
+  - 2025-09-28T00:52:22+07:00
+  - 2025-09-28T00:50:04+07:00
+  - 2025-05-13T22:33:24+07:00
+  - 2025-04-27T10:05:11+07:00
+  - 2025-04-27T09:58:01+07:00
+  - 2025-03-22T22:04:28+07:00
+  - 2025-02-25T16:59:02+07:00
 ---
-
 ---
 
 This is my home of digital garden obsidian,........
@@ -10,18 +19,18 @@ Mình sẽ trình bày là mục đích mình viết ra blog này. Ở đây m�
 [Project Information Technology](Knowledge/NLP/Project%20Information%20Technology.md)
 Link: [Web](https://app.netlify.com/sites/snape-blog/deploys)
 
-| Note Name                                                                                  | Last Updated                | Links |
-| ------------------------------------------------------------------------------------------ | --------------------------- | ----- |
-| [[Knowledge/01_Projects/KLTN/Tiến độ - Note\|Tiến độ - Note]]                           | 9:06 PM - November 22, 2025 | 1     |
-| [[Knowledge/1. XAI-KG/Knowledge Graph\|Knowledge Graph]]                                | 8:59 PM - November 22, 2025 | 3     |
-| [[Knowledge/1. XAI-KG/Analyze explainable my system\|Analyze explainable my system]]    | 8:59 PM - November 22, 2025 | 0     |
-| [[Knowledge/More/Marketing - generate image, video\|Marketing - generate image, video]] | 8:47 PM - November 12, 2025 | 0     |
-| [[Knowledge/Master/Draft viết bài dự thi thạc sĩ\|Draft viết bài dự thi thạc sĩ]]       | 3:55 PM - November 06, 2025 | 1     |
-| [[Knowledge/AI/Preprocessing data\|Preprocessing data]]                                 | 6:00 PM - October 18, 2025  | 0     |
-| [[Knowledge/ComputerVision/NCKH/Analyze data\|Analyze data]]                            | 6:00 PM - October 18, 2025  | 0     |
-| [[Knowledge/ComputerVision/NCKH/OAI/Tập huấn OAI\|Tập huấn OAI]]                        | 6:00 PM - October 18, 2025  | 0     |
-| [[Knowledge/ComputerVision/NCKH/NCKH\|NCKH]]                                            | 6:00 PM - October 18, 2025  | 0     |
-| [[Knowledge/Books/7.5 Writing guaranteed\|7.5 Writing guaranteed]]                      | 4:47 PM - October 18, 2025  | 1     |
+| Note Name                                                                                                         | Last Updated                | Links |
+| ----------------------------------------------------------------------------------------------------------------- | --------------------------- | ----- |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Sumary paper\|Sumary paper]]                                   | 9:40 PM - November 22, 2025 | 2     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Knowledge Graph\|Knowledge Graph]]                             | 9:39 PM - November 22, 2025 | 3     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Explainability for NLP\|Explainability for NLP]]               | 9:39 PM - November 22, 2025 | 1     |
+| [[Knowledge/1. XAI-KG/Collections\|Collections]]                                                               | 9:39 PM - November 22, 2025 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Analyze explainable my system\|Analyze explainable my system]] | 9:39 PM - November 22, 2025 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Explainable AI\|Explainable AI]]                               | 9:38 PM - November 22, 2025 | 1     |
+| [[Knowledge/NLP/Project Information Technology\|Project Information Technology]]                               | 9:37 PM - November 22, 2025 | 4     |
+| [[Knowledge/NLP/Rerank_EmbeddingModel\|Rerank_EmbeddingModel]]                                                 | 9:37 PM - November 22, 2025 | 2     |
+| [[Knowledge/AI/RAG Advance\|RAG Advance]]                                                                      | 9:37 PM - November 22, 2025 | 1     |
+| [[Knowledge/NLP/Kiến trúc và huấn luyện BERT\|Kiến trúc và huấn luyện BERT]]                                   | 9:37 PM - November 22, 2025 | 0     |
 
 { .block-language-dataview}
 

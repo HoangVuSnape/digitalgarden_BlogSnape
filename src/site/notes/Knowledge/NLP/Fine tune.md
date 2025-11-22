@@ -1,7 +1,37 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/nlp/fine-tune/","title":"Fine tune","pinned":"false","tags":["nlp"]}
+created: 2025-03-23T16:48:25
+updated:
+  - 2025-03-23T17:30:36+07:00
+  - 2025-03-23T17:27:50+07:00
+  - 2025-03-23T17:25:12+07:00
+  - 2025-03-23T17:16:21+07:00
+  - 2025-03-23T17:15:19+07:00
+  - 2025-03-23T17:12:59+07:00
+  - 2025-03-23T17:11:20+07:00
+  - 2025-03-23T17:09:45+07:00
+  - 2025-03-23T17:07:23+07:00
+  - 2025-03-23T17:06:32+07:00
+  - 2025-03-23T17:05:17+07:00
+  - 2025-03-23T17:04:33+07:00
+  - 2025-03-23T17:01:41+07:00
+  - 2025-03-23T17:00:15+07:00
+  - 2025-03-23T16:59:04+07:00
+  - 2025-03-23T16:56:04+07:00
+  - 2025-03-23T16:54:25+07:00
+  - 2025-03-23T16:52:02+07:00
+  - 2025-03-23T16:51:15+07:00
+  - 2025-03-23T16:50:17+07:00
+  - 2025-03-23T16:48:35+07:00
+  - 2025-11-22 21:37:27
+title: Fine tune
+tags:
+  - nlp
+append_modified_update: 
+dg-publish: true
+dg-home: 
+dg-pinned: "false"
+aliases: 
 ---
-
 ## 1.  Giới thiệu
 
 LLM là viết tắt của Large Language Model (Mô hình Ngôn ngữ Lớn). Đây là một loại mô hình học sâu được huấn luyện trên một lượng lớn dữ liệu văn bản để hiểu và sinh ra ngôn ngữ tự nhiên. Các LLM có khả năng xử lý và tạo ra văn bản, thực hiện các nhiệm vụ như trả lời câu hỏi, dịch ngôn ngữ, tóm tắt văn bản, và nhiều ứng dụng khác.

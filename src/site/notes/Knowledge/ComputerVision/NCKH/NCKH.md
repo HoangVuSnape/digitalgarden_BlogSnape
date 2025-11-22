@@ -1,7 +1,35 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/computer-vision/nckh/nckh/","title":"NCKH","pinned":"false","tags":["NCKH"]}
+created: 2025-02-25T16:41:31
+updated:
+  - 2025-02-28T17:39:06+07:00
+  - 2025-02-28T17:07:30+07:00
+  - 2025-02-28T16:59:55+07:00
+  - 2025-02-26T21:40:48+07:00
+  - 2025-02-26T20:52:52+07:00
+  - 2025-02-26T20:47:54+07:00
+  - 2025-02-26T20:45:26+07:00
+  - 2025-02-26T20:38:10+07:00
+  - 2025-02-26T20:30:40+07:00
+  - 2025-02-26T20:28:40+07:00
+  - 2025-02-26T20:26:29+07:00
+  - 2025-02-26T20:25:51+07:00
+  - 2025-02-26T20:24:19+07:00
+  - 2025-02-26T20:21:45+07:00
+  - 2025-02-26T19:03:27+07:00
+  - 2025-02-26T19:01:09+07:00
+  - 2025-02-25T19:09:50+07:00
+  - 2025-02-25T19:07:36+07:00
+  - 2025-02-25T16:41:47+07:00
+  - 2025-11-22 21:37:27
+title: NCKH
+tags:
+  - NCKH
+append_modified_update: 
+dg-publish: true
+dg-home: 
+dg-pinned: "false"
+aliases: 
 ---
-
 # QA
 Link: [QA knee](https://www.worksafe.qld.gov.au/__data/assets/pdf_file/0022/24097/knee-injury-and-osteoarthritis-outcome-score-koos1.pdf)
 

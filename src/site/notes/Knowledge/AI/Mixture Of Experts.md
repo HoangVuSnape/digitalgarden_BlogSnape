@@ -1,7 +1,39 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/ai/mixture-of-experts/","title":"Mixture Of Experts","pinned":"false","tags":["AI","nlp"]}
+updated:
+  - 2025-03-23T14:51:32+07:00
+  - 2025-03-23T14:49:36+07:00
+  - 2025-03-23T14:28:06+07:00
+  - 2025-03-22T23:22:16+07:00
+  - 2025-03-22T23:19:30+07:00
+  - 2025-03-22T21:31:43+07:00
+  - 2025-03-22T21:30:54+07:00
+  - 2025-03-22T19:57:23+07:00
+  - 2025-03-22T19:56:40+07:00
+  - 2025-03-22T19:41:32+07:00
+  - 2025-03-22T19:40:28+07:00
+  - 2025-03-22T19:39:05+07:00
+  - 2025-03-22T19:37:40+07:00
+  - 2025-03-22T19:34:36+07:00
+  - 2025-03-22T19:33:30+07:00
+  - 2025-03-22T19:32:12+07:00
+  - 2025-03-22T19:31:33+07:00
+  - 2025-03-22T19:28:16+07:00
+  - 2025-03-22T19:25:22+07:00
+  - 2025-03-22T19:10:57+07:00
+  - 2025-03-22T19:05:11+07:00
+  - 2025-03-22T19:01:47+07:00
+  - 2025-11-22 21:37:27
+created: 2025-03-22T19:01:05
+title: Mixture Of Experts
+tags:
+  - AI
+  - nlp
+append_modified_update: 
+dg-publish: true
+dg-home: 
+dg-pinned: "false"
+aliases: 
 ---
-
 # References
 - [BLog FB - MOE vs Transformer](https://www.facebook.com/groups/trituenhantao.io/permalink/2405703216462276/?rdid=bXiRYLqYr2qj7kpx#)
 - [Blog hugging face Moe](https://huggingface.co/blog/moe?fbclid=IwZXh0bgNhZW0CMTAAAR2mQh_NiS4261QvWYKPlFKtvZodpjRcPeiYi_MIqomXcJtO78_43MoNf9s_aem_KDSf0SfA76nwo-TKrCsK6g)

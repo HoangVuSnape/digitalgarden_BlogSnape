@@ -1,7 +1,25 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/computer-vision/nckh/analyze-data/","title":"Analyze data","pinned":"false","tags":["NCKH"]}
+updated:
+  - 2025-02-28T17:06:22+07:00
+  - 2025-02-28T17:05:39+07:00
+  - 2025-02-28T16:59:45+07:00
+  - 2025-02-28T16:58:55+07:00
+  - 2025-02-28T16:57:20+07:00
+  - 2025-02-28T16:56:07+07:00
+  - 2025-02-28T16:54:29+07:00
+  - 2025-02-28T16:53:54+07:00
+  - 2025-02-28T16:52:39+07:00
+  - 2025-11-22 21:37:27
+created: 2025-02-28T16:52:28
+title: Analyze data
+tags:
+  - NCKH
+append_modified_update: 
+dg-publish: true
+dg-home: 
+dg-pinned: "false"
+aliases: 
 ---
-
 # Analyze
 
 Dưới đây là phân tích data raw

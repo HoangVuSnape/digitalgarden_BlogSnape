@@ -1,7 +1,17 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/nlp/rerank-embedding-model/","title":"Rerank_EmbeddingModel","pinned":"false","tags":["nlp"]}
+created: 2025-02-25T16:40:08
+updated:
+  - 2025-02-25T16:40:18+07:00
+  - 2025-11-22 21:37:27
+dg-publish: true
+dg-home: 
+tags:
+  - nlp
+title: Rerank_EmbeddingModel
+append_modified_update: 
+dg-pinned: "false"
+aliases: 
 ---
-
 
 # Rerank
 Việc **rerank** sau khi đã lấy kết quả tìm kiếm (như trong trường hợp bạn đã tìm được 5 kết quả tốt nhất dựa trên cosine similarity) có thể là **cần thiết** hoặc **không cần thiết**, tùy thuộc vào mục tiêu và yêu cầu cụ thể của bài toán bạn đang giải quyết.
