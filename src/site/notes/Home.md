@@ -45,18 +45,18 @@ _Các kiến thức về phát triển cá nhân, định hướng tinh thần, 
 
 ## 📝 Các Bài Viết Mới Nhất
 
-| Note Name                                                                                                          | Last Updated                 | Links |
-| ------------------------------------------------------------------------------------------------------------------ | ---------------------------- | ----- |
-| [[Home\|Home]]                                                                                                  | 12:20 AM - November 23, 2025 | 0     |
-| [[Knowledge/04_Life_Management/Books/7.5 Writing guaranteed\|7.5 Writing guaranteed]]                           | 11:48 PM - November 22, 2025 | 1     |
-| [[Knowledge/04_Life_Management/ShortLesson/Những câu nói hay 2025\|Những câu nói hay 2025]]                     | 10:20 PM - November 22, 2025 | 1     |
-| [[Knowledge/04_Life_Management/ShortLesson/6. Ma trận eisenhower\|6. Ma trận eisenhower]]                       | 10:20 PM - November 22, 2025 | 0     |
-| [[Knowledge/04_Life_Management/ShortLesson/2. Hippo - Motivation\|2. Hippo - Motivation]]                       | 10:20 PM - November 22, 2025 | 1     |
-| [[Knowledge/03_Career_Center/Interview_Prep/Tìm hiểu đọc CV\|Tìm hiểu đọc CV]]                                  | 10:18 PM - November 22, 2025 | 0     |
-| [[Knowledge/03_Career_Center/Soft_Skills/Marketing - generate image, video\|Marketing - generate image, video]] | 10:17 PM - November 22, 2025 | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Sumary paper\|Sumary paper]]                                    | 10:12 PM - November 22, 2025 | 2     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Knowledge Graph\|Knowledge Graph]]                              | 10:12 PM - November 22, 2025 | 3     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Explainable AI\|Explainable AI]]                                | 10:12 PM - November 22, 2025 | 1     |
+| Note Name                                                                                                                                               | Last Updated                 | Links |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ----- |
+| [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Docker_Gitlab/Docker_257_Inno\|Docker_257_Inno]]                                                       | 12:24 AM - November 23, 2025 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Jmeter_Testing/Jmeter\|Jmeter]]                                                                        | 12:23 AM - November 23, 2025 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/Hiểu về lộ trình tìm hiểu về chứng chỉ cloud\|Hiểu về lộ trình tìm hiểu về chứng chỉ cloud]] | 12:22 AM - November 23, 2025 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/Gate way, proxy, GRPC\|Gate way, proxy, GRPC]]                                               | 12:22 AM - November 23, 2025 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/AWS - Mì AI\|AWS - Mì AI]]                                                                   | 12:22 AM - November 23, 2025 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/AWS\|AWS]]                                                                                   | 12:22 AM - November 23, 2025 | 0     |
+| [[Home\|Home]]                                                                                                                                       | 12:20 AM - November 23, 2025 | 0     |
+| [[Knowledge/04_Life_Management/Books/7.5 Writing guaranteed\|7.5 Writing guaranteed]]                                                                | 11:48 PM - November 22, 2025 | 1     |
+| [[Knowledge/04_Life_Management/ShortLesson/Những câu nói hay 2025\|Những câu nói hay 2025]]                                                          | 10:20 PM - November 22, 2025 | 1     |
+| [[Knowledge/04_Life_Management/ShortLesson/6. Ma trận eisenhower\|6. Ma trận eisenhower]]                                                            | 10:20 PM - November 22, 2025 | 0     |
 
 { .block-language-dataview}
 
