@@ -79,10 +79,10 @@ Tuần tới
 
 ## Questions
 - Thắc mắc về cách setup database.
-	- ![](/img/user/assets/images/Knowledge/📂 01_Projects/KLTN/IMG-20251122205459219.png)
+	- ![](/img/user/assets/images/Knowledge/01_Projects/KLTN/IMG-20251122205459219.png)
 	- nó là những câu nhỏ
 	- Nhưng về data của mình thì có ổn không? thầy có kinh nghiệm không ạ
-		- ![](/img/user/assets/images/Knowledge/📂 01_Projects/KLTN/IMG-20251122205459628.png)
+		- ![](/img/user/assets/images/Knowledge/01_Projects/KLTN/IMG-20251122205459628.png)
 		- ![](/img/user/assets/images/Knowledge/01_Projects/KLTN/IMG-20251122205936377.png)
 
 Trong quá trình em tìm hiểu và tham khảo
