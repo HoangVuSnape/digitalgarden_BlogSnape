@@ -259,8 +259,8 @@ python orchestrator.py
 - [[Knowledge/01_Projects/NCKH/OAI/Tập huấn OAI\|Tập huấn OAI]]
 - [[Knowledge/01_Projects/KLTN/Data\|Data]]
 - [[Knowledge/01_Projects/KLTN/Report/18.5\|18.5]]
-- [[Knowledge/01_Projects/ProjectCNTT/Project Information Technology\|Project Information Technology]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/Docker\|Docker]]
+- [[Knowledge/01_Projects/ProjectCNTT/Project Information Technology\|Project Information Technology]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/MCP & A2A\|MCP & A2A]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/MCP\|MCP]]
 - [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/MLoops\|MLoops]]
@@ -369,7 +369,6 @@ python orchestrator.py
 - [[Knowledge/04_Life_Management/Journey/Đà Lạt 2025\|Đà Lạt 2025]]
 - [[Knowledge/04_Life_Management/Books/7.5 Writing guaranteed\|7.5 Writing guaranteed]]
 - [[DailyNote/2025-11-22 Week 47 Day 6\|2025-11-22 Week 47 Day 6]]
-- [[Home\|Home]]
 
 { .block-language-dataview}
 
