@@ -1,29 +1,7 @@
 ---
-date:
-created: 2025-02-21T15:14
-updated:
-  - 2025-11-22T21:46:17+07:00
-  - 2025-05-10T12:22:47+07:00
-  - 2025-03-23T18:10:18+07:00
-  - 2025-03-23T15:53:31+07:00
-  - 2025-03-23T15:52:36+07:00
-  - 2025-03-23T15:51:16+07:00
-  - 2025-02-28T14:26:21+07:00
-  - 2025-02-28T14:17:11+07:00
-  - 2025-02-25T17:09:10+07:00
-  - 2025-02-25T17:06:26+07:00
-  - 2025-02-25T17:05:47+07:00
-  - 2025-02-25T14:38:25+07:00
-  - 2025-02-23T23:07:44+07:00
-dg-publish: true
-dg-home:
-tags:
-title: Project CNTT
-append_modified_update:
-aliases:
-  - RAG Advance
-dg-pinned: "true"
+{"dg-publish":true,"permalink":"/knowledge/01-projects/project-cntt/project-information-technology/","title":"Project CNTT","pinned":"true"}
 ---
+
 # Guiding assistant for Vietnamese university admissions powered by Advanced RAG
 The University Admission Assistant is an AI-powered system designed to support admission inquiries for 15 universities in Ho Chi Minh City. The system leverages Retrieval-Augmented Generation (RAG) techniques to enhance query responses by integrating structured data retrieval with generative AI models. This ensures accurate and context-aware answers to users' admission-related questions.
 
