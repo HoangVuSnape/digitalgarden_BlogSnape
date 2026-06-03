@@ -25,6 +25,9 @@ Embedding
 # Paper
 - [connectedpapers](https://www.connectedpapers.com/)
 - NotebookLM
+- [ACL Anthology](https://aclanthology.org/)
+- [Trending Papers - Hugging Face](https://huggingface.co/papers/trending)
+- P
 
 
 https://langfuse.com/guides/cookbook/integration_langgraph#example-1-simple-chat-app-with-langgraph 

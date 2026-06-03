@@ -2,6 +2,12 @@
 {"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/agent/model-retrieval-and-vlm-localization/","title":"ModelRetrieval VLM Localization","pinned":"false"}
 ---
 
+# Link 
+- [How to choose the right embedding model for your RAG application? | by Vivedha Elango | Level Up Coding](https://levelup.gitconnected.com/how-to-choose-the-right-embedding-model-for-your-rag-application-44e30876d382)
+- 
+
+
+
 Các câu hỏi: quantization của nó, nó được train như thế nào
 
 # huyydangg/DEk21_hcmute_embedding
