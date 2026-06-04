@@ -47,6 +47,7 @@ _Các kiến thức về phát triển cá nhân, định hướng tinh thần, 
 
 | Note Name                                                                                                                                    | Last Updated                | Links |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | ----- |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Gemma - 12b\|Gemma - 12b]]                                                                   | 3:16 PM - June 04, 2026     | 0     |
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/MOE_V2\|MOE_V2]]                                                                             | 4:08 PM - June 03, 2026     | 0     |
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Reinforcement Learning Human Feedback - RLHF\|Reinforcement Learning Human Feedback - RLHF]] | 8:47 AM - May 10, 2026      | 0     |
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Mixture Of Experts\|Mixture Of Experts]]                                                     | 8:22 PM - April 27, 2026    | 0     |
@@ -56,7 +57,6 @@ _Các kiến thức về phát triển cá nhân, định hướng tinh thần, 
 | [[Home\|Home]]                                                                                                                            | 3:35 PM - March 02, 2026    | 0     |
 | [[Knowledge/05_Collections/Collections\|Collections]]                                                                                     | 9:23 PM - February 11, 2026 | 0     |
 | [[Knowledge/01_Projects/NCKH/NCKH\|NCKH]]                                                                                                 | 9:32 PM - February 10, 2026 | 0     |
-| [[Knowledge/01_Projects/NCKH/Analyze data\|Analyze data]]                                                                                 | 9:32 PM - February 10, 2026 | 0     |
 
 { .block-language-dataview}
 
