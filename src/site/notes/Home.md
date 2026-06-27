@@ -45,18 +45,18 @@ _Các kiến thức về phát triển cá nhân, định hướng tinh thần, 
 
 ## 📝 Các Bài Viết Mới Nhất
 
-| Note Name                                                                                                                                    | Last Updated                | Links |
-| -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | ----- |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Gemma - 12b\|Gemma - 12b]]                                                                   | 3:16 PM - June 04, 2026     | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/MOE_V2\|MOE_V2]]                                                                             | 4:08 PM - June 03, 2026     | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Reinforcement Learning Human Feedback - RLHF\|Reinforcement Learning Human Feedback - RLHF]] | 8:47 AM - May 10, 2026      | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Mixture Of Experts\|Mixture Of Experts]]                                                     | 8:22 PM - April 27, 2026    | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Fine tune\|Fine tune]]                                                                       | 3:54 PM - April 24, 2026    | 1     |
-| [[Knowledge/01_Projects/ProjectCNTT/Project Information Technology\|Project Information Technology]]                                      | 3:21 PM - March 05, 2026    | 2     |
-| [[Knowledge/04_Life_Management/ShortLesson/The 12 Week Year\|The 12 Week Year]]                                                           | 4:40 PM - March 02, 2026    | 1     |
-| [[Home\|Home]]                                                                                                                            | 3:35 PM - March 02, 2026    | 0     |
-| [[Knowledge/05_Collections/Collections\|Collections]]                                                                                     | 9:23 PM - February 11, 2026 | 0     |
-| [[Knowledge/01_Projects/NCKH/NCKH\|NCKH]]                                                                                                 | 9:32 PM - February 10, 2026 | 0     |
+| Note Name                                                                                                                                                                                                                                                              | Last Updated             | Links |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ----- |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/LORA_QLORA_PARAMESTER\|LORA_QLORA_PARAMESTER]]                                                                                                                                                                         | 3:08 PM - June 27, 2026  | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Các thuật toán O-LoRA, N-LoRA, MoLA, SLIM  nền tảng regularization constraint và triển khai thực tế (1) 1\|Các thuật toán O-LoRA, N-LoRA, MoLA, SLIM  nền tảng regularization constraint và triển khai thực tế (1) 1]] | 3:08 PM - June 27, 2026  | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Gemma - 12b\|Gemma - 12b]]                                                                                                                                                                                             | 3:17 PM - June 04, 2026  | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/MOE_V2\|MOE_V2]]                                                                                                                                                                                                       | 4:08 PM - June 03, 2026  | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Reinforcement Learning Human Feedback - RLHF\|Reinforcement Learning Human Feedback - RLHF]]                                                                                                                           | 8:47 AM - May 10, 2026   | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Mixture Of Experts\|Mixture Of Experts]]                                                                                                                                                                               | 8:22 PM - April 27, 2026 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Fine tune\|Fine tune]]                                                                                                                                                                                                 | 3:54 PM - April 24, 2026 | 0     |
+| [[Knowledge/01_Projects/ProjectCNTT/Project Information Technology\|Project Information Technology]]                                                                                                                                                                | 3:21 PM - March 05, 2026 | 2     |
+| [[Knowledge/04_Life_Management/ShortLesson/The 12 Week Year\|The 12 Week Year]]                                                                                                                                                                                     | 4:40 PM - March 02, 2026 | 1     |
+| [[Home\|Home]]                                                                                                                                                                                                                                                      | 3:35 PM - March 02, 2026 | 0     |
 
 { .block-language-dataview}
 
