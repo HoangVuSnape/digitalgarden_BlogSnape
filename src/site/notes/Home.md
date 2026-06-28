@@ -47,6 +47,7 @@ _Các kiến thức về phát triển cá nhân, định hướng tinh thần, 
 
 | Note Name                                                                                                                                                                                                                                                              | Last Updated             | Links |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ----- |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Lora và R\|Lora và R]]                                                                                                                                                                                                 | 4:16 PM - June 27, 2026  | 0     |
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/LORA_QLORA_PARAMESTER\|LORA_QLORA_PARAMESTER]]                                                                                                                                                                         | 3:08 PM - June 27, 2026  | 0     |
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Các thuật toán O-LoRA, N-LoRA, MoLA, SLIM  nền tảng regularization constraint và triển khai thực tế (1) 1\|Các thuật toán O-LoRA, N-LoRA, MoLA, SLIM  nền tảng regularization constraint và triển khai thực tế (1) 1]] | 3:08 PM - June 27, 2026  | 0     |
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Gemma - 12b\|Gemma - 12b]]                                                                                                                                                                                             | 3:17 PM - June 04, 2026  | 0     |
@@ -56,7 +57,6 @@ _Các kiến thức về phát triển cá nhân, định hướng tinh thần, 
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Fine tune\|Fine tune]]                                                                                                                                                                                                 | 3:54 PM - April 24, 2026 | 0     |
 | [[Knowledge/01_Projects/ProjectCNTT/Project Information Technology\|Project Information Technology]]                                                                                                                                                                | 3:21 PM - March 05, 2026 | 2     |
 | [[Knowledge/04_Life_Management/ShortLesson/The 12 Week Year\|The 12 Week Year]]                                                                                                                                                                                     | 4:40 PM - March 02, 2026 | 1     |
-| [[Home\|Home]]                                                                                                                                                                                                                                                      | 3:35 PM - March 02, 2026 | 0     |
 
 { .block-language-dataview}
 
