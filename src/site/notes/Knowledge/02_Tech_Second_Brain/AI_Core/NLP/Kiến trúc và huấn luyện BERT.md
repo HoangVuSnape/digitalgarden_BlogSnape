@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/kien-truc-va-huan-luyen-bert/","title":"Kiến trúc và huấn luyện BERT","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/kien-truc-va-huan-luyen-bert/","title":"Kiến trúc và huấn luyện BERT","pinned":"false","tags":["type/course","topic/llm","status/stable"]}
 ---
 
 # CHƯƠNG 1 – Kiến trúc và huấn luyện BERT
@@ -55,10 +55,13 @@ Tại thời điểm này, vectơ K hoạt động như một khóa đại diệ
 ![](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/AI_Core/NLP/IMG-20251122214721418.png)
 #### 1.2.3.2 Multi-head attention
 - Multi-Head Attention trong Transformer cho phép mô hình học và tích hợp thông tin từ nhiều khía cạnh khác nhau của chuỗi đầu vào một cách hiệu quả. Thay vì thực hiện một phép tính attention duy nhất, Multi-Head Attention chia quá trình này thành nhiều **"đầu" attention song song.** Các truy vấn (query), khóa (key) và giá trị (value) được chiếu tuyến tính thành nhiều không gian khác nhau bằng các trọng số khác nhau, tạo ra nhiều phiên bản. Trên mỗi phiên bản này, hàm Attention được thực hiện song song, thu được các giá trị đầu ra. Các đầu ra này sau đó được nối lại và chiếu tuyến tính một lần nữa để tạo ra giá trị đầu ra cuối cùng.
-![](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/AI_Core/NLP/IMG-20251122214721464.png)
+	- Self là nhìn chính tôi
+	- mulit-head : nhìn nhiều góc độ khác nhau
+![561](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/AI_Core/NLP/IMG-20251122214721464.png)
 ![](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/AI_Core/NLP/IMG-20251122214721496.png)
 ### 1.2.4 Residuals
-Residuals, hay còn gọi là kết nối bỏ qua (skip connections), là một kỹ thuật được sử dụng trong nhiều mô hình học sâu, bao gồm cả Transformer. Ý tưởng chính của kỹ thuật này là cho phép thông tin từ đầu vào đi qua các lớp (layers) mà không bị biến đổi, bằng cách thêm đầu vào trực tiếp vào đầu ra của lớp đó.
+Residuals, hay còn gọi là kết nối bỏ qua **(skip connections),** là một kỹ thuật được sử dụng trong nhiều mô hình học sâu, bao gồm cả Transformer. Ý tưởng chính của kỹ thuật này là cho phép thông tin từ đầu vào đi qua các lớp (layers) mà không bị biến đổi, bằng cách thêm đầu vào trực tiếp vào đầu ra của lớp đó.
+- **Add (Đường đứt nét):** Đây gọi là _Kết nối tắt (Residual Connection)_.
 
 Cụ thể, đầu vào (x) được thêm vào đầu ra của lớp attention hoặc lớp feed-forward network, và kết quả này được đưa qua một lớp Chuẩn hóa lớp (Layer Normalization). Công thức tổng quát cho quá trình này như sau:
 ![](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/AI_Core/NLP/IMG-20251122214721528.png)
@@ -71,6 +74,21 @@ Cụ thể, đầu vào (x) được thêm vào đầu ra của lớp attention 
 - Lợi ích:
 	-  **Giữ Lại Thông Tin Gốc**: Bằng cách thêm trực tiếp đầu vào x vào đầu ra SubLayer(x), thông tin gốc từ đầu vào được giữ lại và truyền qua các lớp, giúp mô hình học được các đặc trưng quan trọng từ đầu vào một cách hiệu quả hơn.
 	- **Giảm Gradient Vanishing**: Residuals giúp giảm vấn đề biến mất gradient trong quá trình huấn luyện các mô hình sâu, giúp cải thiện hiệu quả học tập và tăng tốc độ hội tụ.
+
+---
+1. Áp dụng bên trong khối ENCODER
+
+Một khối Encoder có 2 lớp con (sub-layers).
+
+- **Ở lớp con thứ nhất (Self-Attention):** Dữ liệu đi qua bộ phận chú ý. Lúc này, $\text{Sublayer}(X)$ chính là hàm Attention.
+    
+    - Công thức thực tế sẽ là: $X_{out1} = \text{LayerNorm}(X + \text{MultiHeadAttention}(X, X, X))$
+        
+- **Ở lớp con thứ hai (Feed Forward):** Dữ liệu tiếp tục đi qua mạng nơ-ron tiến. Lúc này, $\text{Sublayer}$ chính là hàm FFN (với đầu vào là kết quả của bước trước).
+    
+    - Công thức thực tế sẽ là: $X_{out2} = \text{LayerNorm}(X_{out1} + \text{FFN}(X_{out1}))$
+
+
 ### 1.2.5 Feed forward
 - Ngoài các lớp con chú ý, mỗi lớp trong bộ mã hóa và bộ giải mã của chúng tôi chứa một mạng chuyển tiếp nguồn cấp dữ liệu được kết nối đầy đủ, được áp dụng cho từng vị trí riêng biệt và giống hệt nhau. Điều này bao gồm hai phép biến đổi tuyến tính với kích hoạt ReLU ở giữa.
 - ![](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/AI_Core/NLP/IMG-20251122214721561.png)
@@ -80,12 +98,12 @@ Cụ thể, đầu vào (x) được thêm vào đầu ra của lớp attention 
 
 ### 1.2.6 Decoder
 #### 1.2.6.1 Masked Multi-head Attention
-Giả sử bạn muốn Transformers thực hiện bài toán dịch Anh-Pháp, thì công việc của Bộ giải mã là giải mã thông tin từ Bộ mã hóa và tạo ra từng từ tiếng Pháp dựa trên PREVIOUS WORDS. Vì vậy, nếu chúng ta sử dụng Multi-head attention trên toàn bộ câu như trong Encoder, Decoder sẽ "nhìn thấy" từ tiếp theo mà nó cần dịch (Nó sẽ nhìn thấy từ tiếp theo mà không có học học để dịch ra). Để ngăn chặn điều đó, khi Bộ giải mã dịch sang từ từ tôi, phần sau của câu tiếng Pháp sẽ bị che và Bộ giải mã sẽ chỉ được phép "xem" phần mà nó đã dịch trước đó.
+Giả sử bạn muốn Transformers thực hiện bài toán dịch Anh-Pháp, thì công việc của Bộ giải mã là giải mã thông tin từ Bộ mã hóa và tạo ra từng từ tiếng Pháp dựa trên **PREVIOUS WORDS.** Vì vậy, nếu chúng ta sử dụng Multi-head attention trên toàn bộ câu như trong Encoder, Decoder sẽ "nhìn thấy" từ tiếp theo mà nó cần dịch (Nó sẽ nhìn thấy từ tiếp theo mà không có học học để dịch ra). Để ngăn chặn điều đó, khi Bộ giải mã dịch sang từ từ tôi, phần sau của câu tiếng Pháp **sẽ bị che và Bộ giải mã sẽ chỉ được phép "xem" phần mà nó đã dịch trước đó.**
 ![](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/AI_Core/NLP/IMG-20251122214721776.png)
 1.2.6.2 Decode process
-Quá trình giải mã về cơ bản giống như mã hóa, ngoại trừ Bộ giải mã giải mã từng từ một và đầu vào của Bộ giải mã (câu tiếng Pháp) được che giấu. Sau khi đầu vào ẩn được truyền qua **sub-layer#1** của Bộ giải mã, nó sẽ không còn nhân với 3 ma trận trọng số để tạo ra Q, K, V mà sẽ chỉ nhân với 1 ma trận trọng lượng WQ. K và V được lấy từ Bộ mã hóa cùng với Q từ Masked multi-head attention và được đưa vào các sub-layers # 2 và # 3 tương tự như Bộ mã hóa. Cuối cùng, các vectơ được đẩy vào lớp tuyến tính (là một mạng được kết nối đầy đủ) tiếp theo là Softmax để tạo ra xác suất của từ tiếp theo
+Quá trình giải mã về cơ bản giống như mã hóa, ngoại trừ Bộ giải mã giải mã từng từ một và đầu vào của Bộ giải mã (câu tiếng Pháp) được che giấu. Sau khi đầu vào ẩn được truyền qua **sub-layer#1** của Bộ giải mã, nó sẽ không còn nhân với 3 ma trận trọng số để tạo ra Q, K, V mà sẽ chỉ nhân với 1 ma trận trọng lượng WQ. K và V được lấy từ Bộ mã hóa cùng với Q từ Masked multi-head attention và được đưa vào các sub-layers # 2 và # 3 tương tự như Bộ mã hóa. Cuối cùng, các vectơ được đẩy vào lớp tuyến tính (là một mạng được kết nối đầy đủ) tiếp theo là Softmax để tạo ra xác suất của từ tiếp theo.
 
-Hai hình dưới đây mô tả trực quan quá trình mã hóa và giải mã Transformers
+Hai hình dưới đây mô tả trực quan quá trình mã hóa và giải mã Transformers. 
 ![](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/AI_Core/NLP/IMG-20251122214721816.png)
 
 ## 1.3 Cấu trúc Bert
@@ -156,7 +174,7 @@ Mô hình RoBERTa (A Robustly Optimized BERT) là phiên bản cải tiến củ
 ![](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/AI_Core/NLP/IMG-20251122214722548.png)
 So với BERT, về quy mô mô hình, khả năng tính toán và dữ liệu, đã có những cải tiến sau:
 -  Thông số mô hình lớn hơn (dựa trên thời gian huấn luyện được cung cấp trong bài báo, mô hình sử dụng 1024 GPU V100 để huấn luyện trong thời gian 1 ngày).
-- Kích thước Batch size lớn hơn. ReBERTa sử dụng kích thước batch size lớn hơn trong quá trình đào tạo, đã thử với kích thước batch từ 256 đến 8000. Ppl là độ phức tạp(perlexity)
+- Kích thước Batch size lớn hơn. ReBERTa sử dụng kích thước batch size lớn hơn trong quá trình đào tạo, đã thử với kích thước batch từ 256 đến 8000. Ppl là độ phức tạp(perlexity).
 - ![](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/AI_Core/NLP/IMG-20251122214722593.png)
 - ![](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/AI_Core/NLP/IMG-20251122214722671.png)
 - Nhiều training data hơn (bao gồm 160GB plain text CC-NEWS. Trước đó BERT sử dụng 16GB dataset BookCorpus và Wikipedia tiếng Anh để training).

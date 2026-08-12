@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/jmeter-testing/jmeter/","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/jmeter-testing/jmeter/","pinned":"false","tags":["type/howto","topic/testing","status/stable"]}
 ---
 
 Đây là nới mình học để test server. 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/03-career-center/soft-skills/marketing-generate-image-video/","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/03-career-center/soft-skills/marketing-generate-image-video/","pinned":"false","tags":["type/links","status/draft"]}
 ---
 
 # Note

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/03-career-center/soft-skills/tim-hieu-ve-cach-nghien-cuu/","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/03-career-center/soft-skills/tim-hieu-ve-cach-nghien-cuu/","pinned":"false","tags":["type/links","topic/research-method","status/stable"]}
 ---
 
 # Link collection

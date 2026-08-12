@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/reinforcement-learning-human-feedback-rlhf/","title":"Reinforcement Learning Human Feedback - RLHF","pinned":"false","tags":["#nlp"]}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/reinforcement-learning-human-feedback-rlhf/","title":"Reinforcement Learning Human Feedback - RLHF","pinned":"false","tags":["type/course","topic/rlhf","topic/llm","status/stable"]}
 ---
 
 ## 3.1 Mô hình GPT:

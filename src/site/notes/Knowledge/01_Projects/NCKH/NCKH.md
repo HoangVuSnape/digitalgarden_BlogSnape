@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/01-projects/nckh/nckh/","title":"NCKH","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/01-projects/nckh/nckh/","title":"NCKH","pinned":"false","tags":["type/report","topic/computer-vision","topic/xai","status/archive"]}
 ---
 
 # QA

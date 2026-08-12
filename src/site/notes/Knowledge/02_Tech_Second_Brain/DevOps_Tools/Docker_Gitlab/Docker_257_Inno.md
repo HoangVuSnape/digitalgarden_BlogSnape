@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/docker-gitlab/docker-257-inno/","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/docker-gitlab/docker-257-inno/","pinned":"false","tags":["type/report","topic/docker","status/archive"]}
 ---
 
 # Link

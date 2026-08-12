@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/agent/mcp-and-a2-a/","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/agent/mcp-and-a2-a/","pinned":"false","tags":["type/howto","topic/agent-mcp","status/stable"]}
 ---
 
 # Link

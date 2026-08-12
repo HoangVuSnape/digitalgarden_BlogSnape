@@ -39,6 +39,11 @@ updated:
   - 2025-11-22 21:37:26
 title: Explainable my system
 tags:
+  - type/report
+  - topic/xai
+  - topic/rag
+  - status/draft
+  - triage/expand
 append_modified_update:
 dg-publish: true
 dg-home:
@@ -50,7 +55,7 @@ Link các tệp liên quan đến việc phân tích cần đọc
 	- [Explainability for NLP](Explainability%20for%20NLP.md)
 	- [Explainable AI](Explainable%20AI.md)
 	- [Knowledge Graph](Knowledge%20Graph.md)
-	- [Sumary paper](Sumary%20paper.md)
+	- [Sumary paper](Summary%20paper.md)
 
 - Data
 	- [Data](../../../01_Projects/KLTN/Data.md)

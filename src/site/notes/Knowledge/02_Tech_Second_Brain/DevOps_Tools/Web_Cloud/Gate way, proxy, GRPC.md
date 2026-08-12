@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/web-cloud/gate-way-proxy-grpc/","title":"Gate way, proxy,..","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/web-cloud/gate-way-proxy-grpc/","title":"Gate way, proxy,..","pinned":"false","tags":["type/howto","topic/web-dev","status/stable"]}
 ---
 
 # Link

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/web-cloud/hieu-ve-lo-trinh-tim-hieu-ve-chung-chi-cloud/","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/web-cloud/hieu-ve-lo-trinh-tim-hieu-ve-chung-chi-cloud/","pinned":"false","tags":["type/links","topic/cloud-aws","status/draft"]}
 ---
 
 # Link

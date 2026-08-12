@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/03-career-center/interview-prep/tim-hieu-doc-cv/","title":"Tìm hiểu đọc CV","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/03-career-center/interview-prep/tim-hieu-doc-cv/","title":"Tìm hiểu đọc CV","pinned":"false","tags":["type/howto","topic/cv-profile","topic/interview","status/draft"]}
 ---
 
 Ở đây là nơi mình phân tích CV và chốt ra lỗi sai của từng cái và qua đó giúp mình hiểu thêm về CV. 

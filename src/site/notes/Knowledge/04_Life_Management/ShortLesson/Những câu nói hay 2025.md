@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/04-life-management/short-lesson/nhung-cau-noi-hay-2025/","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/04-life-management/short-lesson/nhung-cau-noi-hay-2025/","pinned":"false","tags":["type/reflection","topic/mindset","status/stable"]}
 ---
 
 

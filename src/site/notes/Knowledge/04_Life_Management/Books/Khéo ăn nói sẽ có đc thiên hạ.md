@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/04-life-management/books/kheo-an-noi-se-co-dc-thien-ha/","title":"Khéo ăn nói sẽ có đc thiên hạ","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/04-life-management/books/kheo-an-noi-se-co-dc-thien-ha/","title":"Khéo ăn nói sẽ có đc thiên hạ","pinned":"false","tags":["type/book","topic/mindset","status/stable"]}
 ---
 
 

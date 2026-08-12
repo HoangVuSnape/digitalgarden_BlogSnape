@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/04-life-management/books/tu-duy-nguoc/","title":"Tư duy ngược","pinned":"false","tags":["books"]}
+{"dg-publish":true,"permalink":"/knowledge/04-life-management/books/tu-duy-nguoc/","title":"Tư duy ngược","pinned":"false","tags":["type/book","topic/mindset","status/stable"]}
 ---
 
  

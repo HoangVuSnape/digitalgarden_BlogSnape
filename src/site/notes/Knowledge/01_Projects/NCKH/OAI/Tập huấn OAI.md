@@ -23,7 +23,10 @@ updated:
   - 2025-11-22 21:37:27
 created: 2025-03-12T19:20:49
 title: Tập huấn OAI
-tags: 
+tags:
+  - type/meeting
+  - topic/computer-vision
+  - status/archive
 append_modified_update: 
 dg-publish: true
 dg-home: 

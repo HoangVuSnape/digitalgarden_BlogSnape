@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/01-projects/project-cntt/project-information-technology/","title":"Project CNTT","pinned":"true"}
+{"dg-publish":true,"permalink":"/knowledge/01-projects/project-cntt/project-information-technology/","title":"Project CNTT","pinned":"true","tags":["type/report","topic/rag","topic/evaluation","status/archive"]}
 ---
 
 # Guiding assistant for Vietnamese university admissions powered by Advanced RAG

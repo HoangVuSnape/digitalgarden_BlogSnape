@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/fundamentals/chuoi-thoi-gian-time-series/","title":"Chuỗi thời gian - Time series","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/fundamentals/chuoi-thoi-gian-time-series/","title":"Chuỗi thời gian - Time series","pinned":"false","tags":["type/course","topic/time-series","status/stable"]}
 ---
 
 # CHƯƠNG 1 – Giới thiệu về chuỗi thời gian

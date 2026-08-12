@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/01-projects/master-2026/draft-viet-bai-du-thi-thac-si/","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/01-projects/master-2026/draft-viet-bai-du-thi-thac-si/","pinned":"false","tags":["type/report","topic/rag","topic/legal-ai","status/archive"]}
 ---
 
 # Note

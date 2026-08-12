@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/fundamentals/rag-advance/","title":"RAG Advance","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/fundamentals/rag-advance/","title":"RAG Advance","pinned":"false","tags":["type/links","topic/rag","status/draft"]}
 ---
 
 # Introduction

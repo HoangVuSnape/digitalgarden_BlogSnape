@@ -41,6 +41,9 @@ updated:
   - 2025-11-22 21:37:27
 title: Explainability for Natural Language Processing
 tags:
+  - type/paper
+  - topic/xai
+  - status/stable
 append_modified_update:
 dg-publish: true
 dg-home:
@@ -51,7 +54,7 @@ aliases:
 - [Explainability for Natural Language Processing](https://www.youtube.com/watch?v=3tnrGe_JA0s&t=54s)
 - [XAINLP2020](https://xainlp2020.github.io/xainlp/home)
 - [A Survey of the State of Explainable AI for Natural Language Processing](https://arxiv.org/pdf/2010.00711)
-- [Sumary paper](Sumary%20paper.md)
+- [Sumary paper](Summary%20paper.md)
 # Note 
 
 - ![](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/IMG-20251122213917390.png)

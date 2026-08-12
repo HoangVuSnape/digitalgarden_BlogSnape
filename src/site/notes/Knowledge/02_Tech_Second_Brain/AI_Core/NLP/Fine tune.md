@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/fine-tune/","title":"Fine tune","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/fine-tune/","title":"Fine tune","pinned":"false","tags":["type/course","topic/fine-tune","topic/peft-lora","topic/llm","status/stable"]}
 ---
 
 ## 1.  Giới thiệu

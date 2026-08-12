@@ -53,6 +53,9 @@ updated:
 created: 2025-03-30T19:31:05
 title: Explainable AI
 tags:
+  - type/course
+  - topic/xai
+  - status/stable
 append_modified_update:
 dg-publish: true
 dg-home:

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/04-life-management/books/phuong-phap-hoc-simon/","title":"Phương pháp học Simon","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/04-life-management/books/phuong-phap-hoc-simon/","title":"Phương pháp học Simon","pinned":"false","tags":["type/book","topic/productivity","status/stable"]}
 ---
 
 # Table of contents

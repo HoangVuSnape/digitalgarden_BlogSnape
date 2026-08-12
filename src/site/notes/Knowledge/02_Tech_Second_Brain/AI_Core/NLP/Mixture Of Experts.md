@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/mixture-of-experts/","title":"Mixture Of Experts","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/mixture-of-experts/","title":"Mixture Of Experts","pinned":"false","tags":["type/paper","topic/moe","topic/llm","status/stable"]}
 ---
 
 # References

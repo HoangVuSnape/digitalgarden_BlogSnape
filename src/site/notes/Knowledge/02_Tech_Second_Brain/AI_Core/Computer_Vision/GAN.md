@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/computer-vision/gan/","title":"GAN","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/computer-vision/gan/","title":"GAN","pinned":"false","tags":["type/course","topic/computer-vision","status/stable"]}
 ---
 
 ## 2.1 Giới thiệu

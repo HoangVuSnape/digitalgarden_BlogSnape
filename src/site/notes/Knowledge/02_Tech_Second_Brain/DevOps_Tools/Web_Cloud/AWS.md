@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/web-cloud/aws/","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/web-cloud/aws/","pinned":"false","tags":["type/course","topic/cloud-aws","status/stable"]}
 ---
 
 # Link
@@ -11,6 +11,13 @@ Chào bạn, hình ảnh bạn cung cấp là đề cương của một khóa h�
 ### 1. Cơ bản về Cloud và AWS
 - **Cloud (Điện toán đám mây):** Là việc cung cấp các tài nguyên công nghệ thông tin (như máy chủ, lưu trữ, cơ sở dữ liệu, mạng) qua Internet theo mô hình "trả tiền theo mức sử dụng". Thay vì phải mua và quản lý cơ sở hạ tầng vật lý, bạn có thể thuê tài nguyên từ một nhà cung cấp như AWS.
 - **AWS (Amazon Web Services):** Là nền tảng điện toán đám mây toàn diện và được sử dụng rộng rãi nhất thế giới của Amazon. AWS cung cấp hơn 200 dịch vụ đầy đủ tính năng từ các trung tâm dữ liệu trên toàn cầu.
+- **Mô hình triển khai:** Public cloud, Private cloud, và Hybrid (kết hợp cả hai).
+- **IAM — Identity and Access Management:** dịch vụ quản lý danh tính và quyền truy cập.
+
+#### Root user và IAM user
+
+![](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/DevOps_Tools/Web_Cloud/IMG-20251122222351084.png)
+
 ### 2. AWS Global Infrastructure và chi tiết về Group, Roles và Policies
 - **AWS Global Infrastructure (Cơ sở hạ tầng toàn cầu của AWS):** Là mạng lưới các trung tâm dữ liệu của AWS trên khắp thế giới. Các thành phần chính bao gồm:
     - **Regions (Vùng):** Là các khu vực địa lý riêng biệt trên thế giới (ví dụ: us-east-1 ở Bắc Virginia, ap-southeast-1 ở Singapore).

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/docker-gitlab/docker/","title":"Docker","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/docker-gitlab/docker/","title":"Docker","pinned":"false","tags":["type/howto","topic/docker","status/stable"]}
 ---
 
 ![../../../../assets/images/Knowledge/02_Tech_Second_Brain/DevOps_Tools/Docker_Gitlab/IMG-20251123002641465.png](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/DevOps_Tools/Docker_Gitlab/IMG-20251123002641465.png)
@@ -129,4 +129,17 @@ Vì vậy optimize docker hay chương trình thì nên đặt những gì lên 
 - Nên thiết kế docker là những cái gì nên viết trước tại vì nó có cache để thay đổi- nó sẽ phải build lại
 - Nên xóa volumne docker compose down -v
 - Chạy 1 file docker thì sao. 
+
+# GitLab runner — Docker in Docker (DinD)
+
+- [Tạo Docker Image với Gitlab runner – Docker in Docker (DinD)](https://tel4vn.edu.vn/blog/phan-5-tao-docker-image-voi-gitlab-runner-docker-in-docker-dind/)
+- [CICD](https://www.youtube.com/watch?v=ptjmtckAIno)
+
+Gắn tags của runner để host tới máy ở dưới, để GitLab runner chạy được docker in docker. Nhớ kiểm tra version.
+
+Docker sẽ build các image rồi đẩy lên Docker Hub, sau đó kéo image về để run.
+
+Deploy cần kiến thức AWS và EC2 để lấy IP host ra public — phần này còn phải học thêm.
+
+Câu hỏi còn để ngỏ: docker production thực chất làm những gì?
 

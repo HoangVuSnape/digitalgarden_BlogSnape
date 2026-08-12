@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/rerank-embedding-model/","title":"Rerank_EmbeddingModel","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/rerank-embedding-model/","title":"Rerank_EmbeddingModel","pinned":"false","tags":["type/howto","topic/rag","topic/evaluation","status/stable"]}
 ---
 
 

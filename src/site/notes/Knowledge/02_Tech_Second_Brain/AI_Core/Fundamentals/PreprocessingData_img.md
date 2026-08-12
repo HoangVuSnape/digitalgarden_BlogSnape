@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/fundamentals/preprocessing-data-img/","title":"Preprocessing data","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/fundamentals/preprocessing-data-img/","title":"Preprocessing data","pinned":"false","tags":["type/howto","topic/computer-vision","status/stable"]}
 ---
 
 - Ở đây là những ý tưởng để mình xử lý preprocessing data

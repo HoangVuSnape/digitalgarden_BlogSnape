@@ -23,6 +23,12 @@ updated:
 created: 2025-04-26T22:53:01
 title: Knowledge Graph
 tags:
+  - type/course
+  - topic/knowledge-graph
+  - topic/graph-rag
+  - topic/rag
+  - status/stable
+  - triage/expand
 append_modified_update:
 dg-publish: true
 dg-home:

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/data-evaluation/","title":"Data evaluation","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/data-evaluation/","title":"Data evaluation","pinned":"false","tags":["type/howto","topic/evaluation","topic/rag","status/stable"]}
 ---
 
 
@@ -288,7 +288,6 @@ Chuẩn rồi 👍 mình thêm luôn **MAP (Mean Average Precision)** vào danh 
 
 ---
 
-👉 Bạn có muốn mình làm **một bảng tóm tắt gọn (Tên – Ý nghĩa – Khi cao nghĩa là gì – Ưu tiên cho use-case nào)** để bạn chèn thẳng vào slide không?
 # Đánh giá RAG với Evaluate Ragas
 
 ## 1. Giới thiệu về Evaluate Ragas
@@ -416,5 +415,3 @@ Hay đấy 👍 — với **RAGAS** (Retrieval-Augmented Generation Assessment S
     
 
 ---
-
-👉 Bạn có muốn mình làm một **bảng so sánh gọn (Tên – Ý nghĩa – Khi cao nghĩa là gì – Ví dụ)** giống như lúc mình làm cho IR, để đưa thẳng vào slide?

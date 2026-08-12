@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/data-enhance-scale-in-rag/","pinned":"false"}
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/data-enhance-scale-in-rag/","pinned":"false","tags":["type/howto","topic/rag","status/stable"]}
 ---
 
 # 🧩 Xây Dựng Bộ Dữ Liệu Chuẩn Cho Hệ Thống RAG: Hướng Dẫn Toàn Diện
@@ -174,5 +174,3 @@ _(Giữ nguyên link gốc, format dạng bullet để dễ click trong Markdown
     
 
 ---
-
-Bạn có muốn mình **xuất file `.md` hoàn chỉnh** (chuẩn indent, heading, link click được, sẵn sàng dùng trong Obsidian/VSCode) để bạn tải trực tiếp không?
