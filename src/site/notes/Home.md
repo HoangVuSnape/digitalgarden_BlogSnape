@@ -1,15 +1,7 @@
 ---
-dg-publish: true
-dg-home: true
-tags:
-  - gardenEntry
-dg-pinned: "true"
-updated:
-  - 2026-11-05T00:15:48+07:00
-  - 2026-07-10T00:00:00+07:00
-  - 2026-03-02T15:35:35+07:00
-  - 2025-11-23T00:20:32+07:00
+{"dg-publish":true,"permalink":"/home/","pinned":"true","tags":["gardenEntry","gardenEntry"]}
 ---
+
 
 # 🤖 Welcome to Snape's Digital Garden
 
@@ -106,7 +98,7 @@ Mạch nghiên cứu đang chạy:
 
 | Note Name                                                                                                                                  | Last Updated                 | Links |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- | ----- |
-| [[Home\|Home]]                                                                                                                          | 12:15 AM - November 05, 2026 | 0     |
+| [[Home\|Home]]                                                                                                                          | 12:19 AM - November 05, 2026 | 0     |
 | [[Knowledge/01_Projects/ProjectCNTT/Project Information Technology\|Project Information Technology]]                                    | 10:18 PM - November 04, 2026 | 2     |
 | [[Knowledge/05_Collections/Collections\|Collections]]                                                                                   | 10:06 PM - November 04, 2026 | 0     |
 | [[Knowledge/06_Temp/Mindset to planning Agentic Ai\|Mindset to planning Agentic Ai]]                                                    | 5:54 PM - November 04, 2026  | 0     |
