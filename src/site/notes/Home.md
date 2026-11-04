@@ -83,6 +83,7 @@ Toàn bộ vault được gắn tag theo 4 nhóm: `type/` (loại note), `topic/
 
 Mạch nghiên cứu đang chạy:
 
+- [[Knowledge/01_Projects/CD1_CD2_CD3/Note\|Note]]
 - [[Knowledge/01_Projects/CDNCTQ/presentation_script_v3\|presentation_script_v3]]
 - [[Knowledge/01_Projects/CD1_CD2_CD3/Save projects in research topics 1, 2, 3.\|Save projects in research topics 1, 2, 3.]]
 - [[Knowledge/05_Collections/Master Plan 2026_ Xu Hướng Data Science, Lộ Trình Agentic AI & LLMOps\|Master Plan 2026_ Xu Hướng Data Science, Lộ Trình Agentic AI & LLMOps]]
@@ -95,24 +96,23 @@ Mạch nghiên cứu đang chạy:
 - [[Knowledge/01_Projects/CDNCTQ/Note\|Note]]
 - [[Knowledge/01_Projects/CDNCTQ/DeepLearning/Gemma 4 - developer guide\|Gemma 4 - developer guide]]
 - [[Knowledge/01_Projects/CDNCTQ/ContinueRag_graphRag/Cách tính p, c và chỉ số CI\|Cách tính p, c và chỉ số CI]]
-- [[Knowledge/01_Projects/CD1_CD2_CD3/Note\|Note]]
 
 { .block-language-dataview}
 
 ## 📝 Các Bài Viết Mới Nhất
 
-| Note Name                                                                                                                                                | Last Updated                 | Links |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ----- |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/00-tu-dien-tu-khoa-lakehouse-ai\|00-tu-dien-tu-khoa-lakehouse-ai]]                           | 5:22 PM - November 04, 2026  | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/05-du-an-thuc-te-qa-chuyen-sau\|05-du-an-thuc-te-qa-chuyen-sau]]               | 4:32 PM - November 04, 2026  | 1     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Local-LLM/01-12-week-r-and-d-roadmap\|01-12-week-r-and-d-roadmap]]                           | 4:32 PM - November 04, 2026  | 1     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/06-chuyen-sau-kien-truc-du-an\|06-chuyen-sau-kien-truc-du-an]]                 | 4:19 PM - November 04, 2026  | 1     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/01-prerequisite-roadmap\|01-prerequisite-roadmap]]                             | 4:18 PM - November 04, 2026  | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/03-data-lakehouse\|03-data-lakehouse]]                                         | 1:39 PM - November 04, 2026  | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Local-LLM/02-gpu-inference-mechanics\|02-gpu-inference-mechanics]]                           | 12:35 AM - November 04, 2026 | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/04-deep-dive-lakehouse-semantic-layer\|04-deep-dive-lakehouse-semantic-layer]] | 12:35 AM - November 04, 2026 | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/02-what-is-lakehouse-2\|02-what-is-lakehouse-2]]                               | 12:35 AM - November 04, 2026 | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Data-Modeling/01-kimball-dimensional-modeling\|01-kimball-dimensional-modeling]]             | 12:35 AM - November 04, 2026 | 0     |
+| Note Name                                                                                                                                  | Last Updated                 | Links |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- | ----- |
+| [[Knowledge/01_Projects/ProjectCNTT/Project Information Technology\|Project Information Technology]]                                    | 10:18 PM - November 04, 2026 | 2     |
+| [[Knowledge/05_Collections/Collections\|Collections]]                                                                                   | 10:06 PM - November 04, 2026 | 0     |
+| [[Knowledge/06_Temp/Mindset to planning Agentic Ai\|Mindset to planning Agentic Ai]]                                                    | 5:54 PM - November 04, 2026  | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/00-tu-dien-tu-khoa-lakehouse-ai\|00-tu-dien-tu-khoa-lakehouse-ai]]             | 5:22 PM - November 04, 2026  | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/05-du-an-thuc-te-qa-chuyen-sau\|05-du-an-thuc-te-qa-chuyen-sau]] | 4:32 PM - November 04, 2026  | 1     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Local-LLM/01-12-week-r-and-d-roadmap\|01-12-week-r-and-d-roadmap]]             | 4:32 PM - November 04, 2026  | 1     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/06-chuyen-sau-kien-truc-du-an\|06-chuyen-sau-kien-truc-du-an]]   | 4:19 PM - November 04, 2026  | 1     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/01-prerequisite-roadmap\|01-prerequisite-roadmap]]               | 4:18 PM - November 04, 2026  | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/03-data-lakehouse\|03-data-lakehouse]]                           | 1:39 PM - November 04, 2026  | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Local-LLM/02-gpu-inference-mechanics\|02-gpu-inference-mechanics]]             | 12:35 AM - November 04, 2026 | 0     |
 
 { .block-language-dataview}
 

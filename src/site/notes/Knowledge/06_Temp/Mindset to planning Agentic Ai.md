@@ -101,12 +101,12 @@ Khi nhận một đề bài agentic AI, đừng nhảy ngay vào chọn model ha
 
 ### 6.2. Data & Tools
 
-| Câu hỏi | Ý nghĩa |
-|---|---|
-| **Cần internal/proprietary data không?** | Có → cần RAG (vector DB, retrieval); Không → chỉ dùng knowledge trong model |
-| **Cần persistent state/memory không?** | Có (nhớ lịch sử task, state dài hạn) → cần framework như LangGraph; Không → script đơn giản |
-| **Có bao nhiêu tool cần dùng?** | >20 tool → cân nhắc split multi-agent hoặc group theo domain; Ít tool → single agent OK |
-| **Tool surface đã define chưa?** (read/write API nào, credential gì) | Liệt kê rõ tool trước khi viết prompt; mỗi tool chỉ nên có quyền tối thiểu cần thiết |
+| Câu hỏi                                                              | Ý nghĩa                                                                                     |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Cần internal/proprietary data không?**                             | Có → cần RAG (vector DB, retrieval); Không → chỉ dùng knowledge trong model                 |
+| **Cần persistent state/memory không?**                               | Có (nhớ lịch sử task, state dài hạn) → cần framework như LangGraph; Không → script đơn giản |
+| **Có bao nhiêu tool cần dùng?**                                      | >20 tool → cân nhắc split multi-agent hoặc group theo domain; Ít tool → single agent OK     |
+| **Tool surface đã define chưa?** (read/write API nào, credential gì) | Liệt kê rõ tool trước khi viết prompt; mỗi tool chỉ nên có quyền tối thiểu cần thiết        |
 
 ### 6.3. Chất lượng & Ràng buộc (Quality & Constraints)
 
@@ -120,11 +120,11 @@ Khi nhận một đề bài agentic AI, đừng nhảy ngay vào chọn model ha
 
 ### 6.4. Operability & Governance
 
-| Câu hỏi | Ý nghĩa |
-|---|---|
-| **Observability: logs/traces lưu ở đâu?** | Quyết định công cụ log, trace (Opik, structured logging...) để debug và audit |
-| **Problem decomposable thành distinct competencies không?** | Có → thiết kế multi-agent (mỗi agent một skill); Không → single agent là đủ |
-| **Risk level?** (criticality, PII, sensitive actions) | Phân loại rủi ro → set access control, approval workflow, guardrail chặt hơn |
+| Câu hỏi                                                                       | Ý nghĩa                                                                                          |
+| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **Observability: logs/traces lưu ở đâu?**                                     | Quyết định công cụ log, trace (Opik, structured logging...) để debug và audit                    |
+| **Problem decomposable thành distinct competencies không?**                   | Có → thiết kế multi-agent (mỗi agent một skill); Không → single agent là đủ                      |
+| **Risk level?** (criticality, PII, sensitive actions)                         | Phân loại rủi ro → set access control, approval workflow, guardrail chặt hơn                     |
 | **Agent charter:** agent được làm gì, phải escalate gì, được access data nào? | Viết 1 trang spec rõ ràng trước khi code: scope, allowed actions, escalated actions, data policy |
 
 ---
@@ -146,15 +146,15 @@ Request Intake
 
 ### 7.2. Component Architecture
 
-| Component | Chức năng | Ghi chú |
-|---|---|---|
-| **Intake** | Parse & validate input, extract intent, schema validation | Reject malformed input trước khi gọi LLM |
-| **Planner Agent** | Nhận goal → sinh execution plan (sequence of steps, tool, expected output, success criterion) | Plan schema validation, max step limit, restricted tool set |
-| **Executor Agent** | Execute từng step trong plan, report outcome về orchestrator | Có thể là single hoặc multi-agent |
-| **Memory Tier** | System prompt + retrieved context (vector DB) + dynamic state | Map memory tiers rõ ràng |
-| **Tool Layer (MCP)** | Kết nối external systems qua Model Context Protocol hoặc function calling | Narrowest credential per tool |
-| **Verifier/Guardrail** | Validate plan & action trước khi execute (PII check, sensitive tool, confidence score) | Human gate cho consequential writes |
-| **Observability** | Log: tool, input, output, cost, latency, trace ID | Instrument từ run đầu |
+| Component              | Chức năng                                                                                     | Ghi chú                                                     |
+| ---------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **Intake**             | Parse & validate input, extract intent, schema validation                                     | Reject malformed input trước khi gọi LLM                    |
+| **Planner Agent**      | Nhận goal → sinh execution plan (sequence of steps, tool, expected output, success criterion) | Plan schema validation, max step limit, restricted tool set |
+| **Executor Agent**     | Execute từng step trong plan, report outcome về orchestrator                                  | Có thể là single hoặc multi-agent                           |
+| **Memory Tier**        | System prompt + retrieved context (vector DB) + dynamic state                                 | Map memory tiers rõ ràng                                    |
+| **Tool Layer (MCP)**   | Kết nối external systems qua Model Context Protocol hoặc function calling                     | Narrowest credential per tool                               |
+| **Verifier/Guardrail** | Validate plan & action trước khi execute (PII check, sensitive tool, confidence score)        | Human gate cho consequential writes                         |
+| **Observability**      | Log: tool, input, output, cost, latency, trace ID                                             | Instrument từ run đầu                                       |
 
 ### 7.3. Multi-agent vs Single-agent
 
