@@ -40,11 +40,11 @@ flowchart TD
 
     subgraph MCPBridge["2. MCP Protocol & Agent Tooling"]
         SemanticLayer --> MCPServer["Custom MCP Server\n(Schema introspection, metric query, SQL validator)"]
-        MCPServer <--> MCPClient["Agent Runtime / MCP Host\n(LangChain / LlamaIndex / Custom Agent)"]
+        MCPServer --- MCPClient["Agent Runtime / MCP Host\n(LangChain / LlamaIndex / Custom Agent)"]
     end
 
     subgraph LocalAI["3. Local LLM Serving & GPU Acceleration"]
-        MCPClient <--> LocalInference["Inference Engine\n(vLLM / SGLang / TensorRT-LLM / llama.cpp)"]
+        MCPClient --- LocalInference["Inference Engine\n(vLLM / SGLang / TensorRT-LLM / llama.cpp)"]
         LocalInference --> ModelWeights["Quantized Model Weights\n(AWQ / GGUF / FP8 / EXL2)"]
         LocalInference --> GPU["NVIDIA GPU Hardware\n(VRAM, Tensor Cores, Memory Bandwidth)"]
     end
