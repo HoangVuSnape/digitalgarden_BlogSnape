@@ -103,15 +103,15 @@ Mạch nghiên cứu đang chạy:
 
 | Note Name                                                                                                                                                | Last Updated                 | Links |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ----- |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/06-chuyen-sau-kien-truc-du-an\|06-chuyen-sau-kien-truc-du-an]]                 | 4:19 PM - November 04, 2026  | 1     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/01-prerequisite-roadmap\|01-prerequisite-roadmap]]                             | 4:18 PM - November 04, 2026  | 0     |
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/00-tu-dien-tu-khoa-lakehouse-ai\|00-tu-dien-tu-khoa-lakehouse-ai]]                           | 1:51 PM - November 04, 2026  | 0     |
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/03-data-lakehouse\|03-data-lakehouse]]                                         | 1:39 PM - November 04, 2026  | 0     |
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Local-LLM/02-gpu-inference-mechanics\|02-gpu-inference-mechanics]]                           | 12:35 AM - November 04, 2026 | 0     |
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Local-LLM/01-12-week-r-and-d-roadmap\|01-12-week-r-and-d-roadmap]]                           | 12:35 AM - November 04, 2026 | 1     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/06-chuyen-sau-kien-truc-du-an\|06-chuyen-sau-kien-truc-du-an]]                 | 12:35 AM - November 04, 2026 | 1     |
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/05-du-an-thuc-te-qa-chuyen-sau\|05-du-an-thuc-te-qa-chuyen-sau]]               | 12:35 AM - November 04, 2026 | 1     |
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/04-deep-dive-lakehouse-semantic-layer\|04-deep-dive-lakehouse-semantic-layer]] | 12:35 AM - November 04, 2026 | 0     |
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/02-what-is-lakehouse-2\|02-what-is-lakehouse-2]]                               | 12:35 AM - November 04, 2026 | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/01-prerequisite-roadmap\|01-prerequisite-roadmap]]                             | 12:35 AM - November 04, 2026 | 0     |
 | [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Data-Modeling/01-kimball-dimensional-modeling\|01-kimball-dimensional-modeling]]             | 12:35 AM - November 04, 2026 | 0     |
 
 { .block-language-dataview}

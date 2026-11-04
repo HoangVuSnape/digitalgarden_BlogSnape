@@ -1853,16 +1853,16 @@ Bảng dưới là cầu nối. Cột trái là điều bài viết khẳng đ�
 
 Mỗi tầng trả lời một câu hỏi, và tạo ra một thứ cầm được:
 
-| Tầng | Câu hỏi nó trả lời | Thứ bạn tạo ra |
-|---|---|---|
-| 0 · Định hướng | Bài toán gốc là gì, ai đau, vì sao có lakehouse? | Một trang tóm tắt bằng lời của bạn |
-| 1 · Mô hình hoá & SQL | "Sự thật" của doanh nghiệp được biểu diễn thế nào? | Một star schema + 5 metric định nghĩa rõ |
-| 2 · Lưu trữ & file format | Một byte trên object storage được đọc hiệu quả ra sao? | Dataset Parquet có partition + đo được scan reduction |
-| 3 · Compute engine | Phép tính phân tán chạy thế nào và tốn gì? | Cùng một query trên 2 engine, kèm giải thích plan |
-| 4 · Bảng có giao dịch | Làm sao UPDATE/DELETE an toàn trên object storage? | Iceberg table có time travel, đọc từ engine thứ hai |
-| 5 · Control plane | Ai được đọc gì, dữ liệu đến từ đâu, có đúng không? | Contract + lineage + policy tối thiểu |
-| 6 · Ngữ nghĩa & sản phẩm | Metric được định nghĩa một lần và dùng ở nhiều nơi thế nào? | Một metric chạy qua 2 giao diện tiêu dùng |
-| 7 · Lakehouse 2.0 | Luận điểm nào thật, luận điểm nào là đóng gói lại? | Bài phản biện 1 trang + capstone |
+| Tầng                      | Câu hỏi nó trả lời                                          | Thứ bạn tạo ra                                        |
+| ------------------------- | ----------------------------------------------------------- | ----------------------------------------------------- |
+| 0 · Định hướng            | Bài toán gốc là gì, ai đau, vì sao có lakehouse?            | Một trang tóm tắt bằng lời của bạn                    |
+| 1 · Mô hình hoá & SQL     | "Sự thật" của doanh nghiệp được biểu diễn thế nào?          | Một star schema + 5 metric định nghĩa rõ              |
+| 2 · Lưu trữ & file format | Một byte trên object storage được đọc hiệu quả ra sao?      | Dataset Parquet có partition + đo được scan reduction |
+| 3 · Compute engine        | Phép tính phân tán chạy thế nào và tốn gì?                  | Cùng một query trên 2 engine, kèm giải thích plan     |
+| 4 · Bảng có giao dịch     | Làm sao UPDATE/DELETE an toàn trên object storage?          | Iceberg table có time travel, đọc từ engine thứ hai   |
+| 5 · Control plane         | Ai được đọc gì, dữ liệu đến từ đâu, có đúng không?          | Contract + lineage + policy tối thiểu                 |
+| 6 · Ngữ nghĩa & sản phẩm  | Metric được định nghĩa một lần và dùng ở nhiều nơi thế nào? | Một metric chạy qua 2 giao diện tiêu dùng             |
+| 7 · Lakehouse 2.0         | Luận điểm nào thật, luận điểm nào là đóng gói lại?          | Bài phản biện 1 trang + capstone                      |
 
 ---
 

@@ -365,7 +365,7 @@ Sắp xếp context từ **Tĩnh nhất đến Động nhất**:
 
 ```mermaid
 flowchart TD
-    Query["Câu truy vấn sinh ra từ AI Agent"] --> T1["Tầng 1: AST Query Parser (sqlglot)\n- Chặn Multi-statements (;)\n- Chặn DDL/DML (DROP, DELETE, UPDATE, ALTER)\n- Ép buộc giới hạn LIMIT <= 200"]
+    Query["Câu truy vấn sinh ra từ AI Agent"] --> T1["Tầng 1: AST Query Parser (sqlglot)\n- Chặn Multi-statements (;)\n- Chặn DDL/DML (DROP, DELETE, UPDATE, ALTER)\n- Ép buộc giới hạn LIMIT tối đa 200"]
     T1 -->|Hợp lệ| T2["Tầng 2: Database Connection Restrictions\n- User Read-Only tuyệt đối\n- statement_timeout = 5000ms\n- work_mem = 64MB"]
     T2 -->|Thực thi| T3["Tầng 3: Semantic Layer Context (Cube.dev RLS)\n- Tự động lọc theo Role và Branch của người dùng"]
     T3 -->|Kết quả| T4["Tầng 4: PII Masking Engine\n- Masking dữ liệu nhạy cảm (Email, CCCD, Thẻ tín dụng)\ntrước khi đưa vào context của LLM"]
