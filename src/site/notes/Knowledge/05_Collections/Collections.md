@@ -1,7 +1,32 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/05-collections/collections/","title":"Collections","pinned":"false","tags":["type/links","topic/llm","status/stable"]}
+updated:
+  - 2026-08-25T10:54:47+07:00
+  - 2026-08-05T15:10:42+07:00
+  - 2026-08-05T15:09:54+07:00
+  - 2026-02-11T21:23:06+07:00
+  - 2026-02-11T21:22:29+07:00
+  - 2025-08-19T03:35:34+07:00
+  - 2025-07-18T17:55:28+07:00
+  - 2025-06-10T17:13:11+07:00
+  - 2025-06-10T16:38:59+07:00
+  - 2025-05-18T14:32:48+07:00
+  - 2025-05-18T14:17:14+07:00
+  - 2025-11-22 21:37:26
+created: 2025-05-18T14:17:03
+title: Collections
+tags:
+  - type/links
+  - topic/llm
+  - status/stable
+append_modified_update:
+dg-publish: true
+dg-home:
+dg-pinned: "false"
+aliases:
 ---
-
+# Videos
+- [Khoa học về KỶ LUẬT 🧠 (Bí mật cày "English" ✏️12h/ngày từ 2 A.M dù GHÉT) - YouTube](https://www.youtube.com/watch?v=Ico4Qh39hTE)
+- [The 20/80 Secret (do LESS, get MORE)🧠 to BREAKTHROUGH your career - YouTube](https://www.youtube.com/watch?v=ikUw_d1ZPCI)
 # Li
 nk:
 - [LLMA](https://drive.google.com/file/d/1hXVG6MeylkGgSPTIghGfuyuNjm1W2ahD/view?fbclid=IwZXh0bgNhZW0CMTAAAR0xGyVpjj9f5mmhI7SsfvUwGsy0dPxPbS-mPAadADGKCBZx6uj5VYxCi5s_aem_G1nCcouX3f-Mh0FIlzjsZw)

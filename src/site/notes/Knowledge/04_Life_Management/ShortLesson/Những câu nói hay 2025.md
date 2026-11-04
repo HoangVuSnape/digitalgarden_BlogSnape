@@ -1,7 +1,33 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/04-life-management/short-lesson/nhung-cau-noi-hay-2025/","pinned":"false","tags":["type/reflection","topic/mindset","status/stable"]}
+updated:
+  - 2025-10-06T00:00:09+07:00
+  - 2025-10-05T22:56:19+07:00
+  - 2025-10-05T22:52:45+07:00
+  - 2025-10-05T22:51:15+07:00
+  - 2025-10-05T22:50:33+07:00
+  - 2025-10-05T22:48:45+07:00
+  - 2025-10-05T22:45:06+07:00
+  - 2025-10-05T22:44:32+07:00
+  - 2025-10-05T22:43:59+07:00
+  - 2025-10-05T22:41:41+07:00
+  - 2025-10-05T22:40:08+07:00
+  - 2025-10-05T22:39:29+07:00
+  - 2025-10-05T22:38:42+07:00
+  - 2025-10-05T22:36:39+07:00
+  - 2025-10-05T22:20:31+07:00
+  - 2025-10-05T22:19:59+07:00
+  - 2025-02-23T23:10:33+07:00
+Updated: 2025-02-21T20:15
+dg-publish: true
+dg-home:
+tags:
+  - type/reflection
+  - topic/mindset
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 
 # 1/28/2025
 - The cost of procrastination is the life that you could have lived whenever you are faced with a choice of studying and actually doing something to help you achieve your future goals and procrastinating whether that's going on TikTok, lying in bed playing video games. You are sacrificing your life. 

@@ -1,7 +1,30 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/agent/mcp-and-a2-a/","pinned":"false","tags":["type/howto","topic/agent-mcp","status/stable"]}
+updated:
+  - 2025-11-23T00:28:23+07:00
+  - 2025-06-13T14:34:38+07:00
+  - 2025-06-11T18:15:09+07:00
+  - 2025-06-11T18:10:02+07:00
+  - 2025-06-11T17:46:29+07:00
+  - 2025-06-09T17:45:30+07:00
+  - 2025-06-09T11:02:38+07:00
+  - 2025-06-09T11:00:52+07:00
+  - 2025-06-09T10:51:56+07:00
+  - 2025-06-09T10:48:11+07:00
+  - 2025-06-09T10:47:35+07:00
+  - 2025-06-09T10:38:53+07:00
+  - 2025-10-18T17:24:20+07:00
+  - 
+created:
+dg-publish: true
+dg-home:
+tags:
+  - type/howto
+  - topic/agent-mcp
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # Link
 - [MCP vs A2A](https://medium.com/@anil.jain.baba/agentic-mcp-and-a2a-architecture-a-comprehensive-guide-0ddf4359e152)
 - 

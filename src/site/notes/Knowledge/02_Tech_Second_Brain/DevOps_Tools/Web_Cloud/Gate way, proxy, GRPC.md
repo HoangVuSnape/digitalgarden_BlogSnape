@@ -1,7 +1,28 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/web-cloud/gate-way-proxy-grpc/","title":"Gate way, proxy,..","pinned":"false","tags":["type/howto","topic/web-dev","status/stable"]}
+created: 2025-06-10T10:51:16
+updated:
+  - 2025-11-23T00:22:42+07:00
+  - 2025-10-16T23:44:30+07:00
+  - 2025-06-12T14:59:07+07:00
+  - 2025-06-12T14:48:38+07:00
+  - 2025-06-12T14:45:31+07:00
+  - 2025-06-12T14:44:48+07:00
+  - 2025-06-10T13:37:30+07:00
+  - 2025-06-10T13:07:08+07:00
+  - 2025-06-10T11:25:23+07:00
+  - 2025-06-10T11:18:28+07:00
+  - 2025-06-10T10:51:35+07:00
+title: Gate way, proxy,..
+tags:
+  - type/howto
+  - topic/web-dev
+  - status/stable
+append_modified_update:
+dg-publish: true
+dg-home:
+dg-pinned: "false"
+aliases:
 ---
-
 # Link
 - [Forward, reverse proxy](https://viblo.asia/p/forward-proxy-va-reverse-proxy-WAyK8rM9lxX#_3-reverse-proxy-4)
 - 

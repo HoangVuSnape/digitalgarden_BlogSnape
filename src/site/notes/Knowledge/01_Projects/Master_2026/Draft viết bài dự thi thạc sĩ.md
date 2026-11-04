@@ -1,7 +1,41 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/01-projects/master-2026/draft-viet-bai-du-thi-thac-si/","pinned":"false","tags":["type/report","topic/rag","topic/legal-ai","status/archive"]}
+updated:
+  - 2026-02-10T21:32:15+07:00
+  - 2025-11-06T15:55:40+07:00
+  - 2025-11-06T15:47:38+07:00
+  - 2025-11-06T15:35:28+07:00
+  - 2025-11-06T15:33:08+07:00
+  - 2025-11-06T15:25:38+07:00
+  - 2025-11-06T15:23:51+07:00
+  - 2025-11-06T15:22:29+07:00
+  - 2025-11-06T15:21:45+07:00
+  - 2025-10-30T13:22:02+07:00
+  - 2025-10-30T12:48:30+07:00
+  - 2025-10-30T11:19:24+07:00
+  - 2025-10-27T12:48:20+07:00
+  - 2025-10-17T17:56:24+07:00
+  - 2025-10-17T17:13:25+07:00
+  - 2025-10-17T17:12:49+07:00
+  - 2025-10-17T16:34:12+07:00
+  - 2025-10-17T16:32:34+07:00
+  - 2025-10-16T20:14:14+07:00
+  - 2025-10-16T20:11:52+07:00
+  - 2025-10-16T19:55:22+07:00
+  - 2025-10-16T19:16:07+07:00
+  - 2025-10-06T00:32:14+07:00
+  - 2025-02-21T20:15
+created: 2025-11-06T15:21:00
+dg-publish: true
+dg-home:
+tags:
+  - type/report
+  - topic/rag
+  - topic/legal-ai
+  - status/archive
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # Note
  - xin giáo viên hd: Associate Professor, Ph.D. Le Anh Cuong
 - Link note data : [Phát triển và hướng nghiên cứu tiếp](Phát%20triển%20và%20hướng%20nghiên%20cứu%20tiếp.md)

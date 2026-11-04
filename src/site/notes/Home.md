@@ -1,7 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":"true","tags":["gardenEntry"]}
+dg-publish: true
+dg-home: true
+dg-pinned: "true"
+updated:
+  - 2026-07-10T00:00:00+07:00
+  - 2026-03-02T15:35:35+07:00
+  - 2025-11-23T00:20:32+07:00
 ---
-
 
 # 🤖 Welcome to Snape's Digital Garden
 
@@ -78,36 +83,36 @@ Toàn bộ vault được gắn tag theo 4 nhóm: `type/` (loại note), `topic/
 
 Mạch nghiên cứu đang chạy:
 
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/SLLM and LLM\|SLLM and LLM]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/LoRA cho Continual Learning - O-LoRA, N-LoRA, MoLA, SLIM\|LoRA cho Continual Learning - O-LoRA, N-LoRA, MoLA, SLIM]]
+- [[Knowledge/01_Projects/CD1_CD2_CD3/Save projects in research topics 1, 2, 3.\|Save projects in research topics 1, 2, 3.]]
+- [[Knowledge/05_Collections/Master Plan 2026_ Xu Hướng Data Science, Lộ Trình Agentic AI & LLMOps\|Master Plan 2026_ Xu Hướng Data Science, Lộ Trình Agentic AI & LLMOps]]
 - [[Knowledge/02_Tech_Second_Brain/Research_Skills/Mindset_read_paper/07_chien_luoc_phuong_phap_legal_ai\|07_chien_luoc_phuong_phap_legal_ai]]
 - [[Knowledge/02_Tech_Second_Brain/Research_Skills/Mindset_read_paper/00_HUONG_DAN_DOC\|00_HUONG_DAN_DOC]]
-- [[Knowledge/01_Projects/DeepLearning/Gemma 4 - developer guide\|Gemma 4 - developer guide]]
-- [[Knowledge/01_Projects/CDNCTQ/Overview\|Overview]]
-- [[Knowledge/01_Projects/CDNCTQ/ContinueRag_graphRag/Cách tính p, c và chỉ số CI\|Cách tính p, c và chỉ số CI]]
-- [[Knowledge/05_Collections/Master Plan 2026_ Xu Hướng Data Science, Lộ Trình Agentic AI & LLMOps\|Master Plan 2026_ Xu Hướng Data Science, Lộ Trình Agentic AI & LLMOps]]
+- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/LoRA cho Continual Learning - O-LoRA, N-LoRA, MoLA, SLIM\|LoRA cho Continual Learning - O-LoRA, N-LoRA, MoLA, SLIM]]
+- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/SLLM and LLM\|SLLM and LLM]]
 - [[Knowledge/01_Projects/Master_2026/Research Review_CD/1_Overview Note\|1_Overview Note]]
 - [[Knowledge/01_Projects/CDNCTQ/presentation_script_v3\|presentation_script_v3]]
+- [[Knowledge/01_Projects/CDNCTQ/Overview\|Overview]]
 - [[Knowledge/01_Projects/CDNCTQ/Note\|Note]]
-- [[Knowledge/01_Projects/CD1_CD2_CD3/Save projects in research topics 1, 2, 3.\|Save projects in research topics 1, 2, 3.]]
+- [[Knowledge/01_Projects/CDNCTQ/DeepLearning/Gemma 4 - developer guide\|Gemma 4 - developer guide]]
+- [[Knowledge/01_Projects/CDNCTQ/ContinueRag_graphRag/Cách tính p, c và chỉ số CI\|Cách tính p, c và chỉ số CI]]
 - [[Knowledge/01_Projects/CD1_CD2_CD3/Note\|Note]]
 
 { .block-language-dataview}
 
 ## 📝 Các Bài Viết Mới Nhất
 
-| Note Name                                                                                                                                                            | Last Updated               | Links |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ----- |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/SLLM and LLM\|SLLM and LLM]]                                                                                         | 10:34 AM - August 12, 2026 | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/LoRA cho Continual Learning - O-LoRA, N-LoRA, MoLA, SLIM\|LoRA cho Continual Learning - O-LoRA, N-LoRA, MoLA, SLIM]] | 10:34 AM - August 12, 2026 | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/LoRA - Siêu tham số r, alpha và target modules\|LoRA - Siêu tham số r, alpha và target modules]]                     | 10:33 AM - August 12, 2026 | 0     |
-| [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/LoRA - Playbook chỉnh tham số và sweep\|LoRA - Playbook chỉnh tham số và sweep]]                                     | 10:33 AM - August 12, 2026 | 0     |
-| [[Knowledge/03_Career_Center/Interview_Prep/Tìm hiểu đọc CV\|Tìm hiểu đọc CV]]                                                                                    | 9:49 PM - August 06, 2026  | 0     |
-| [[Knowledge/02_Tech_Second_Brain/Research_Skills/Mindset_read_paper/08_prompts_doc_paper_va_phan_bien\|08_prompts_doc_paper_va_phan_bien]]                        | 9:49 PM - August 06, 2026  | 1     |
-| [[Knowledge/02_Tech_Second_Brain/Research_Skills/Mindset_read_paper/07_chien_luoc_phuong_phap_legal_ai\|07_chien_luoc_phuong_phap_legal_ai]]                      | 9:49 PM - August 06, 2026  | 1     |
-| [[Knowledge/02_Tech_Second_Brain/Research_Skills/Mindset_read_paper/06_luu_y_cot_loi_proposal\|06_luu_y_cot_loi_proposal]]                                        | 9:49 PM - August 06, 2026  | 1     |
-| [[Knowledge/02_Tech_Second_Brain/Research_Skills/Mindset_read_paper/05_pham_vi_de_tai_va_chieu_sau\|05_pham_vi_de_tai_va_chieu_sau]]                              | 9:49 PM - August 06, 2026  | 1     |
-| [[Knowledge/02_Tech_Second_Brain/Research_Skills/Mindset_read_paper/04_quy_trinh_phat_trien_y_tuong\|04_quy_trinh_phat_trien_y_tuong]]                            | 9:49 PM - August 06, 2026  | 1     |
+| Note Name                                                                                                                                                | Last Updated                 | Links |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ----- |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/00-tu-dien-tu-khoa-lakehouse-ai\|00-tu-dien-tu-khoa-lakehouse-ai]]                           | 1:51 PM - November 04, 2026  | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/03-data-lakehouse\|03-data-lakehouse]]                                         | 1:39 PM - November 04, 2026  | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Local-LLM/02-gpu-inference-mechanics\|02-gpu-inference-mechanics]]                           | 12:35 AM - November 04, 2026 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Local-LLM/01-12-week-r-and-d-roadmap\|01-12-week-r-and-d-roadmap]]                           | 12:35 AM - November 04, 2026 | 1     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/06-chuyen-sau-kien-truc-du-an\|06-chuyen-sau-kien-truc-du-an]]                 | 12:35 AM - November 04, 2026 | 1     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/05-du-an-thuc-te-qa-chuyen-sau\|05-du-an-thuc-te-qa-chuyen-sau]]               | 12:35 AM - November 04, 2026 | 1     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/04-deep-dive-lakehouse-semantic-layer\|04-deep-dive-lakehouse-semantic-layer]] | 12:35 AM - November 04, 2026 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/02-what-is-lakehouse-2\|02-what-is-lakehouse-2]]                               | 12:35 AM - November 04, 2026 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Lakehouse-2.0/01-prerequisite-roadmap\|01-prerequisite-roadmap]]                             | 12:35 AM - November 04, 2026 | 0     |
+| [[Knowledge/02_Tech_Second_Brain/AI_Core/Data_lake_house/Data-Modeling/01-kimball-dimensional-modeling\|01-kimball-dimensional-modeling]]             | 12:35 AM - November 04, 2026 | 0     |
 
 { .block-language-dataview}
 

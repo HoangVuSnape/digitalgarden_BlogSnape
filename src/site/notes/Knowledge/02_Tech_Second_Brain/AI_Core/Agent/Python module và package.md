@@ -1,7 +1,24 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/agent/python-module-va-package/","pinned":"false","tags":["type/howto","status/stable"]}
+updated:
+  - 2025-11-23T00:28:15+07:00
+  - 2025-05-06T17:14:10+07:00
+  - 2025-03-29T00:01:07+07:00
+  - 2025-03-28T22:05:37+07:00
+  - 2025-03-28T21:02:06+07:00
+  - 2025-03-28T20:51:30+07:00
+  - 2025-03-28T20:50:46+07:00
+  - 2025-10-18T17:24:20+07:00
+  - 
+created:
+dg-publish: true
+dg-home:
+tags:
+  - type/howto
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # Cấu trúc thư mục dự án
 
 ```

@@ -1,7 +1,24 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/research-skills/mindset-read-paper/01-cach-doc-survey-hieu-qua/","pinned":"false","tags":["type/howto","topic/research-method","status/stable"]}
+updated:
+  - 2026-08-05T14:47:04+07:00
+  - 2026-08-05T14:45:20+07:00
+  - 2026-07-30T12:12:23+07:00
+  - 2026-06-29T10:14:52+07:00
+  - 2026-06-27T15:08:20+07:00
+  - 2026-06-27T15:02:03+07:00
+  - 2026-06-27T15:01:28+07:00
+  - 2025-11-24T13:52:00+07:00
+created: 2026-06-27T15:08:00
+dg-publish: true
+dg-home:
+tags:
+  - type/howto
+  - topic/research-method
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # 📖 CÁCH ĐỌC BÀI SURVEY HIỆU QUẢ
 
 > **Tóm tắt:** Cách hiệu quả nhất để tiếp cận một bài báo tổng quan (Survey paper) là áp dụng phương pháp **SQ3R** ( Khảo sát, Đặt câu hỏi, Đọc mục tiêu, Tự nhắc lại và Ôn tập). Đọc survey cần hướng tới việc trích xuất thông tin để xây dựng taxonomy và khung đề cương, không đọc dàn trải từ đầu đến cuối.

@@ -1,7 +1,22 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/lo-ra-cho-continual-learning-o-lo-ra-n-lo-ra-mo-la-slim/","pinned":"false","tags":["type/paper","topic/peft-lora","topic/continual-learning","topic/legal-ai","status/stable"]}
+tags:
+  - type/paper
+  - topic/peft-lora
+  - topic/continual-learning
+  - topic/legal-ai
+  - status/stable
+created: 2026-08-05T14:57:00
+updated:
+  - 2026-08-05T14:58:47+07:00
+  - 2026-08-05T14:56:01+07:00
+  - 2025-11-24T13:52:00+07:00
+  - <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
+dg-publish: true
+dg-home:
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 
 # LoRA cho Continual Learning — O-LoRA, N-LoRA, MoLA, SLIM
 

@@ -1,7 +1,25 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/05-collections/master-plan-2026-xu-huong-data-science-lo-trinh-agentic-ai-and-llm-ops/","pinned":"false","tags":["type/links","topic/llm","topic/slm","topic/agent-mcp","status/stable"]}
+updated:
+  - 2025-11-26T13:49:29+07:00
+  - 2025-11-26T13:48:47+07:00
+  - 2025-11-24T13:34:34+07:00
+  - 2025-11-23T00:56:37+07:00
+  - 2025-10-18T17:24:20+07:00
+  - 
+  - 
+created:
+dg-publish: true
+dg-home:
+tags:
+  - type/links
+  - topic/llm
+  - topic/slm
+  - topic/agent-mcp
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # Master Plan 2026: Xu Hướng Data Science, Lộ Trình Agentic AI & LLMOps
 
 **Ngày cập nhật:** 23/11/2025  

@@ -1,7 +1,24 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/research-skills/mindset-read-paper/02-7-buoc-phan-tich-paper/","pinned":"false","tags":["type/howto","topic/research-method","status/stable"]}
+updated:
+  - 2026-08-05T14:47:04+07:00
+  - 2026-08-05T14:45:20+07:00
+  - 2026-07-30T12:12:23+07:00
+  - 2026-06-29T10:14:52+07:00
+  - 2026-06-27T15:08:20+07:00
+  - 2026-06-27T15:02:03+07:00
+  - 2026-06-27T15:01:28+07:00
+  - 2025-11-24T13:52:00+07:00
+created: 2026-06-27T15:08:00
+dg-publish: true
+dg-home:
+tags:
+  - type/howto
+  - topic/research-method
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # 🔬 7 BƯỚC PHÂN TÍCH BÀI BÁO KHOA HỌC & TÍNH LIÊN KẾT ĐỀ CƯƠNG
 
 > **Tóm tắt:** Đọc một bài báo nghiên cứu đòi hỏi chiến lược 3 giai đoạn (Đánh giá tổng thể -> Chất vấn -> Phán quyết) nhằm đánh giá lập luận, kiểm chứng dữ liệu và hình thành nhận định độc lập. Đồng thời, bài viết làm rõ tính liên kết chặt chẽ giữa Đề cương và Nghiên cứu khoa học thực tế.

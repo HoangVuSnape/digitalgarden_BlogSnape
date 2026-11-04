@@ -1,7 +1,24 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/research-skills/mindset-read-paper/08-prompts-doc-paper-va-phan-bien/","pinned":"false","tags":["type/prompt","topic/research-method","status/stable"]}
+updated:
+  - 2026-08-05T14:47:04+07:00
+  - 2026-08-05T14:45:20+07:00
+  - 2026-07-30T12:12:23+07:00
+  - 2026-06-29T10:14:52+07:00
+  - 2026-06-27T15:08:20+07:00
+  - 2026-06-27T15:02:03+07:00
+  - 2026-06-27T15:01:28+07:00
+  - 2025-11-24T13:52:00+07:00
+created: 2026-06-27T15:08:00
+dg-publish: true
+dg-home:
+tags:
+  - type/prompt
+  - topic/research-method
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # 🤖 BỘ PROMPTS AI HỖ TRỢ ĐỌC PAPER & PHẢN BIỆN KHOA HỌC
 
 > **Tóm tắt:** Tập hợp các khung Prompt tiêu chuẩn được tối ưu hóa cho các công cụ AI (NotebookLM, ChatGPT, Gemini, Perplexity). Hỗ trợ nhà nghiên cứu đọc lướt nhanh bài báo, đóng vai Reviewer phản biện khắt khe (NeurIPS/ICLR format), và thiết kế trực quan hóa số liệu thực nghiệm.

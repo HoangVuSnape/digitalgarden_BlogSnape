@@ -1,0 +1,110 @@
+---
+{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/data-lake-house/00-tu-dien-tu-khoa-lakehouse-ai/","title":"Từ Điển Thuật Ngữ Cốt Lõi - Data Lakehouse, Semantic Layer & Local LLM","pinned":"false","tags":["type/reference","topic/data-lakehouse","status/stable"]}
+---
+
+# Bảng Tra Cứu Thuật Ngữ Cốt Lõi: Data Lakehouse, Semantic Layer & Local LLM
+*(Định dạng bảng tra cứu nhanh, giải thích bình dân, đi thẳng vào bản chất kèm ví dụ thực chiến)*
+
+---
+
+## 1. Nền Tảng Lưu Trữ & Hồ Dữ Liệu (Storage & Lakehouse Foundations)
+
+| Thuật ngữ (Keyword) | Bản chất là gì? (Giải thích bình dân) | Vai trò trong hệ sinh thái | Ví dụ thực tế / Lưu ý |
+| :--- | :--- | :--- | :--- |
+| **Data Warehouse** | **Siêu thị cao cấp:** Hàng hóa (dữ liệu) đều được rửa sạch, đóng gói, dán nhãn chuẩn mực và xếp ngay ngắn lên kệ. | Lưu trữ dữ liệu có cấu trúc (bảng SQL), phục vụ báo cáo BI quản trị cực nhanh và ổn định. | *Ví dụ:* Snowflake, BigQuery, Redshift. Đắt tiền, khó chứa dữ liệu phi cấu trúc (ảnh, video). |
+| **Data Lake** | **Kho chứa đồ khổng lồ giá rẻ:** Bất kể đồ đạc gì (CSV, JSON, ảnh, log) cứ ném bừa vào kho lưu trữ rồi tính sau. | Lưu trữ dữ liệu thô (raw data) với chi phí thấp không giới hạn trên Cloud Object Storage. | *Ví dụ:* S3, MinIO. Dễ biến thành "Vũng bùn dữ liệu" (Data Swamp) vì không có ACID, khó xóa sửa. |
+| **Data Lakehouse** | **Mô hình lai tối ưu:** Kết hợp giá rẻ của Data Lake + sự ngăn nắp, kỷ luật ACID của Data Warehouse. | Lưu trữ file tĩnh giá rẻ trên Object Storage nhưng gắn thêm "bộ não" Open Table Format để quản lý như database. | *Ví dụ:* Dùng MinIO + Apache Iceberg + DuckDB/Trino để vừa rẻ vừa truy vấn mạnh mẽ. |
+| **Cloud Object Storage** | **Kho chứa tệp qua địa chỉ web:** Lưu tệp thành từng Object độc lập qua URL HTTP, không dùng cấu trúc thư mục ổ cứng truyền thống. | Tầng lưu trữ nền móng của Lakehouse, dung lượng mở rộng vô hạn với chi phí cực rẻ. | *Ví dụ:* Amazon S3, MinIO. File có tính chất bất biến (Immutable), không sửa được từng byte mà phải ghi đè. |
+| **Apache Parquet** | **Lưu trữ theo cột (Columnar):** Thay vì xếp từng dòng ngang, nó gom tất cả dữ liệu của cùng một cột lại một chỗ. | Tối ưu hóa vượt trội cho phân tích (OLAP): Quét dữ liệu nhanh hơn 50 lần và nén dung lượng giảm 70-80%. | *Ví dụ:* Khi tính `SUM(revenue)`, máy chỉ đọc đúng cột `revenue`, bỏ qua toàn bộ họ tên, địa chỉ, email. |
+| **OLTP vs. OLAP** | **OLTP** = Vận hành hàng ngày (thêm/sửa từng đơn hàng).<br>**OLAP** = Báo cáo phân tích (quét triệu dòng tính doanh thu). | Phân định rõ mục đích: OLTP cần ghi nhanh từng dòng; OLAP cần đọc nhanh theo cột. | *Ví dụ:* MySQL/Postgres là OLTP (chạy app bán hàng); DuckDB/ClickHouse là OLAP (vẽ dashboard). |
+
+---
+
+## 2. Định Dạng Bảng Mở & Quản Lý Giao Dịch (Table Formats & Maintenance)
+
+| Thuật ngữ (Keyword) | Bản chất là gì? (Giải thích bình dân) | Vai trò trong hệ sinh thái | Ví dụ thực tế / Lưu ý |
+| :--- | :--- | :--- | :--- |
+| **Open Table Format** | **Bộ não quản lý:** Tầng metadata chỉ đường đứng trên các file Parquet, biến hàng nghìn file rời rạc thành một cái bảng có tên, có cột. | Mang lại các tính năng cao cấp của database cho Data Lake: ACID, Time-travel, Schema evolution. | *Ví dụ:* Apache Iceberg, Delta Lake, Apache Hudi. Ngăn chặn việc bị khóa chặt vào định dạng độc quyền. |
+| **ACID Transactions** | **Bộ 4 tiêu chuẩn vàng:** **A** (Được ăn cả ngã về không), **C** (Nhất quán), **I** (Cách ly không giẫm chân), **D** (Bền vững cúp điện không mất). | Đảm bảo dữ liệu trong Lakehouse không bao giờ bị hỏng hoặc sai lệch khi nhiều tiến trình cùng đọc/ghi. | *Ví dụ:* Khi đang nạp dữ liệu mà mất điện, hệ thống tự rollback về trạng thái an toàn trước đó. |
+| **Snapshot Isolation** | **Chụp ảnh trạng thái:** Mỗi lần có thay đổi, hệ thống không sửa file cũ mà chụp lại một bức ảnh (Snapshot) mới của bảng. | Đảm bảo người đọc cứ xem ảnh cũ, người ghi cứ tạo ảnh mới, không ai phải chờ hay khóa bảng của ai. | *Ví dụ:* Dashboard đang chạy query 5 phút không bị ảnh hưởng khi pipeline CDC đang nạp thêm 10.000 đơn mới. |
+| **Time-Travel** | **Cỗ máy thời gian:** Khả năng truy vấn ngược về quá khứ dựa trên danh sách các Snapshot đã lưu. | Phục vụ kiểm toán, đối soát dữ liệu và rollback khi lỡ tay ghi đè dữ liệu sai. | *Ví dụ:* `SELECT * FROM orders FOR SYSTEM_TIME AS OF '2026-11-01 08:00:00'` để xem dữ liệu đầu tháng. |
+| **Schema Evolution** | **Tiến hóa cấu trúc:** Thêm cột mới, đổi tên cột mà không cần quét và ghi lại hàng triệu file Parquet cũ. | Tiết kiệm chi phí tính toán và không làm gián đoạn hệ thống khi nghiệp vụ thay đổi. | *Ví dụ:* Thêm cột `voucher_code` vào bảng Iceberg, các dòng cũ tự động hiểu giá trị là `NULL`. |
+| **Small Files Problem** | **Bệnh nghẽn cổ chai:** Pipeline streaming tạo ra quá nhiều file nhỏ xíu (vài KB), khiến máy tốn 90% thời gian chỉ để mở/đóng file. | Nút thắt hiệu năng số 1 trong Data Lakehouse khi nạp dữ liệu liên tục theo thời gian thực. | *Ví dụ:* Bảng tích tụ 500.000 file nhỏ khiến câu query đơn giản bị đơ mất vài phút. |
+| **Compaction (BinPack)** | **Thu gom nén file:** Tác vụ chạy ngầm định kỳ để gộp hàng trăm file nhỏ lắt nhắt thành các file lớn chuẩn 128 MB. | Chữa trị triệt để bệnh "Small Files Problem", phục hồi tốc độ truy vấn ban đầu. | *Ví dụ:* Chạy thủ tục `CALL system.rewrite_data_files(strategy => 'binpack')` mỗi đêm trên Iceberg. |
+| **MOR vs. COW** | **COW (Copy-on-Write):** Ghi đè file mới khi sửa dòng $\to$ Ghi chậm, đọc siêu nhanh.<br>**MOR (Merge-on-Read):** Ghi file ghi chú xóa $\to$ Ghi siêu nhanh, đọc gộp sau. | Lựa chọn cơ chế ghi cho Iceberg/Hudi tùy thuộc vào hệ thống ưu tiên tốc độ nạp hay tốc độ đọc. | *Ví dụ:* Pipeline CDC streaming nên chọn **MOR** để không nghẽn luồng ghi thời gian thực. |
+
+---
+
+## 3. Đồng Bộ Dữ Liệu Thời Gian Thực & CDC (Data Ingestion & Streaming)
+
+| Thuật ngữ (Keyword) | Bản chất là gì? (Giải thích bình dân) | Vai trò trong hệ sinh thái | Ví dụ thực tế / Lưu ý |
+| :--- | :--- | :--- | :--- |
+| **CDC (Change Data Capture)** | **Bắt quả tang thay đổi:** Kỹ thuật theo dõi và bắt trọn từng sự kiện Thêm (Insert), Sửa (Update), Xóa (Delete) trong database. | Truyền dữ liệu mới nhất từ hệ thống vận hành sang Lakehouse theo thời gian thực (gần như tức thì). | *Ví dụ:* Người dùng vừa đặt đơn hàng trên web, dữ liệu lập tức xuất hiện trên Lakehouse sau vài giây. |
+| **Log-based CDC (Debezium)** | **Đọc trộm sổ nhật ký:** Đọc thẳng vào file Log nhị phân của database trên ổ cứng thay vì gõ lệnh `SELECT`. | Hút dữ liệu liên tục với tải CPU lên database vận hành gần như bằng 0, không bao giờ bỏ sót sự kiện xóa. | *Ví dụ:* Debezium đóng vai trò replica đọc WAL của Postgres, Binlog của MySQL, Oplog của Mongo. |
+| **WAL / Binlog / Oplog** | **Cuốn sổ nhật ký:** Nơi database ghi lại mọi thao tác trước khi ghi vào đĩa dữ liệu chính thức. | Nguồn chân lý duy nhất để CDC tái tạo lại toàn bộ dòng chảy dữ liệu một cách chuẩn xác. | *Ví dụ:* **WAL** (PostgreSQL), **Binlog** (MySQL), **Oplog** (MongoDB Replica Set). |
+| **Data Contracts** | **Hợp đồng pháp lý bằng code:** Bản cam kết giữa team làm App (tạo data) và team Data/AI (dùng data). | Chặn đứng hiện tượng tự ý đổi tên cột hoặc xóa cột ở backend làm sập toàn bộ dashboard downstream. | *Ví dụ:* Chuẩn OpenDataContract (YAML) tích hợp vào CI/CD: Nếu PR vi phạm hợp đồng, CI sẽ chặn merge code. |
+
+---
+
+## 4. Động Cơ Truy Vấn & Tầng Ngữ Nghĩa (Query Engines & Semantic Layer)
+
+| Thuật ngữ (Keyword) | Bản chất là gì? (Giải thích bình dân) | Vai trò trong hệ sinh thái | Ví dụ thực tế / Lưu ý |
+| :--- | :--- | :--- | :--- |
+| **DuckDB** | **SQLite cho phân tích:** Thư viện C++ siêu nhẹ, chạy in-process, quét file Parquet trên ổ cứng hoặc S3 siêu tốc. | Động cơ phân tích cục bộ mạnh nhất hiện nay, không cần dựng cụm server cồng kềnh. | *Ví dụ:* Mở file Parquet 2GB và tính toán `GROUP BY` chỉ mất 0.3 giây ngay trên laptop. |
+| **Vectorized Execution (SIMD)** | **Tính toán theo mảng:** Chip dùng 1 nhịp lệnh duy nhất để cộng/nhân một lúc mảng 2.048 số, thay vì dùng vòng lặp `for`. | Tận dụng tối đa tập lệnh phần cứng của CPU hiện đại để tăng tốc độ quét dữ liệu dạng cột. | *Ví dụ:* Động cơ DuckDB và ClickHouse ứng dụng kỹ thuật này để bỏ xa tốc độ của Postgres/MySQL. |
+| **Trino / Presto** | **Động cơ SQL phân tán:** Kết nối hàng chục máy chủ cùng chia nhau quét dữ liệu khổng lồ trên Object Storage. | Phục vụ các truy vấn tương tác (Interactive SQL) cho hàng trăm người dùng BI đồng thời trên Data Lakehouse. | *Ví dụ:* Quét bảng giao dịch hàng trăm Terabyte trên MinIO/S3 trả về kết quả sau vài giây. |
+| **Semantic Layer** | **Thông dịch viên nghiệp vụ:** Đứng giữa kho dữ liệu kỹ thuật và ứng dụng/AI, khóa cứng công thức kinh doanh. | Triệt tiêu hoàn toàn "ảo giác số liệu": Đảm bảo AI hay BI đều tính đúng một công thức doanh thu thống nhất. | *Ví dụ:* Định nghĩa sẵn metric `Doanh thu = Giá * Số lượng - Voucher`; AI chỉ cần gọi tên metric. |
+| **Cube.dev & Cube Store** | **Nền tảng Semantic Layer:** Cung cấp mô hình dữ liệu (Cubes), API đa giao thức và động cơ tăng tốc Cube Store. | Đóng vai trò Single Source of Truth cho toàn bộ chỉ số doanh nghiệp, phục vụ cả BI và AI Agent. | *Ví dụ:* Cube Store (viết bằng Rust) tự động tính sẵn các bản tổng hợp, trả lời query chỉ trong 20 mili-giây. |
+| **Measures vs. Dimensions** | **Measures** = Con số định lượng (tính toán được).<br>**Dimensions** = Ngữ cảnh định tính (cắt lát dữ liệu). | Hai khối gạch xây dựng nên toàn bộ các mô hình phân tích dữ liệu đa chiều (Dimensional Modeling). | *Ví dụ:* Measure = `Tổng doanh thu`, `Số lượng đơn`; Dimension = `Thành phố`, `Tháng`, `Ngành hàng`. |
+| **Fan-out Trap** | **Bẫy nhân bản số liệu:** Khi Join bảng 1-Nhiều làm nở số dòng, dẫn đến việc tính tổng chỉ số bị phóng đại sai lệch. | Lỗi sai kinh điển trong mô hình hóa dữ liệu cần phải xử lý bằng subquery hoặc pre-aggregations. | *Ví dụ:* 1 Đơn hàng có 3 món đồ; nếu tính tổng tiền ship mà Join sơ sài, tiền ship sẽ bị nhân lên 3 lần! |
+
+---
+
+## 5. Phần Cứng GPU & Giới Hạn Vật Lý (GPU Architecture & Hardware Mechanics)
+
+| Thuật ngữ (Keyword) | Bản chất là gì? (Giải thích bình dân) | Vai trò trong hệ sinh thái | Ví dụ thực tế / Lưu ý |
+| :--- | :--- | :--- | :--- |
+| **VRAM (HBM / GDDR6X)** | **Bộ nhớ RAM của GPU:** Nơi lưu trữ trọng số mô hình LLM, KV Cache và dữ liệu kích hoạt trong lúc chạy. | Quyết định kích thước mô hình tối đa mà bạn có thể chạy được trên một card đồ họa. | *Ví dụ:* RTX 4090 có 24GB VRAM; A100 có 80GB HBM2e. |
+| **SRAM (Shared Memory / L1)** | **Bộ nhớ đệm siêu tốc:** Nằm ngay sát nhân tính toán của GPU, tốc độ cực nhanh (~19 TB/s) nhưng rất nhỏ (vài trăm KB). | Nơi diễn ra các phép tính ma trận trực tiếp; nhanh hơn VRAM từ 15 đến 20 lần. | *Ví dụ:* Thuật toán FlashAttention tận dụng tối đa SRAM để không phải đọc/ghi qua lại VRAM. |
+| **The Memory Wall** | **Bức tường bộ nhớ:** Nhân GPU tính toán quá nhanh nhưng dây dẫn truyền dữ liệu từ VRAM vào nhân lại quá chậm. | Lý do cốt tử khiến pha sinh từ (Decode) của LLM bị chậm, dù GPU còn dư rất nhiều sức mạnh tính toán. | *Ví dụ:* Tensor Core chỉ chạy 5% công suất, 95% thời gian còn lại ngồi chờ nạp trọng số từ VRAM. |
+| **Roofline Model** | **Thước đo giới hạn:** Biểu đồ xác định một thuật toán đang bị trần bởi **Sức tính toán (Compute-bound)** hay **Băng thông bộ nhớ (Memory-bound)**. | Công cụ lý thuyết nền tảng để các kỹ sư hệ thống AI tối ưu hóa hiệu năng phục vụ mô hình. | *Ví dụ:* Pha Prefill chạm trần Compute; pha Decode chạm trần Băng thông bộ nhớ (Memory-bandwidth). |
+| **Tensor Cores** | **Nhân tính chuyên dụng:** Bộ phận phần cứng trong GPU NVIDIA chuyên thực hiện phép nhân ma trận dồn ($D = A \times B + C$). | Động cơ phản lực giúp tăng tốc độ huấn luyện và suy luận mạng nơ-ron lên gấp nhiều lần CUDA Cores thường. | *Ví dụ:* Hỗ trợ tính toán siêu tốc trên các kiểu dữ liệu dấu phẩy động FP16, BF16, INT8, FP8. |
+
+---
+
+## 6. Tối Ưu Hóa Suy Luận LLM (LLM Inference & Serving Mechanics)
+
+| Thuật ngữ (Keyword) | Bản chất là gì? (Giải thích bình dân) | Vai trò trong hệ sinh thái | Ví dụ thực tế / Lưu ý |
+| :--- | :--- | :--- | :--- |
+| **Prefill vs. Decode Phase** | **Prefill** = Đọc hiểu đề bài (chạy song song hàng nghìn token prompt).<br>**Decode** = Nhả từng chữ trả lời (chạy tuần tự từng token). | Hai giai đoạn hoàn toàn khác nhau: Prefill bị nghẽn do Tính toán; Decode bị nghẽn do Băng thông VRAM. | *Ví dụ:* Khi prompt dài 8.000 từ, Prefill mất 1 giây; sau đó Decode nhả đều đặn 40 từ/giây. |
+| **TTFT vs. ITL / TPS** | **TTFT** = Thời gian chờ chữ đầu tiên xuất hiện.<br>**ITL / TPS** = Khoảng cách thời gian giữa các chữ tiếp theo (tốc độ nhả chữ). | Hai chỉ số vàng đo lường trải nghiệm người dùng khi tương tác với các ứng dụng AI thời gian thực. | *Ví dụ:* TTFT < 300ms tạo cảm giác phản hồi tức thì; TPS > 30 tokens/s tạo cảm giác chữ ra mượt mà. |
+| **KV Cache** | **Cuốn sổ ghi nhớ:** Lưu lại các vector Key và Value của những từ đã sinh trước đó vào VRAM. | Giúp mô hình không phải tính toán lại toàn bộ lịch sử câu chuyện mỗi khi sinh thêm 1 từ mới. | *Ví dụ:* Nếu không có KV Cache, độ trễ sinh từ sẽ tăng theo cấp số nhân theo độ dài đoạn chat. |
+| **FlashAttention** | **Thuật toán chia khối (Tiling):** Chia nhỏ ma trận Attention vừa khít với bộ nhớ đệm SRAM, tính Online Softmax tại chỗ. | Giảm chi phí bộ nhớ từ $O(N^2)$ xuống $O(N)$, tăng tốc độ đọc prompt lên gấp 2-4 lần mà không mất độ chính xác. | *Ví dụ:* Cho phép mô hình mở rộng Context Window lên 32K, 128K tokens mà không bị tràn VRAM. |
+| **PagedAttention (vLLM)** | **Bộ nhớ ảo cho KV Cache:** Chia nhỏ KV Cache thành các trang nhớ độc lập, không bắt buộc phải nằm liền kề nhau trên VRAM. | Xóa bỏ hoàn toàn 80% lãng phí VRAM do phân mảnh bộ nhớ, tăng số lượng user phục vụ cùng lúc gấp 2-4 lần. | *Ví dụ:* Là phát minh cốt lõi của UC Berkeley giúp framework vLLM thống trị thị trường serving hiện nay. |
+| **Continuous Batching** | **Xếp hàng liên tục:** Hễ có một câu trả lời vừa kết thúc là nhét ngay request mới từ hàng đợi vào batch tiếp theo. | Triệt tiêu hiện tượng bong bóng đường ống (Pipeline Bubbles), tăng tối đa hiệu suất khai thác GPU. | *Ví dụ:* Không cần đợi user hỏi câu dài 1.000 từ xong mới phục vụ user hỏi câu 10 từ. |
+| **Chunked Prefill** | **Băm nhỏ đề bài dài:** Cắt prompt dài thành các mẩu 512 tokens để xử lý xen kẽ với việc nhả chữ cho các user khác. | Tránh hiện tượng một prompt RAG dài làm đứng hình (spike ITL) toàn bộ hệ thống chatbot đang chat trực tiếp. | *Ví dụ:* Cờ `--enable-chunked-prefill` trong vLLM giúp ổn định độ trễ P99 cực tốt. |
+| **Speculative Decoding** | **Đoán trước duyệt sau:** Dùng một model nhỏ (1B) đoán nhanh 4-5 từ, model lớn (70B) chỉ việc kiểm tra lại trong 1 nhịp tính. | Tăng tốc độ sinh chữ (Decode) lên gấp 2 đến 3 lần trong các hệ thống có tải đồng thời thấp. | *Ví dụ:* Công nghệ EAGLE-2 giúp tăng tốc độ sinh chữ mà không cần tốn nhiều VRAM nạp model phụ. |
+
+---
+
+## 7. Nén Mô Hình & Tính Toán Phân Tán (Quantization & Distributed Serving)
+
+| Thuật ngữ (Keyword)              | Bản chất là gì? (Giải thích bình dân)                                                                                   | Vai trò trong hệ sinh thái                                                                             | Ví dụ thực tế / Lưu ý                                                                               |
+| :------------------------------- | :---------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
+| **Quantization (Lượng tử hóa)**  | **Ép cân mô hình:** Rút gọn độ chính xác của các con số trọng số từ 16-bit (FP16) xuống 8-bit (INT8) hoặc 4-bit (INT4). | Giảm dung lượng VRAM cần thiết xuống 2 đến 4 lần, giúp chạy model to trên các card GPU nhỏ.            | *Ví dụ:* Model Llama-3-8B từ 16GB VRAM (FP16) nén xuống còn 5.5GB (INT4) chạy mượt trên RTX 3060.   |
+| **AWQ (Activation-aware Quant)** | **Nén thông minh giữ tinh hoa:** Giữ nguyên 1% trọng số quan trọng nhất dựa trên độ lớn kích hoạt, chỉ nén 99% còn lại. | Giữ nguyên >99% độ thông minh của mô hình ở mức nén 4-bit mà không cần dùng phần cứng mixed-precision. | *Ví dụ:* Định dạng chuẩn tốt nhất hiện nay để chạy Local LLM serving trên vLLM với GPU NVIDIA.      |
+| **GGUF**                         | **Định dạng file linh hoạt:** Định dạng nén mô hình của `llama.cpp`, cho phép chạy kết hợp giữa GPU và RAM máy tính.    | Phục vụ chạy offline trên laptop, máy tính cá nhân hoặc các thiết bị edge không có GPU khủng.          | *Ví dụ:* Chạy model 14B trên Macbook chip M-series hoặc laptop gaming phổ thông qua Ollama.         |
+| **Tensor Parallelism (TP)**      | **Xẻ dọc ma trận:** Chia một phép nhân ma trận cho nhiều GPU tính cùng một nhịp rồi gộp lại qua `All-Reduce`.           | Chạy các mô hình khổng lồ vượt quá dung lượng 1 card, nhưng đòi hỏi dây nối siêu tốc **NVLink**.       | *Ví dụ:* Chạy TP=4 trên dàn 4x RTX 4090 qua khe PCIe thường sẽ bị nghẽn bus, chậm hơn chạy độc lập! |
+| **Pipeline Parallelism (PP)**    | **Chia theo tầng mạng:** Card A tính tầng 1-15, chuyền kết quả qua card B tính tiếp tầng 16-30.                         | Ít tốn băng thông dây nối hơn TP, phù hợp khi ghép nhiều card qua khe PCIe thông thường.               | *Ví dụ:* Dùng khi mô hình 70B không nhét vừa 1 card mà máy chủ không có cầu nối NVLink.             |
+
+---
+
+## 8. Giao Thức AI Agent & Bảo Mật Dữ Liệu (MCP & Database Interaction)
+
+| Thuật ngữ (Keyword) | Bản chất là gì? (Giải thích bình dân) | Vai trò trong hệ sinh thái | Ví dụ thực tế / Lưu ý |
+| :--- | :--- | :--- | :--- |
+| **MCP (Model Context Protocol)** | **Cổng USB đa năng cho AI:** Chuẩn mở của Anthropic giúp kết nối mô hình AI với Tools, Database và API ngoài. | Chuẩn hóa giao tiếp hai chiều an toàn qua JSON-RPC, thay thế các giải pháp function calling tự chế phân mảnh. | *Ví dụ:* Viết một FastMCP Python server để Local LLM gọi hàm đọc schema và query dữ liệu từ Cube.dev. |
+| **Two-Phase Tool Routing** | **Dò đường 2 bước:** Bước 1 tìm xem câu hỏi thuộc bảng nào; Bước 2 mới lấy schema chi tiết của đúng bảng đó. | Tránh nhồi 100 bảng database vào prompt làm tràn bộ nhớ AI và gây ảo giác sinh sai câu lệnh. | *Ví dụ:* Dùng Vector Search tìm ra 3 bảng liên quan trong 200 bảng, giảm 95% số token nạp vào prompt. |
+| **Dynamic Schema Pruning** | **Gọt giũa cấu trúc:** Lọc bỏ index rác, trigger và các trường thừa thãi trong schema trước khi đưa cho AI đọc. | Tiết kiệm token, giảm độ trễ TTFT và giúp AI tập trung viết đúng các cột nghiệp vụ cần thiết. | *Ví dụ:* Trích xuất kèm 2 dòng dữ liệu mẫu thực tế để AI biết chính xác giá trị enum cần lọc trong `WHERE`. |
+| **AST Query Validation** | **Soi kính hiển vi câu lệnh:** Bóc tách câu SQL của AI thành cây cú pháp để kiểm duyệt an toàn trước khi chạy. | Chặn đứng 100% các câu lệnh phá hoại dữ liệu và ngăn chặn tấn công Prompt Injection gián tiếp. | *Ví dụ:* Thư viện `sqlglot` trong Python tự động hủy câu lệnh nếu thấy chứa `DROP`, `DELETE` và ép `LIMIT 100`. |
+| **Row-Level Security (RLS)** | **Phân quyền cấp dòng:** Người dùng ở cấp bậc hay chi nhánh nào chỉ được xem đúng các dòng dữ liệu thuộc quyền hạn đó. | Đảm bảo bảo mật dữ liệu đa người dùng khi triển khai AI Agent dùng chung cho toàn bộ nhân viên công ty. | *Ví dụ:* Tích hợp Security Context vào Cube.dev để tự động lọc `WHERE branch_id = user.branch_id`. |

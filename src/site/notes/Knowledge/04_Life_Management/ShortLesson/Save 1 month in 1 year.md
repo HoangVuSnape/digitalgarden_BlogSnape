@@ -1,7 +1,20 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/04-life-management/short-lesson/save-1-month-in-1-year/","pinned":"false","tags":["type/reflection","topic/productivity","status/stable"]}
+updated:
+  - 2025-10-05T23:24:48+07:00
+  - 2025-10-05T23:10:49+07:00
+  - 2025-10-05T22:57:37+07:00
+  - 2025-02-23T23:10:33+07:00
+created: 2025-02-21T20:15
+dg-publish: true
+dg-home:
+tags:
+  - type/reflection
+  - topic/productivity
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # Hy sinh 1 tháng để tiết kiệm 10 năm. 
 
 Phần 1 - nhận thức 

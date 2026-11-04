@@ -1,7 +1,29 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/agent/model-retrieval-and-vlm-localization/","title":"ModelRetrieval VLM Localization","pinned":"false","tags":["type/howto","topic/rag","topic/evaluation","status/draft"]}
+updated:
+  - 2026-07-10T17:55:36+07:00
+  - 2025-11-30T20:58:36+07:00
+  - 2025-11-23T00:28:07+07:00
+  - 2025-06-16T17:05:25+07:00
+  - 2025-06-16T15:11:26+07:00
+  - 2025-06-16T15:07:57+07:00
+  - 2025-06-16T14:58:41+07:00
+  - 2025-06-16T14:55:15+07:00
+  - 2025-06-16T14:54:31+07:00
+  - 2025-06-16T14:53:56+07:00
+  - 2025-11-22 22:12:31
+created: 2025-06-16T14:53:46
+title: ModelRetrieval VLM Localization
+tags:
+  - type/howto
+  - topic/rag
+  - topic/evaluation
+  - status/draft
+append_modified_update:
+dg-publish: true
+dg-home:
+dg-pinned: "false"
+aliases:
 ---
-
 # Link 
 - [How to choose the right embedding model for your RAG application? | by Vivedha Elango | Level Up Coding](https://levelup.gitconnected.com/how-to-choose-the-right-embedding-model-for-your-rag-application-44e30876d382)
 

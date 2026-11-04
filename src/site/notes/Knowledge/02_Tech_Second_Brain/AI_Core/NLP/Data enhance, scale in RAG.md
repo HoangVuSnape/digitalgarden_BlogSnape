@@ -1,7 +1,22 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/data-enhance-scale-in-rag/","pinned":"false","tags":["type/howto","topic/rag","status/stable"]}
+updated:
+  - 2025-11-23T00:28:36+07:00
+  - 2025-10-16T23:04:21+07:00
+  - 2025-10-16T23:02:23+07:00
+  - 2025-10-16T22:58:37+07:00
+  - 2025-10-06T00:32:14+07:00
+  - 2025-02-21T20:15
+created:
+dg-publish: true
+dg-home:
+tags:
+  - type/howto
+  - topic/rag
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # 🧩 Xây Dựng Bộ Dữ Liệu Chuẩn Cho Hệ Thống RAG: Hướng Dẫn Toàn Diện
 
 Việc xây dựng một bộ dữ liệu chất lượng cao là yếu tố quyết định thành công của bất kỳ hệ thống **Retrieval-Augmented Generation (RAG)** nào.  

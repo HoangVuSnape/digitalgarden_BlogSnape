@@ -1,7 +1,21 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/rerank-embedding-model/","title":"Rerank_EmbeddingModel","pinned":"false","tags":["type/howto","topic/rag","topic/evaluation","status/stable"]}
+created: 2025-02-25T16:40:08
+updated:
+  - 2025-11-22T21:46:39+07:00
+  - 2025-02-25T16:40:18+07:00
+  - 2025-11-22 21:37:27
+dg-publish: true
+dg-home:
+tags:
+  - type/howto
+  - topic/rag
+  - topic/evaluation
+  - status/stable
+title: Rerank_EmbeddingModel
+append_modified_update:
+dg-pinned: "false"
+aliases:
 ---
-
 
 # Rerank
 Việc **rerank** sau khi đã lấy kết quả tìm kiếm (như trong trường hợp bạn đã tìm được 5 kết quả tốt nhất dựa trên cosine similarity) có thể là **cần thiết** hoặc **không cần thiết**, tùy thuộc vào mục tiêu và yêu cầu cụ thể của bài toán bạn đang giải quyết.

@@ -1,7 +1,19 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/04-life-management/books/kheo-an-noi-se-co-dc-thien-ha/","title":"Khéo ăn nói sẽ có đc thiên hạ","pinned":"false","tags":["type/book","topic/mindset","status/stable"]}
+updated:
+  - 2025-03-11T17:44:54+07:00
+  - <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
+created: 2025-03-11T17:44:40
+title: Khéo ăn nói sẽ có đc thiên hạ
+tags:
+  - type/book
+  - topic/mindset
+  - status/stable
+append_modified_update: 
+dg-publish: true
+dg-home: 
+dg-pinned: "false"
+aliases:
 ---
-
 
 # Time line reading and listening the book
 -  [video yB](https://www.youtube.com/watch?v=icgVefyJrTA)

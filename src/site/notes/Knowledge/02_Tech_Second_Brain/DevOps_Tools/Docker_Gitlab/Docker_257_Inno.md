@@ -1,7 +1,34 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/docker-gitlab/docker-257-inno/","pinned":"false","tags":["type/report","topic/docker","status/archive"]}
+updated:
+  - 2025-11-23T00:24:16+07:00
+  - 2025-07-25T12:03:49+07:00
+  - 2025-07-25T10:13:12+07:00
+  - 2025-07-25T10:12:08+07:00
+  - 2025-07-25T10:11:23+07:00
+  - 2025-07-25T06:56:18+07:00
+  - 2025-07-25T06:55:17+07:00
+  - 2025-07-24T23:51:57+07:00
+  - 2025-07-24T23:50:12+07:00
+  - 2025-07-24T23:38:59+07:00
+  - 2025-07-24T23:29:31+07:00
+  - 2025-07-24T23:21:55+07:00
+  - 2025-07-24T23:18:00+07:00
+  - 2025-07-24T23:09:59+07:00
+  - 2025-07-24T23:07:37+07:00
+  - 2025-07-24T22:54:46+07:00
+  - 2025-10-18T17:24:20+07:00
+  - 
+created:
+dg-publish: true
+dg-home:
+tags:
+  - type/report
+  - topic/docker
+  - status/archive
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # Link
 - [Link](https://whimsical.com/docker-key-concepts-and-practices-Hy4NFSwewxgFSRECXCoY9U)
 

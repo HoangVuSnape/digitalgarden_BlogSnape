@@ -1,7 +1,18 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/agent/mcp/","pinned":"false","tags":["type/howto","topic/agent-mcp","status/stable"]}
+created: 2025-08-27T15:53:30
+Updated: 2025-02-21T20:15
+dg-publish: true
+dg-home:
+tags:
+  - type/howto
+  - topic/agent-mcp
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
+updated:
+  - 2025-08-28T14:04:52+07:00
 ---
-
 In version v2.11
 # Link 
 - https://www.jlowin.dev/blog/stop-converting-rest-apis-to-mcp
@@ -241,46 +252,10 @@ python orchestrator.py
 - (Tuỳ chọn) `server.py` bản đầy đủ với **env**, **retry helper**, **traces**, **health_check** (mình đã cung cấp; bạn có thể copy sang repo của bạn).
     # Notes created today
 
-- [[Knowledge/05_Collections/Collections\|Collections]]
-- [[Knowledge/01_Projects/NCKH/Phân tích data thoái hóa khớp\|Phân tích data thoái hóa khớp]]
-- [[Knowledge/01_Projects/NCKH/NCKH\|NCKH]]
-- [[Knowledge/01_Projects/NCKH/OAI/Phân tích data OAI - super resolution\|Phân tích data OAI - super resolution]]
-- [[Knowledge/01_Projects/NCKH/OAI/Improve Model\|Improve Model]]
-- [[Knowledge/01_Projects/NCKH/OAI/Tập huấn OAI\|Tập huấn OAI]]
-- [[Knowledge/01_Projects/KLTN/Data\|Data]]
-- [[Knowledge/01_Projects/KLTN/Report/18.5\|18.5]]
-- [[Knowledge/01_Projects/ProjectCNTT/Project Information Technology\|Project Information Technology]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/MCP & A2A\|MCP & A2A]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/MCP\|MCP]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/Python module và package\|Python module và package]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Agent/ModelRetrieval & VLM Localization\|ModelRetrieval & VLM Localization]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Computer_Vision/GAN\|GAN]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/Automatic AI/N8n\|N8n]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/Chuỗi thời gian - Time series\|Chuỗi thời gian - Time series]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/Code with AI\|Code with AI]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Mixture Of Experts\|Mixture Of Experts]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/PreprocessingData_img\|PreprocessingData_img]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/Fundamentals/RAG Advance\|RAG Advance]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Data enhance, scale in RAG\|Data enhance, scale in RAG]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Data evaluation\|Data evaluation]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Fine tune\|Fine tune]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Kiến trúc và huấn luyện BERT\|Kiến trúc và huấn luyện BERT]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Reinforcement Learning Human Feedback - RLHF\|Reinforcement Learning Human Feedback - RLHF]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/NLP/Rerank_EmbeddingModel\|Rerank_EmbeddingModel]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Analyze explainable my system\|Analyze explainable my system]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Explainability for NLP\|Explainability for NLP]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Explainable AI\|Explainable AI]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Graph Rag vs Graph DB\|Graph Rag vs Graph DB]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Knowledge Graph\|Knowledge Graph]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Scene graph\|Scene graph]]
-- [[Knowledge/02_Tech_Second_Brain/AI_Core/XAI_KG/Summary paper\|Summary paper]]
-- [[Knowledge/02_Tech_Second_Brain/DevOps_Tools/Jmeter_Testing/Jmeter\|Jmeter]]
-- [[Knowledge/03_Career_Center/Soft_Skills/Điểm hay mà mình lưu ý khi thuyết trình\|Điểm hay mà mình lưu ý khi thuyết trình]]
 
 { .block-language-dataview}
 # Notes last Touches Today
 
-- [[assets/template/Question_everyWeek\|Question_everyWeek]]
 
 { .block-language-dataview}
 

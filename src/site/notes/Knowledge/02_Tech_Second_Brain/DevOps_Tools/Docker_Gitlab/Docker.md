@@ -1,7 +1,35 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/docker-gitlab/docker/","title":"Docker","pinned":"false","tags":["type/howto","topic/docker","status/stable"]}
+updated:
+  - 2025-11-23T00:29:35+07:00
+  - 2025-11-23T00:26:51+07:00
+  - 2025-07-24T18:06:52+07:00
+  - 2025-07-24T18:04:46+07:00
+  - 2025-07-24T17:57:40+07:00
+  - 2025-07-02T10:06:14+07:00
+  - 2025-07-02T10:04:22+07:00
+  - 2025-06-12T13:27:09+07:00
+  - 2025-06-12T13:24:26+07:00
+  - 2025-06-12T13:22:08+07:00
+  - 2025-06-12T13:18:22+07:00
+  - 2025-06-12T13:14:17+07:00
+  - 2025-06-12T13:13:24+07:00
+  - 2025-06-12T13:12:34+07:00
+  - 2025-06-11T14:13:38+07:00
+  - 2025-06-11T13:46:24+07:00
+  - 2025-04-11T13:50:16+07:00
+  - 2025-11-22 22:12:31
+created: 2025-04-11T13:50:06
+title: Docker
+tags:
+  - type/howto
+  - topic/docker
+  - status/stable
+append_modified_update:
+dg-publish: true
+dg-home:
+dg-pinned: "false"
+aliases:
 ---
-
 ![../../../../assets/images/Knowledge/02_Tech_Second_Brain/DevOps_Tools/Docker_Gitlab/IMG-20251123002641465.png](/img/user/assets/images/Knowledge/02_Tech_Second_Brain/DevOps_Tools/Docker_Gitlab/IMG-20251123002641465.png)
 ## Phân biệt 
 - Ở đây có 2 khái niệm là **Docker file** và Docker compose 

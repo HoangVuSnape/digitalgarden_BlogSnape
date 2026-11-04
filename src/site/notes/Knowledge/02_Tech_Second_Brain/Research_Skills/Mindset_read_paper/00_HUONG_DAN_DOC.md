@@ -1,7 +1,26 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/research-skills/mindset-read-paper/00-huong-dan-doc/","pinned":"false","tags":["type/howto","topic/research-method","topic/legal-ai","status/stable"]}
+updated:
+  - 2026-08-05T14:49:12+07:00
+  - 2026-08-05T14:47:04+07:00
+  - 2026-08-05T14:45:20+07:00
+  - 2026-07-30T12:12:23+07:00
+  - 2026-06-29T10:14:52+07:00
+  - 2026-06-27T15:08:20+07:00
+  - 2026-06-27T15:02:03+07:00
+  - 2026-06-27T15:01:28+07:00
+  - 2025-11-24T13:52:00+07:00
+created: 2026-06-27T15:08:00
+dg-publish: true
+dg-home:
+tags:
+  - type/howto
+  - topic/research-method
+  - topic/legal-ai
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # 📚 HƯỚNG DẪN ĐỌC VÀ LỘ TRÌNH NGHIÊN CỨU (REFERENCE MINDSET)
 
 > **Mục tiêu:** Thư mục `Mindset_read_paper` chứa đựng các tài liệu phương pháp luận, tư duy chuẩn bị đề cương nghiên cứu (Research Proposal), kỹ năng đọc/phân tích bài báo khoa học và định hướng ứng dụng cho bài toán Legal AI (LLM / RAG / Continual Learning).

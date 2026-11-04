@@ -1,7 +1,36 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/sllm-and-llm/","pinned":"false","tags":["type/paper","topic/slm","topic/llm","status/stable"]}
+created: 2025-11-26T19:20:00
+updated:
+  - 2026-02-10T21:37:58+07:00
+  - 2026-02-10T21:36:12+07:00
+  - 2026-01-16T01:40:08+07:00
+  - 2025-11-30T20:51:35+07:00
+  - 2025-11-27T00:55:50+07:00
+  - 2025-11-27T00:49:12+07:00
+  - 2025-11-27T00:46:23+07:00
+  - 2025-11-26T23:18:15+07:00
+  - 2025-11-26T22:33:23+07:00
+  - 2025-11-26T21:42:16+07:00
+  - 2025-11-26T21:06:45+07:00
+  - 2025-11-26T20:31:08+07:00
+  - 2025-11-26T20:30:03+07:00
+  - 2025-11-26T20:29:08+07:00
+  - 2025-11-26T20:27:10+07:00
+  - 2025-11-26T19:21:27+07:00
+  - 2025-11-26T19:20:29+07:00
+  - 2025-11-24T13:52:00+07:00
+  - 2026-07-10 18:06:28
+dg-publish: true
+dg-home:
+tags:
+  - type/paper
+  - topic/slm
+  - topic/llm
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # Link
 - [[2409.15790] Small Language Models: Survey, Measurements, and Insights](https://arxiv.org/abs/2409.15790)
 	- [UbiquitousLearning/SLM_Survey](https://github.com/UbiquitousLearning/SLM_Survey)

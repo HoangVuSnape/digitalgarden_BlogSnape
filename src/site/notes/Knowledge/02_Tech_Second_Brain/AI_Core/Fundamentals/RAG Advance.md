@@ -1,7 +1,21 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/fundamentals/rag-advance/","title":"RAG Advance","pinned":"false","tags":["type/links","topic/rag","status/draft"]}
+updated:
+  - 2025-11-23T00:29:59+07:00
+  - 2025-02-25T16:40:06+07:00
+  - 2025-02-25T16:39:29+07:00
+  - 2025-11-22 21:37:27
+created: 2025-02-25T16:39:15
+title: RAG Advance
+tags:
+  - type/links
+  - topic/rag
+  - status/draft
+append_modified_update:
+dg-publish: true
+dg-home:
+dg-pinned: "false"
+aliases:
 ---
-
 # Introduction
 The sources provide information on RAG (Retrieval Augmented Generation) and its various strategies within the LangGraph framework.
 

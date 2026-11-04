@@ -1,7 +1,24 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/research-skills/mindset-read-paper/05-pham-vi-de-tai-va-chieu-sau/","pinned":"false","tags":["type/howto","topic/research-method","status/stable"]}
+updated:
+  - 2026-08-05T14:47:04+07:00
+  - 2026-08-05T14:45:20+07:00
+  - 2026-07-30T12:12:23+07:00
+  - 2026-06-29T10:14:52+07:00
+  - 2026-06-27T15:08:20+07:00
+  - 2026-06-27T15:02:03+07:00
+  - 2026-06-27T15:01:28+07:00
+  - 2025-11-24T13:52:00+07:00
+created: 2026-06-27T15:08:00
+dg-publish: true
+dg-home:
+tags:
+  - type/howto
+  - topic/research-method
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # 🎯 PHẠM VI ĐỀ TÀI & CHIỀU SÂU HỌC THUẬT IN RESEARCH PROPOSALS
 
 > **Tóm tắt:** Việc thu hẹp phạm vi đề tài (Narrowing Scope) không phải là sự từ bỏ tham vọng khoa học, mà là yêu cầu bắt buộc mang tính phương pháp luận. Trong khoa học, giá trị nghiên cứu được đo bằng chiều sâu của phân tích và tính chính xác của bằng chứng, không đo bằng quy mô vĩ mô của vấn đề.

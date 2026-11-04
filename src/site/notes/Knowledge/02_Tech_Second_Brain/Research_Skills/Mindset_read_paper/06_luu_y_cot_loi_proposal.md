@@ -1,7 +1,24 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/research-skills/mindset-read-paper/06-luu-y-cot-loi-proposal/","pinned":"false","tags":["type/howto","topic/research-method","status/stable"]}
+updated:
+  - 2026-08-05T14:47:04+07:00
+  - 2026-08-05T14:45:20+07:00
+  - 2026-07-30T12:12:23+07:00
+  - 2026-06-29T10:14:52+07:00
+  - 2026-06-27T15:08:20+07:00
+  - 2026-06-27T15:02:03+07:00
+  - 2026-06-27T15:01:28+07:00
+  - 2025-11-24T13:52:00+07:00
+created: 2026-06-27T15:08:00
+dg-publish: true
+dg-home:
+tags:
+  - type/howto
+  - topic/research-method
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # ⚠️ 5 LƯU Ý CỐT LÕI KHI VIẾT RESEARCH PROPOSAL
 
 > **Tóm tắt:** Đề cương nghiên cứu (Research Proposal) cần thể hiện được tính khả thi, giá trị đóng góp mới và tư duy phản biện khoa học. Dưới đây là 5 bài học cốt lõi giúp bản Proposal của bạn thuyết phục hoàn toàn người phản biện và Hội đồng.

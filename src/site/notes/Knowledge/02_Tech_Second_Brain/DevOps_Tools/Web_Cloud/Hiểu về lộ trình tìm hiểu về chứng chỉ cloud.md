@@ -1,7 +1,26 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/dev-ops-tools/web-cloud/hieu-ve-lo-trinh-tim-hieu-ve-chung-chi-cloud/","pinned":"false","tags":["type/links","topic/cloud-aws","status/draft"]}
+updated:
+  - 2025-11-23T00:22:50+07:00
+  - 2025-10-17T14:43:57+07:00
+  - 2025-10-17T14:25:10+07:00
+  - 2025-10-17T14:04:50+07:00
+  - 2025-10-17T14:01:16+07:00
+  - 2025-10-17T13:55:16+07:00
+  - 2025-10-17T00:20:08+07:00
+  - 2025-10-16T23:50:49+07:00
+  - 2025-10-06T00:32:14+07:00
+  - 2025-02-21T20:15
+created: 2025-10-16T23:50:00
+dg-publish: true
+dg-home:
+tags:
+  - type/links
+  - topic/cloud-aws
+  - status/draft
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # Link
 - [AWS Practice Exam | Cloud Exam Pro](https://cloudexam.pro/))
 - [Review in perlexity Snape](https://www.perplexity.ai/search/prompt-hoc-nghien-cuu-dinh-huo-zBa59cxeTv.85Zi0ZrNW7w#0)

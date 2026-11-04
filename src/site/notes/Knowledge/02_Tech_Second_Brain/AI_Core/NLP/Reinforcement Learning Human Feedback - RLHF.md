@@ -1,7 +1,33 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/ai-core/nlp/reinforcement-learning-human-feedback-rlhf/","title":"Reinforcement Learning Human Feedback - RLHF","pinned":"false","tags":["type/course","topic/rlhf","topic/llm","status/stable"]}
+created: 2025-03-23T16:08:34
+updated:
+  - 2026-05-10T08:47:11+07:00
+  - 2025-11-23T00:28:55+07:00
+  - 2025-03-23T16:29:52+07:00
+  - 2025-03-23T16:26:50+07:00
+  - 2025-03-23T16:25:44+07:00
+  - 2025-03-23T16:24:33+07:00
+  - 2025-03-23T16:23:01+07:00
+  - 2025-03-23T16:15:48+07:00
+  - 2025-03-23T16:14:59+07:00
+  - 2025-03-23T16:12:22+07:00
+  - 2025-03-23T16:11:23+07:00
+  - 2025-03-23T16:10:16+07:00
+  - 2025-03-23T16:09:17+07:00
+  - 2025-03-23T16:08:45+07:00
+  - 2025-11-22 21:37:27
+title: Reinforcement Learning Human Feedback - RLHF
+tags:
+  - type/course
+  - topic/rlhf
+  - topic/llm
+  - status/stable
+append_modified_update:
+dg-publish: true
+dg-home:
+dg-pinned: "false"
+aliases:
 ---
-
 ## 3.1 Mô hình GPT:
 
 Các mô hình GPT là một họ các mô hình ngôn ngữ được phát triển bởi OpenAI. Chúng được xây dựng dựa trên kiến trúc transformer, đã chứng minh được tính hiệu quả cao trong nhiều nhiệm vụ xử lý ngôn ngữ tự nhiên (NLP).

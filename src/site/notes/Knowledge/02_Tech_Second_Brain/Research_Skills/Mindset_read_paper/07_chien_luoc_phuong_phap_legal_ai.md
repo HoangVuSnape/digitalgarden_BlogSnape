@@ -1,7 +1,27 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/02-tech-second-brain/research-skills/mindset-read-paper/07-chien-luoc-phuong-phap-legal-ai/","pinned":"false","tags":["type/howto","topic/research-method","topic/legal-ai","topic/continual-learning","topic/rag","status/stable"]}
+updated:
+  - 2026-08-05T14:47:04+07:00
+  - 2026-08-05T14:45:20+07:00
+  - 2026-07-30T12:12:23+07:00
+  - 2026-06-29T10:14:52+07:00
+  - 2026-06-27T15:08:20+07:00
+  - 2026-06-27T15:02:03+07:00
+  - 2026-06-27T15:01:28+07:00
+  - 2025-11-24T13:52:00+07:00
+created: 2026-06-27T15:08:00
+dg-publish: true
+dg-home:
+tags:
+  - type/howto
+  - topic/research-method
+  - topic/legal-ai
+  - topic/continual-learning
+  - topic/rag
+  - status/stable
+dg-pinned: "false"
+aliases:
+cssclasses:
 ---
-
 # 🚀 CHIẾN LƯỢC PHƯƠNG PHÁP NGHIÊN CỨU LEGAL AI (LLM / RAG / CONTINUAL LEARNING)
 
 > **Tóm tắt:** Định hướng phát triển các bài báo phương pháp (Method Paper) ứng dụng cho lĩnh vực Pháp lý (Legal AI). Tập trung vào 3 hướng đi đón đầu xu hướng: **Selective Legal RAG Memory** (Cơ chế quên có chủ đích), **Semi-parametric Continual Learning** (ReGrad Gradient Bank), và **RAG-based Machine Unlearning** (Đáp ứng yêu cầu pháp lý).
