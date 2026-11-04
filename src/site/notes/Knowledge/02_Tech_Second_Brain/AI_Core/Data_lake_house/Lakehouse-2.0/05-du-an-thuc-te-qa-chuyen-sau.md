@@ -57,7 +57,7 @@ flowchart LR
 
     PG & MY & MG --> Deb --> Kafka --> Iceberg
     Iceberg --- MinIO
-    Iceberg --> Engine --> Cube --> MCP <--> LLM
+    Iceberg --> Engine --> Cube --> MCP --- LLM
 ```
 
 ---
